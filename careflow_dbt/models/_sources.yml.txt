@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw_clinical
+    description: "Raw clinical pathway data extracted from hospital systems"
+    tables:
+      - name: clinical_events
+        description: "Event log of clinical activities per patient case"
+        columns:
+          - name: case_id
+            description: "Unique patient/case identifier"
+          - name: activity
+            description: "Clinical step (e.g., Registration, Triage, Discharge)"
+          - name: timestamp
+            description: "Timestamp when the activity occurred"
