@@ -1,0 +1,3012 @@
+case_id,patient_name,event_activity,event_time,department
+P0001,Priya Singh,Consultation,2024-01-18 03:00:00,OPD
+P0001,Priya Singh,Triage,2024-01-18 06:45:00,ER
+P0001,Priya Singh,Recovery,2024-01-18 07:45:00,ICU
+P0001,Priya Singh,Surgery,2024-01-18 09:00:00,OT
+P0002,Anita Desai,Registration,2024-01-15 01:45:00,OPD
+P0002,Anita Desai,Consultation,2024-01-15 04:15:00,OPD
+P0002,Anita Desai,Triage,2024-01-15 05:30:00,ER
+P0002,Anita Desai,Recovery,2024-01-15 07:30:00,ICU
+P0002,Anita Desai,Blood Test,2024-01-15 09:15:00,Lab
+P0002,Anita Desai,Discharge,2024-01-15 10:45:00,OPD
+P0002,Anita Desai,Surgery,2024-01-15 13:15:00,OT
+P0002,Anita Desai,X-Ray,2024-01-15 15:00:00,Radiology
+P0003,Sonia Chatterjee,Recovery,2024-02-04 03:30:00,ICU
+P0003,Sonia Chatterjee,Registration,2024-02-04 06:45:00,OPD
+P0003,Sonia Chatterjee,Consultation,2024-02-04 09:45:00,OPD
+P0003,Sonia Chatterjee,X-Ray,2024-02-04 11:00:00,Radiology
+P0004,Kavita Nair,Blood Test,2024-01-23 02:30:00,Lab
+P0004,Kavita Nair,Recovery,2024-01-23 04:00:00,ICU
+P0004,Kavita Nair,Registration,2024-01-23 06:15:00,OPD
+P0004,Kavita Nair,Discharge,2024-01-23 09:45:00,OPD
+P0005,Arjun Patel,X-Ray,2024-02-04 03:15:00,Radiology
+P0005,Arjun Patel,Consultation,2024-02-04 06:45:00,OPD
+P0005,Arjun Patel,Surgery,2024-02-04 08:00:00,OT
+P0005,Arjun Patel,Triage,2024-02-04 09:30:00,ER
+P0005,Arjun Patel,Recovery,2024-02-04 12:00:00,ICU
+P0005,Arjun Patel,Blood Test,2024-02-04 13:15:00,Lab
+P0005,Arjun Patel,Discharge,2024-02-04 16:45:00,OPD
+P0005,Arjun Patel,Registration,2024-02-04 18:30:00,OPD
+P0006,Manish Rao,X-Ray,2024-02-02 02:30:00,Radiology
+P0006,Manish Rao,Discharge,2024-02-02 03:45:00,OPD
+P0006,Manish Rao,Triage,2024-02-02 07:30:00,ER
+P0006,Manish Rao,Surgery,2024-02-02 08:30:00,OT
+P0006,Manish Rao,Recovery,2024-02-02 09:45:00,ICU
+P0006,Manish Rao,Blood Test,2024-02-02 13:00:00,Lab
+P0006,Manish Rao,Consultation,2024-02-02 16:45:00,OPD
+P0007,Amit Trivedi,Recovery,2024-01-31 02:00:00,ICU
+P0007,Amit Trivedi,Blood Test,2024-01-31 05:00:00,Lab
+P0007,Amit Trivedi,Consultation,2024-01-31 08:30:00,OPD
+P0007,Amit Trivedi,Discharge,2024-01-31 12:00:00,OPD
+P0008,Priya Singh,Recovery,2024-01-20 03:00:00,ICU
+P0008,Priya Singh,Triage,2024-01-20 06:30:00,ER
+P0008,Priya Singh,Blood Test,2024-01-20 09:45:00,Lab
+P0008,Priya Singh,Registration,2024-01-20 11:15:00,OPD
+P0008,Priya Singh,X-Ray,2024-01-20 12:15:00,Radiology
+P0008,Priya Singh,Surgery,2024-01-20 15:45:00,OT
+P0009,Neha Bose,Triage,2024-01-16 01:00:00,ER
+P0009,Neha Bose,X-Ray,2024-01-16 02:45:00,Radiology
+P0009,Neha Bose,Recovery,2024-01-16 04:00:00,ICU
+P0009,Neha Bose,Discharge,2024-01-16 05:45:00,OPD
+P0010,Sonia Chatterjee,Consultation,2024-02-01 03:15:00,OPD
+P0010,Sonia Chatterjee,Discharge,2024-02-01 06:45:00,OPD
+P0010,Sonia Chatterjee,Recovery,2024-02-01 09:15:00,ICU
+P0010,Sonia Chatterjee,Blood Test,2024-02-01 12:00:00,Lab
+P0010,Sonia Chatterjee,Triage,2024-02-01 13:15:00,ER
+P0011,Anita Desai,Surgery,2024-01-22 03:15:00,OT
+P0011,Anita Desai,Registration,2024-01-22 04:15:00,OPD
+P0011,Anita Desai,Consultation,2024-01-22 07:15:00,OPD
+P0011,Anita Desai,Discharge,2024-01-22 08:15:00,OPD
+P0012,Meena Sharma,Triage,2024-02-01 01:45:00,ER
+P0012,Meena Sharma,Consultation,2024-02-01 03:30:00,OPD
+P0012,Meena Sharma,Discharge,2024-02-01 05:45:00,OPD
+P0012,Meena Sharma,X-Ray,2024-02-01 06:45:00,Radiology
+P0012,Meena Sharma,Blood Test,2024-02-01 10:30:00,Lab
+P0012,Meena Sharma,Registration,2024-02-01 13:15:00,OPD
+P0013,Deepa Menon,Registration,2024-01-18 01:15:00,OPD
+P0013,Deepa Menon,Surgery,2024-01-18 03:00:00,OT
+P0013,Deepa Menon,Recovery,2024-01-18 04:45:00,ICU
+P0013,Deepa Menon,Discharge,2024-01-18 06:15:00,OPD
+P0013,Deepa Menon,Consultation,2024-01-18 08:30:00,OPD
+P0013,Deepa Menon,Triage,2024-01-18 10:15:00,ER
+P0013,Deepa Menon,X-Ray,2024-01-18 13:15:00,Radiology
+P0014,Meena Sharma,Registration,2024-01-27 01:15:00,OPD
+P0014,Meena Sharma,Discharge,2024-01-27 03:15:00,OPD
+P0014,Meena Sharma,Triage,2024-01-27 05:45:00,ER
+P0014,Meena Sharma,Surgery,2024-01-27 08:15:00,OT
+P0014,Meena Sharma,Blood Test,2024-01-27 11:00:00,Lab
+P0014,Meena Sharma,Consultation,2024-01-27 12:15:00,OPD
+P0014,Meena Sharma,X-Ray,2024-01-27 14:30:00,Radiology
+P0014,Meena Sharma,Recovery,2024-01-27 15:30:00,ICU
+P0015,Suresh Iyer,Registration,2024-01-31 01:00:00,OPD
+P0015,Suresh Iyer,Consultation,2024-01-31 04:00:00,OPD
+P0015,Suresh Iyer,Blood Test,2024-01-31 05:00:00,Lab
+P0015,Suresh Iyer,Recovery,2024-01-31 08:00:00,ICU
+P0016,Anita Desai,Triage,2024-01-28 03:30:00,ER
+P0016,Anita Desai,Consultation,2024-01-28 05:45:00,OPD
+P0016,Anita Desai,Discharge,2024-01-28 09:15:00,OPD
+P0016,Anita Desai,Recovery,2024-01-28 10:45:00,ICU
+P0016,Anita Desai,Registration,2024-01-28 13:00:00,OPD
+P0016,Anita Desai,X-Ray,2024-01-28 16:30:00,Radiology
+P0016,Anita Desai,Blood Test,2024-01-28 19:00:00,Lab
+P0017,Arjun Patel,Discharge,2024-01-17 03:15:00,OPD
+P0017,Arjun Patel,Consultation,2024-01-17 06:45:00,OPD
+P0017,Arjun Patel,Recovery,2024-01-17 08:15:00,ICU
+P0017,Arjun Patel,Registration,2024-01-17 09:30:00,OPD
+P0018,Pooja Gupta,X-Ray,2024-02-01 02:00:00,Radiology
+P0018,Pooja Gupta,Blood Test,2024-02-01 03:30:00,Lab
+P0018,Pooja Gupta,Consultation,2024-02-01 04:30:00,OPD
+P0018,Pooja Gupta,Discharge,2024-02-01 07:45:00,OPD
+P0018,Pooja Gupta,Registration,2024-02-01 10:15:00,OPD
+P0018,Pooja Gupta,Surgery,2024-02-01 13:30:00,OT
+P0019,Suresh Iyer,Consultation,2024-01-17 03:45:00,OPD
+P0019,Suresh Iyer,Discharge,2024-01-17 05:45:00,OPD
+P0019,Suresh Iyer,Blood Test,2024-01-17 07:15:00,Lab
+P0019,Suresh Iyer,X-Ray,2024-01-17 08:45:00,Radiology
+P0019,Suresh Iyer,Registration,2024-01-17 10:30:00,OPD
+P0020,Sonia Chatterjee,Registration,2024-01-28 01:00:00,OPD
+P0020,Sonia Chatterjee,Discharge,2024-01-28 03:30:00,OPD
+P0020,Sonia Chatterjee,Recovery,2024-01-28 05:00:00,ICU
+P0020,Sonia Chatterjee,Triage,2024-01-28 06:15:00,ER
+P0020,Sonia Chatterjee,Surgery,2024-01-28 09:15:00,OT
+P0020,Sonia Chatterjee,Consultation,2024-01-28 12:00:00,OPD
+P0020,Sonia Chatterjee,Blood Test,2024-01-28 15:15:00,Lab
+P0021,Anita Desai,X-Ray,2024-01-28 03:15:00,Radiology
+P0021,Anita Desai,Blood Test,2024-01-28 05:30:00,Lab
+P0021,Anita Desai,Registration,2024-01-28 08:30:00,OPD
+P0021,Anita Desai,Triage,2024-01-28 10:30:00,ER
+P0021,Anita Desai,Discharge,2024-01-28 12:45:00,OPD
+P0022,Vikram Joshi,Surgery,2024-01-27 02:30:00,OT
+P0022,Vikram Joshi,X-Ray,2024-01-27 04:00:00,Radiology
+P0022,Vikram Joshi,Triage,2024-01-27 06:45:00,ER
+P0022,Vikram Joshi,Discharge,2024-01-27 10:15:00,OPD
+P0022,Vikram Joshi,Registration,2024-01-27 11:15:00,OPD
+P0022,Vikram Joshi,Recovery,2024-01-27 13:30:00,ICU
+P0022,Vikram Joshi,Blood Test,2024-01-27 17:00:00,Lab
+P0023,Meena Sharma,Recovery,2024-01-28 03:00:00,ICU
+P0023,Meena Sharma,X-Ray,2024-01-28 05:15:00,Radiology
+P0023,Meena Sharma,Surgery,2024-01-28 07:15:00,OT
+P0023,Meena Sharma,Discharge,2024-01-28 11:00:00,OPD
+P0024,Ravi Kumar,Blood Test,2024-01-24 03:30:00,Lab
+P0024,Ravi Kumar,X-Ray,2024-01-24 07:15:00,Radiology
+P0024,Ravi Kumar,Discharge,2024-01-24 10:00:00,OPD
+P0024,Ravi Kumar,Registration,2024-01-24 13:30:00,OPD
+P0024,Ravi Kumar,Recovery,2024-01-24 16:45:00,ICU
+P0024,Ravi Kumar,Surgery,2024-01-24 18:30:00,OT
+P0024,Ravi Kumar,Triage,2024-01-24 22:15:00,ER
+P0024,Ravi Kumar,Consultation,2024-01-25 01:30:00,OPD
+P0025,Amit Trivedi,Consultation,2024-02-02 03:30:00,OPD
+P0025,Amit Trivedi,Blood Test,2024-02-02 06:15:00,Lab
+P0025,Amit Trivedi,Discharge,2024-02-02 08:30:00,OPD
+P0025,Amit Trivedi,Registration,2024-02-02 12:15:00,OPD
+P0025,Amit Trivedi,X-Ray,2024-02-02 15:30:00,Radiology
+P0025,Amit Trivedi,Triage,2024-02-02 18:30:00,ER
+P0025,Amit Trivedi,Surgery,2024-02-02 21:00:00,OT
+P0025,Amit Trivedi,Recovery,2024-02-02 22:15:00,ICU
+P0026,Kavita Nair,Blood Test,2024-01-30 03:00:00,Lab
+P0026,Kavita Nair,Triage,2024-01-30 05:45:00,ER
+P0026,Kavita Nair,Registration,2024-01-30 09:00:00,OPD
+P0026,Kavita Nair,Surgery,2024-01-30 12:45:00,OT
+P0026,Kavita Nair,Recovery,2024-01-30 15:30:00,ICU
+P0027,Anita Desai,Registration,2024-01-20 03:45:00,OPD
+P0027,Anita Desai,Recovery,2024-01-20 05:00:00,ICU
+P0027,Anita Desai,Discharge,2024-01-20 06:45:00,OPD
+P0027,Anita Desai,Blood Test,2024-01-20 08:30:00,Lab
+P0027,Anita Desai,Triage,2024-01-20 12:00:00,ER
+P0028,Ajay Kulkarni,Recovery,2024-01-23 01:30:00,ICU
+P0028,Ajay Kulkarni,Discharge,2024-01-23 05:15:00,OPD
+P0028,Ajay Kulkarni,Consultation,2024-01-23 08:30:00,OPD
+P0028,Ajay Kulkarni,Blood Test,2024-01-23 11:15:00,Lab
+P0028,Ajay Kulkarni,Triage,2024-01-23 12:45:00,ER
+P0028,Ajay Kulkarni,X-Ray,2024-01-23 14:15:00,Radiology
+P0028,Ajay Kulkarni,Surgery,2024-01-23 16:45:00,OT
+P0028,Ajay Kulkarni,Registration,2024-01-23 19:45:00,OPD
+P0029,Ahmed Khan,Blood Test,2024-01-17 02:45:00,Lab
+P0029,Ahmed Khan,Discharge,2024-01-17 05:30:00,OPD
+P0029,Ahmed Khan,Surgery,2024-01-17 07:30:00,OT
+P0029,Ahmed Khan,Triage,2024-01-17 09:15:00,ER
+P0029,Ahmed Khan,Consultation,2024-01-17 11:15:00,OPD
+P0030,Kiran Pillai,Discharge,2024-01-30 01:30:00,OPD
+P0030,Kiran Pillai,Registration,2024-01-30 04:15:00,OPD
+P0030,Kiran Pillai,X-Ray,2024-01-30 06:00:00,Radiology
+P0030,Kiran Pillai,Surgery,2024-01-30 08:45:00,OT
+P0030,Kiran Pillai,Blood Test,2024-01-30 12:00:00,Lab
+P0030,Kiran Pillai,Triage,2024-01-30 14:15:00,ER
+P0030,Kiran Pillai,Recovery,2024-01-30 17:15:00,ICU
+P0031,Manish Rao,Registration,2024-01-23 02:30:00,OPD
+P0031,Manish Rao,Discharge,2024-01-23 04:15:00,OPD
+P0031,Manish Rao,Surgery,2024-01-23 06:45:00,OT
+P0031,Manish Rao,Blood Test,2024-01-23 09:15:00,Lab
+P0031,Manish Rao,Triage,2024-01-23 11:45:00,ER
+P0031,Manish Rao,Consultation,2024-01-23 13:30:00,OPD
+P0031,Manish Rao,Recovery,2024-01-23 14:30:00,ICU
+P0031,Manish Rao,X-Ray,2024-01-23 16:45:00,Radiology
+P0032,Arjun Patel,Registration,2024-02-03 01:15:00,OPD
+P0032,Arjun Patel,Triage,2024-02-03 03:00:00,ER
+P0032,Arjun Patel,Recovery,2024-02-03 06:00:00,ICU
+P0032,Arjun Patel,Discharge,2024-02-03 09:15:00,OPD
+P0033,Ajay Kulkarni,Surgery,2024-01-24 01:00:00,OT
+P0033,Ajay Kulkarni,Triage,2024-01-24 03:45:00,ER
+P0033,Ajay Kulkarni,Consultation,2024-01-24 06:00:00,OPD
+P0033,Ajay Kulkarni,Discharge,2024-01-24 07:15:00,OPD
+P0033,Ajay Kulkarni,Registration,2024-01-24 08:45:00,OPD
+P0033,Ajay Kulkarni,Blood Test,2024-01-24 11:45:00,Lab
+P0034,Kiran Pillai,Surgery,2024-01-17 03:30:00,OT
+P0034,Kiran Pillai,Consultation,2024-01-17 05:15:00,OPD
+P0034,Kiran Pillai,Blood Test,2024-01-17 07:15:00,Lab
+P0034,Kiran Pillai,X-Ray,2024-01-17 09:45:00,Radiology
+P0035,Ajay Kulkarni,Recovery,2024-02-03 03:45:00,ICU
+P0035,Ajay Kulkarni,Triage,2024-02-03 06:30:00,ER
+P0035,Ajay Kulkarni,Surgery,2024-02-03 10:00:00,OT
+P0035,Ajay Kulkarni,Consultation,2024-02-03 12:15:00,OPD
+P0035,Ajay Kulkarni,X-Ray,2024-02-03 13:45:00,Radiology
+P0036,Ajay Kulkarni,Discharge,2024-01-15 02:30:00,OPD
+P0036,Ajay Kulkarni,Consultation,2024-01-15 04:15:00,OPD
+P0036,Ajay Kulkarni,Recovery,2024-01-15 05:45:00,ICU
+P0036,Ajay Kulkarni,Blood Test,2024-01-15 08:15:00,Lab
+P0036,Ajay Kulkarni,X-Ray,2024-01-15 10:45:00,Radiology
+P0037,Sonia Chatterjee,Blood Test,2024-01-30 03:15:00,Lab
+P0037,Sonia Chatterjee,Registration,2024-01-30 07:00:00,OPD
+P0037,Sonia Chatterjee,Triage,2024-01-30 10:45:00,ER
+P0037,Sonia Chatterjee,Discharge,2024-01-30 12:45:00,OPD
+P0038,Arjun Patel,Blood Test,2024-02-02 02:45:00,Lab
+P0038,Arjun Patel,Discharge,2024-02-02 06:15:00,OPD
+P0038,Arjun Patel,Surgery,2024-02-02 08:45:00,OT
+P0038,Arjun Patel,Triage,2024-02-02 11:30:00,ER
+P0038,Arjun Patel,X-Ray,2024-02-02 14:00:00,Radiology
+P0038,Arjun Patel,Recovery,2024-02-02 16:15:00,ICU
+P0039,Priya Singh,Surgery,2024-01-21 01:45:00,OT
+P0039,Priya Singh,Registration,2024-01-21 04:15:00,OPD
+P0039,Priya Singh,Discharge,2024-01-21 05:30:00,OPD
+P0039,Priya Singh,Consultation,2024-01-21 07:45:00,OPD
+P0039,Priya Singh,Triage,2024-01-21 10:00:00,ER
+P0040,Kavita Nair,X-Ray,2024-02-01 02:15:00,Radiology
+P0040,Kavita Nair,Discharge,2024-02-01 06:00:00,OPD
+P0040,Kavita Nair,Registration,2024-02-01 07:00:00,OPD
+P0040,Kavita Nair,Surgery,2024-02-01 10:30:00,OT
+P0041,Neha Bose,Discharge,2024-01-17 02:45:00,OPD
+P0041,Neha Bose,X-Ray,2024-01-17 03:45:00,Radiology
+P0041,Neha Bose,Triage,2024-01-17 05:00:00,ER
+P0041,Neha Bose,Registration,2024-01-17 08:30:00,OPD
+P0041,Neha Bose,Recovery,2024-01-17 09:45:00,ICU
+P0041,Neha Bose,Surgery,2024-01-17 11:30:00,OT
+P0041,Neha Bose,Consultation,2024-01-17 14:45:00,OPD
+P0042,Rohit Malhotra,Discharge,2024-02-03 03:00:00,OPD
+P0042,Rohit Malhotra,Blood Test,2024-02-03 04:15:00,Lab
+P0042,Rohit Malhotra,X-Ray,2024-02-03 06:15:00,Radiology
+P0042,Rohit Malhotra,Consultation,2024-02-03 07:30:00,OPD
+P0042,Rohit Malhotra,Recovery,2024-02-03 08:30:00,ICU
+P0042,Rohit Malhotra,Triage,2024-02-03 09:30:00,ER
+P0042,Rohit Malhotra,Registration,2024-02-03 12:15:00,OPD
+P0043,Amit Trivedi,Consultation,2024-01-17 03:15:00,OPD
+P0043,Amit Trivedi,Registration,2024-01-17 05:30:00,OPD
+P0043,Amit Trivedi,Triage,2024-01-17 07:30:00,ER
+P0043,Amit Trivedi,X-Ray,2024-01-17 10:45:00,Radiology
+P0043,Amit Trivedi,Discharge,2024-01-17 14:00:00,OPD
+P0043,Amit Trivedi,Blood Test,2024-01-17 16:15:00,Lab
+P0043,Amit Trivedi,Surgery,2024-01-17 17:15:00,OT
+P0044,Sneha Reddy,Consultation,2024-01-27 02:45:00,OPD
+P0044,Sneha Reddy,Blood Test,2024-01-27 04:45:00,Lab
+P0044,Sneha Reddy,Registration,2024-01-27 07:45:00,OPD
+P0044,Sneha Reddy,Recovery,2024-01-27 10:15:00,ICU
+P0044,Sneha Reddy,X-Ray,2024-01-27 13:45:00,Radiology
+P0044,Sneha Reddy,Discharge,2024-01-27 14:45:00,OPD
+P0045,Anita Desai,Registration,2024-01-23 01:45:00,OPD
+P0045,Anita Desai,Recovery,2024-01-23 05:30:00,ICU
+P0045,Anita Desai,Surgery,2024-01-23 07:15:00,OT
+P0045,Anita Desai,X-Ray,2024-01-23 10:00:00,Radiology
+P0045,Anita Desai,Discharge,2024-01-23 12:30:00,OPD
+P0045,Anita Desai,Blood Test,2024-01-23 15:30:00,Lab
+P0045,Anita Desai,Triage,2024-01-23 17:00:00,ER
+P0045,Anita Desai,Consultation,2024-01-23 19:45:00,OPD
+P0046,Kavita Nair,Registration,2024-01-27 03:00:00,OPD
+P0046,Kavita Nair,Blood Test,2024-01-27 06:45:00,Lab
+P0046,Kavita Nair,Discharge,2024-01-27 08:45:00,OPD
+P0046,Kavita Nair,X-Ray,2024-01-27 10:15:00,Radiology
+P0046,Kavita Nair,Consultation,2024-01-27 14:00:00,OPD
+P0046,Kavita Nair,Triage,2024-01-27 17:45:00,ER
+P0046,Kavita Nair,Surgery,2024-01-27 19:00:00,OT
+P0047,Rahul Verma,X-Ray,2024-01-24 03:00:00,Radiology
+P0047,Rahul Verma,Discharge,2024-01-24 06:45:00,OPD
+P0047,Rahul Verma,Blood Test,2024-01-24 08:00:00,Lab
+P0047,Rahul Verma,Surgery,2024-01-24 09:45:00,OT
+P0047,Rahul Verma,Registration,2024-01-24 11:00:00,OPD
+P0047,Rahul Verma,Consultation,2024-01-24 13:30:00,OPD
+P0047,Rahul Verma,Recovery,2024-01-24 17:00:00,ICU
+P0047,Rahul Verma,Triage,2024-01-24 19:45:00,ER
+P0048,Neha Bose,Discharge,2024-02-03 03:15:00,OPD
+P0048,Neha Bose,Consultation,2024-02-03 04:45:00,OPD
+P0048,Neha Bose,Triage,2024-02-03 07:15:00,ER
+P0048,Neha Bose,Blood Test,2024-02-03 10:45:00,Lab
+P0048,Neha Bose,Surgery,2024-02-03 12:15:00,OT
+P0049,Kavita Nair,Discharge,2024-01-29 02:15:00,OPD
+P0049,Kavita Nair,Recovery,2024-01-29 05:30:00,ICU
+P0049,Kavita Nair,Triage,2024-01-29 09:15:00,ER
+P0049,Kavita Nair,Blood Test,2024-01-29 11:00:00,Lab
+P0049,Kavita Nair,Consultation,2024-01-29 12:30:00,OPD
+P0049,Kavita Nair,Surgery,2024-01-29 16:15:00,OT
+P0049,Kavita Nair,X-Ray,2024-01-29 20:00:00,Radiology
+P0049,Kavita Nair,Registration,2024-01-29 22:15:00,OPD
+P0050,Neha Bose,X-Ray,2024-01-18 02:00:00,Radiology
+P0050,Neha Bose,Consultation,2024-01-18 05:45:00,OPD
+P0050,Neha Bose,Recovery,2024-01-18 07:00:00,ICU
+P0050,Neha Bose,Discharge,2024-01-18 09:15:00,OPD
+P0051,Arjun Patel,Consultation,2024-01-25 03:45:00,OPD
+P0051,Arjun Patel,X-Ray,2024-01-25 06:45:00,Radiology
+P0051,Arjun Patel,Discharge,2024-01-25 09:45:00,OPD
+P0051,Arjun Patel,Blood Test,2024-01-25 11:15:00,Lab
+P0051,Arjun Patel,Registration,2024-01-25 12:15:00,OPD
+P0051,Arjun Patel,Triage,2024-01-25 14:15:00,ER
+P0051,Arjun Patel,Recovery,2024-01-25 17:15:00,ICU
+P0052,Ajay Kulkarni,Consultation,2024-01-24 02:30:00,OPD
+P0052,Ajay Kulkarni,Registration,2024-01-24 04:45:00,OPD
+P0052,Ajay Kulkarni,Recovery,2024-01-24 06:30:00,ICU
+P0052,Ajay Kulkarni,X-Ray,2024-01-24 09:45:00,Radiology
+P0052,Ajay Kulkarni,Surgery,2024-01-24 11:00:00,OT
+P0053,Arjun Patel,Recovery,2024-01-29 03:30:00,ICU
+P0053,Arjun Patel,Consultation,2024-01-29 06:00:00,OPD
+P0053,Arjun Patel,Surgery,2024-01-29 09:00:00,OT
+P0053,Arjun Patel,Triage,2024-01-29 11:30:00,ER
+P0053,Arjun Patel,Blood Test,2024-01-29 14:45:00,Lab
+P0053,Arjun Patel,X-Ray,2024-01-29 16:30:00,Radiology
+P0053,Arjun Patel,Registration,2024-01-29 19:00:00,OPD
+P0053,Arjun Patel,Discharge,2024-01-29 22:45:00,OPD
+P0054,Rahul Verma,Consultation,2024-02-02 02:30:00,OPD
+P0054,Rahul Verma,Triage,2024-02-02 06:00:00,ER
+P0054,Rahul Verma,Blood Test,2024-02-02 07:45:00,Lab
+P0054,Rahul Verma,Surgery,2024-02-02 09:45:00,OT
+P0054,Rahul Verma,Registration,2024-02-02 12:45:00,OPD
+P0054,Rahul Verma,Discharge,2024-02-02 16:30:00,OPD
+P0054,Rahul Verma,Recovery,2024-02-02 18:45:00,ICU
+P0055,Amit Trivedi,Blood Test,2024-01-19 03:00:00,Lab
+P0055,Amit Trivedi,Surgery,2024-01-19 06:00:00,OT
+P0055,Amit Trivedi,Triage,2024-01-19 08:45:00,ER
+P0055,Amit Trivedi,Consultation,2024-01-19 10:15:00,OPD
+P0055,Amit Trivedi,X-Ray,2024-01-19 13:30:00,Radiology
+P0055,Amit Trivedi,Discharge,2024-01-19 15:00:00,OPD
+P0056,Suresh Iyer,X-Ray,2024-01-20 02:45:00,Radiology
+P0056,Suresh Iyer,Triage,2024-01-20 05:15:00,ER
+P0056,Suresh Iyer,Recovery,2024-01-20 07:00:00,ICU
+P0056,Suresh Iyer,Consultation,2024-01-20 08:15:00,OPD
+P0056,Suresh Iyer,Discharge,2024-01-20 10:00:00,OPD
+P0056,Suresh Iyer,Blood Test,2024-01-20 13:30:00,Lab
+P0056,Suresh Iyer,Surgery,2024-01-20 15:15:00,OT
+P0057,Ravi Kumar,Triage,2024-01-26 01:15:00,ER
+P0057,Ravi Kumar,Blood Test,2024-01-26 03:15:00,Lab
+P0057,Ravi Kumar,X-Ray,2024-01-26 06:45:00,Radiology
+P0057,Ravi Kumar,Surgery,2024-01-26 10:00:00,OT
+P0057,Ravi Kumar,Recovery,2024-01-26 13:00:00,ICU
+P0057,Ravi Kumar,Consultation,2024-01-26 16:45:00,OPD
+P0058,Kavita Nair,Triage,2024-01-18 01:15:00,ER
+P0058,Kavita Nair,Discharge,2024-01-18 04:00:00,OPD
+P0058,Kavita Nair,Registration,2024-01-18 06:45:00,OPD
+P0058,Kavita Nair,Surgery,2024-01-18 10:00:00,OT
+P0058,Kavita Nair,X-Ray,2024-01-18 12:00:00,Radiology
+P0058,Kavita Nair,Recovery,2024-01-18 14:45:00,ICU
+P0058,Kavita Nair,Consultation,2024-01-18 16:45:00,OPD
+P0059,Pooja Gupta,Discharge,2024-01-26 03:30:00,OPD
+P0059,Pooja Gupta,Blood Test,2024-01-26 05:15:00,Lab
+P0059,Pooja Gupta,Triage,2024-01-26 07:30:00,ER
+P0059,Pooja Gupta,X-Ray,2024-01-26 09:15:00,Radiology
+P0059,Pooja Gupta,Registration,2024-01-26 10:30:00,OPD
+P0060,Amit Trivedi,Registration,2024-01-19 03:15:00,OPD
+P0060,Amit Trivedi,Recovery,2024-01-19 04:30:00,ICU
+P0060,Amit Trivedi,X-Ray,2024-01-19 07:45:00,Radiology
+P0060,Amit Trivedi,Triage,2024-01-19 09:15:00,ER
+P0061,Ahmed Khan,Registration,2024-01-19 01:30:00,OPD
+P0061,Ahmed Khan,X-Ray,2024-01-19 03:00:00,Radiology
+P0061,Ahmed Khan,Triage,2024-01-19 04:15:00,ER
+P0061,Ahmed Khan,Surgery,2024-01-19 06:15:00,OT
+P0061,Ahmed Khan,Recovery,2024-01-19 08:00:00,ICU
+P0061,Ahmed Khan,Discharge,2024-01-19 11:00:00,OPD
+P0061,Ahmed Khan,Blood Test,2024-01-19 14:00:00,Lab
+P0061,Ahmed Khan,Consultation,2024-01-19 16:45:00,OPD
+P0062,Pooja Gupta,Triage,2024-02-04 01:00:00,ER
+P0062,Pooja Gupta,Blood Test,2024-02-04 03:45:00,Lab
+P0062,Pooja Gupta,Consultation,2024-02-04 05:45:00,OPD
+P0062,Pooja Gupta,Discharge,2024-02-04 08:30:00,OPD
+P0062,Pooja Gupta,Registration,2024-02-04 09:30:00,OPD
+P0062,Pooja Gupta,X-Ray,2024-02-04 11:45:00,Radiology
+P0062,Pooja Gupta,Surgery,2024-02-04 13:00:00,OT
+P0062,Pooja Gupta,Recovery,2024-02-04 15:30:00,ICU
+P0063,Manish Rao,Consultation,2024-01-28 02:15:00,OPD
+P0063,Manish Rao,Blood Test,2024-01-28 04:45:00,Lab
+P0063,Manish Rao,Discharge,2024-01-28 07:30:00,OPD
+P0063,Manish Rao,Surgery,2024-01-28 09:30:00,OT
+P0063,Manish Rao,Recovery,2024-01-28 12:15:00,ICU
+P0063,Manish Rao,Registration,2024-01-28 14:45:00,OPD
+P0063,Manish Rao,X-Ray,2024-01-28 17:00:00,Radiology
+P0063,Manish Rao,Triage,2024-01-28 20:45:00,ER
+P0064,Arjun Patel,Triage,2024-01-26 01:00:00,ER
+P0064,Arjun Patel,Registration,2024-01-26 04:30:00,OPD
+P0064,Arjun Patel,Blood Test,2024-01-26 07:30:00,Lab
+P0064,Arjun Patel,Recovery,2024-01-26 10:00:00,ICU
+P0065,Deepa Menon,Consultation,2024-01-18 03:15:00,OPD
+P0065,Deepa Menon,Discharge,2024-01-18 05:00:00,OPD
+P0065,Deepa Menon,X-Ray,2024-01-18 06:00:00,Radiology
+P0065,Deepa Menon,Surgery,2024-01-18 08:30:00,OT
+P0066,Priya Singh,Blood Test,2024-01-23 01:15:00,Lab
+P0066,Priya Singh,Recovery,2024-01-23 03:45:00,ICU
+P0066,Priya Singh,Discharge,2024-01-23 06:15:00,OPD
+P0066,Priya Singh,Consultation,2024-01-23 07:30:00,OPD
+P0066,Priya Singh,Registration,2024-01-23 09:15:00,OPD
+P0066,Priya Singh,X-Ray,2024-01-23 10:30:00,Radiology
+P0067,Ravi Kumar,Blood Test,2024-01-25 01:30:00,Lab
+P0067,Ravi Kumar,Discharge,2024-01-25 04:00:00,OPD
+P0067,Ravi Kumar,Recovery,2024-01-25 07:00:00,ICU
+P0067,Ravi Kumar,Surgery,2024-01-25 08:15:00,OT
+P0068,Sneha Reddy,Registration,2024-02-03 02:45:00,OPD
+P0068,Sneha Reddy,Surgery,2024-02-03 05:00:00,OT
+P0068,Sneha Reddy,Discharge,2024-02-03 08:00:00,OPD
+P0068,Sneha Reddy,X-Ray,2024-02-03 10:45:00,Radiology
+P0068,Sneha Reddy,Blood Test,2024-02-03 12:15:00,Lab
+P0068,Sneha Reddy,Consultation,2024-02-03 16:00:00,OPD
+P0068,Sneha Reddy,Triage,2024-02-03 19:30:00,ER
+P0068,Sneha Reddy,Recovery,2024-02-03 20:45:00,ICU
+P0069,Manish Rao,Registration,2024-01-25 01:00:00,OPD
+P0069,Manish Rao,Discharge,2024-01-25 03:45:00,OPD
+P0069,Manish Rao,Triage,2024-01-25 05:00:00,ER
+P0069,Manish Rao,X-Ray,2024-01-25 07:15:00,Radiology
+P0069,Manish Rao,Surgery,2024-01-25 10:45:00,OT
+P0069,Manish Rao,Recovery,2024-01-25 12:30:00,ICU
+P0069,Manish Rao,Blood Test,2024-01-25 15:30:00,Lab
+P0069,Manish Rao,Consultation,2024-01-25 17:30:00,OPD
+P0070,Ajay Kulkarni,Surgery,2024-01-27 03:45:00,OT
+P0070,Ajay Kulkarni,Consultation,2024-01-27 05:45:00,OPD
+P0070,Ajay Kulkarni,Blood Test,2024-01-27 07:45:00,Lab
+P0070,Ajay Kulkarni,Recovery,2024-01-27 10:00:00,ICU
+P0071,Amit Trivedi,Surgery,2024-01-31 01:45:00,OT
+P0071,Amit Trivedi,Registration,2024-01-31 04:15:00,OPD
+P0071,Amit Trivedi,Blood Test,2024-01-31 05:45:00,Lab
+P0071,Amit Trivedi,Recovery,2024-01-31 06:45:00,ICU
+P0071,Amit Trivedi,Triage,2024-01-31 09:45:00,ER
+P0071,Amit Trivedi,Discharge,2024-01-31 13:00:00,OPD
+P0071,Amit Trivedi,X-Ray,2024-01-31 15:30:00,Radiology
+P0072,Ahmed Khan,Triage,2024-02-03 01:00:00,ER
+P0072,Ahmed Khan,Discharge,2024-02-03 02:45:00,OPD
+P0072,Ahmed Khan,X-Ray,2024-02-03 05:30:00,Radiology
+P0072,Ahmed Khan,Recovery,2024-02-03 09:00:00,ICU
+P0072,Ahmed Khan,Consultation,2024-02-03 12:30:00,OPD
+P0073,Ahmed Khan,Triage,2024-01-26 03:00:00,ER
+P0073,Ahmed Khan,Blood Test,2024-01-26 05:45:00,Lab
+P0073,Ahmed Khan,Recovery,2024-01-26 07:45:00,ICU
+P0073,Ahmed Khan,X-Ray,2024-01-26 09:15:00,Radiology
+P0073,Ahmed Khan,Consultation,2024-01-26 11:15:00,OPD
+P0073,Ahmed Khan,Surgery,2024-01-26 14:15:00,OT
+P0073,Ahmed Khan,Registration,2024-01-26 18:00:00,OPD
+P0074,Ajay Kulkarni,Registration,2024-01-16 02:00:00,OPD
+P0074,Ajay Kulkarni,Blood Test,2024-01-16 04:00:00,Lab
+P0074,Ajay Kulkarni,Consultation,2024-01-16 07:15:00,OPD
+P0074,Ajay Kulkarni,Triage,2024-01-16 08:30:00,ER
+P0074,Ajay Kulkarni,X-Ray,2024-01-16 12:15:00,Radiology
+P0074,Ajay Kulkarni,Recovery,2024-01-16 14:30:00,ICU
+P0074,Ajay Kulkarni,Surgery,2024-01-16 17:00:00,OT
+P0074,Ajay Kulkarni,Discharge,2024-01-16 19:45:00,OPD
+P0075,Deepa Menon,Registration,2024-01-18 03:45:00,OPD
+P0075,Deepa Menon,Recovery,2024-01-18 06:15:00,ICU
+P0075,Deepa Menon,Surgery,2024-01-18 09:30:00,OT
+P0075,Deepa Menon,X-Ray,2024-01-18 11:30:00,Radiology
+P0075,Deepa Menon,Discharge,2024-01-18 14:45:00,OPD
+P0075,Deepa Menon,Triage,2024-01-18 17:15:00,ER
+P0076,Manish Rao,Triage,2024-01-19 03:00:00,ER
+P0076,Manish Rao,X-Ray,2024-01-19 06:45:00,Radiology
+P0076,Manish Rao,Consultation,2024-01-19 10:15:00,OPD
+P0076,Manish Rao,Blood Test,2024-01-19 11:45:00,Lab
+P0076,Manish Rao,Recovery,2024-01-19 14:00:00,ICU
+P0077,Vikram Joshi,Discharge,2024-01-24 01:00:00,OPD
+P0077,Vikram Joshi,Triage,2024-01-24 04:30:00,ER
+P0077,Vikram Joshi,Recovery,2024-01-24 07:45:00,ICU
+P0077,Vikram Joshi,Surgery,2024-01-24 11:30:00,OT
+P0077,Vikram Joshi,Consultation,2024-01-24 12:45:00,OPD
+P0077,Vikram Joshi,Registration,2024-01-24 14:00:00,OPD
+P0078,Ajay Kulkarni,Recovery,2024-01-29 03:30:00,ICU
+P0078,Ajay Kulkarni,X-Ray,2024-01-29 07:15:00,Radiology
+P0078,Ajay Kulkarni,Surgery,2024-01-29 08:30:00,OT
+P0078,Ajay Kulkarni,Triage,2024-01-29 11:15:00,ER
+P0079,Vikram Joshi,Discharge,2024-01-21 03:15:00,OPD
+P0079,Vikram Joshi,Blood Test,2024-01-21 05:15:00,Lab
+P0079,Vikram Joshi,X-Ray,2024-01-21 09:00:00,Radiology
+P0079,Vikram Joshi,Recovery,2024-01-21 11:00:00,ICU
+P0079,Vikram Joshi,Consultation,2024-01-21 14:00:00,OPD
+P0079,Vikram Joshi,Registration,2024-01-21 16:00:00,OPD
+P0080,Sneha Reddy,Discharge,2024-01-29 02:00:00,OPD
+P0080,Sneha Reddy,Consultation,2024-01-29 04:00:00,OPD
+P0080,Sneha Reddy,Triage,2024-01-29 06:30:00,ER
+P0080,Sneha Reddy,Blood Test,2024-01-29 08:15:00,Lab
+P0080,Sneha Reddy,Registration,2024-01-29 09:45:00,OPD
+P0080,Sneha Reddy,Recovery,2024-01-29 10:45:00,ICU
+P0081,Suresh Iyer,Surgery,2024-01-16 02:45:00,OT
+P0081,Suresh Iyer,Recovery,2024-01-16 06:00:00,ICU
+P0081,Suresh Iyer,Triage,2024-01-16 09:45:00,ER
+P0081,Suresh Iyer,Discharge,2024-01-16 11:45:00,OPD
+P0082,Arjun Patel,Consultation,2024-02-03 03:45:00,OPD
+P0082,Arjun Patel,Triage,2024-02-03 05:15:00,ER
+P0082,Arjun Patel,Recovery,2024-02-03 06:45:00,ICU
+P0082,Arjun Patel,Discharge,2024-02-03 07:45:00,OPD
+P0083,Anita Desai,Discharge,2024-01-19 02:45:00,OPD
+P0083,Anita Desai,Registration,2024-01-19 04:15:00,OPD
+P0083,Anita Desai,Recovery,2024-01-19 06:00:00,ICU
+P0083,Anita Desai,Blood Test,2024-01-19 07:00:00,Lab
+P0083,Anita Desai,Surgery,2024-01-19 10:30:00,OT
+P0083,Anita Desai,X-Ray,2024-01-19 11:30:00,Radiology
+P0083,Anita Desai,Consultation,2024-01-19 14:15:00,OPD
+P0084,Meena Sharma,Surgery,2024-01-22 03:00:00,OT
+P0084,Meena Sharma,X-Ray,2024-01-22 06:30:00,Radiology
+P0084,Meena Sharma,Discharge,2024-01-22 07:30:00,OPD
+P0084,Meena Sharma,Registration,2024-01-22 10:00:00,OPD
+P0084,Meena Sharma,Recovery,2024-01-22 13:15:00,ICU
+P0084,Meena Sharma,Consultation,2024-01-22 17:00:00,OPD
+P0084,Meena Sharma,Triage,2024-01-22 20:45:00,ER
+P0085,Sneha Reddy,Triage,2024-01-21 01:15:00,ER
+P0085,Sneha Reddy,Surgery,2024-01-21 02:45:00,OT
+P0085,Sneha Reddy,Blood Test,2024-01-21 05:30:00,Lab
+P0085,Sneha Reddy,Registration,2024-01-21 09:15:00,OPD
+P0085,Sneha Reddy,X-Ray,2024-01-21 11:15:00,Radiology
+P0086,Vikram Joshi,Surgery,2024-01-26 02:45:00,OT
+P0086,Vikram Joshi,Recovery,2024-01-26 06:30:00,ICU
+P0086,Vikram Joshi,Registration,2024-01-26 09:00:00,OPD
+P0086,Vikram Joshi,X-Ray,2024-01-26 10:45:00,Radiology
+P0086,Vikram Joshi,Consultation,2024-01-26 14:30:00,OPD
+P0086,Vikram Joshi,Discharge,2024-01-26 17:00:00,OPD
+P0087,Arjun Patel,Triage,2024-01-17 02:30:00,ER
+P0087,Arjun Patel,Blood Test,2024-01-17 05:15:00,Lab
+P0087,Arjun Patel,Consultation,2024-01-17 09:00:00,OPD
+P0087,Arjun Patel,Discharge,2024-01-17 10:45:00,OPD
+P0087,Arjun Patel,X-Ray,2024-01-17 13:30:00,Radiology
+P0087,Arjun Patel,Surgery,2024-01-17 15:00:00,OT
+P0087,Arjun Patel,Registration,2024-01-17 18:45:00,OPD
+P0088,Rahul Verma,Triage,2024-01-26 03:15:00,ER
+P0088,Rahul Verma,Surgery,2024-01-26 04:30:00,OT
+P0088,Rahul Verma,Recovery,2024-01-26 08:15:00,ICU
+P0088,Rahul Verma,Blood Test,2024-01-26 09:30:00,Lab
+P0089,Arjun Patel,Surgery,2024-02-03 01:45:00,OT
+P0089,Arjun Patel,X-Ray,2024-02-03 04:15:00,Radiology
+P0089,Arjun Patel,Blood Test,2024-02-03 06:15:00,Lab
+P0089,Arjun Patel,Consultation,2024-02-03 09:30:00,OPD
+P0089,Arjun Patel,Registration,2024-02-03 13:00:00,OPD
+P0090,Manish Rao,Consultation,2024-01-31 02:00:00,OPD
+P0090,Manish Rao,Triage,2024-01-31 04:30:00,ER
+P0090,Manish Rao,Registration,2024-01-31 08:15:00,OPD
+P0090,Manish Rao,Surgery,2024-01-31 09:45:00,OT
+P0090,Manish Rao,Recovery,2024-01-31 13:30:00,ICU
+P0090,Manish Rao,Blood Test,2024-01-31 14:30:00,Lab
+P0091,Ahmed Khan,Discharge,2024-01-17 03:30:00,OPD
+P0091,Ahmed Khan,Triage,2024-01-17 07:00:00,ER
+P0091,Ahmed Khan,Surgery,2024-01-17 10:00:00,OT
+P0091,Ahmed Khan,Blood Test,2024-01-17 13:30:00,Lab
+P0092,Kavita Nair,X-Ray,2024-01-18 01:15:00,Radiology
+P0092,Kavita Nair,Recovery,2024-01-18 03:00:00,ICU
+P0092,Kavita Nair,Discharge,2024-01-18 04:30:00,OPD
+P0092,Kavita Nair,Consultation,2024-01-18 08:00:00,OPD
+P0092,Kavita Nair,Triage,2024-01-18 10:15:00,ER
+P0093,Amit Trivedi,Triage,2024-01-31 02:45:00,ER
+P0093,Amit Trivedi,X-Ray,2024-01-31 05:45:00,Radiology
+P0093,Amit Trivedi,Blood Test,2024-01-31 07:15:00,Lab
+P0093,Amit Trivedi,Surgery,2024-01-31 10:15:00,OT
+P0094,Ajay Kulkarni,Surgery,2024-01-31 01:00:00,OT
+P0094,Ajay Kulkarni,Triage,2024-01-31 04:15:00,ER
+P0094,Ajay Kulkarni,Consultation,2024-01-31 06:30:00,OPD
+P0094,Ajay Kulkarni,Discharge,2024-01-31 08:00:00,OPD
+P0094,Ajay Kulkarni,Recovery,2024-01-31 11:15:00,ICU
+P0094,Ajay Kulkarni,Registration,2024-01-31 13:45:00,OPD
+P0094,Ajay Kulkarni,Blood Test,2024-01-31 15:15:00,Lab
+P0095,Vikram Joshi,Consultation,2024-01-20 03:30:00,OPD
+P0095,Vikram Joshi,Triage,2024-01-20 06:30:00,ER
+P0095,Vikram Joshi,Surgery,2024-01-20 07:30:00,OT
+P0095,Vikram Joshi,X-Ray,2024-01-20 09:00:00,Radiology
+P0095,Vikram Joshi,Registration,2024-01-20 12:15:00,OPD
+P0095,Vikram Joshi,Discharge,2024-01-20 16:00:00,OPD
+P0095,Vikram Joshi,Blood Test,2024-01-20 19:00:00,Lab
+P0095,Vikram Joshi,Recovery,2024-01-20 21:30:00,ICU
+P0096,Kavita Nair,Blood Test,2024-01-16 01:45:00,Lab
+P0096,Kavita Nair,Recovery,2024-01-16 04:30:00,ICU
+P0096,Kavita Nair,Surgery,2024-01-16 06:45:00,OT
+P0096,Kavita Nair,Discharge,2024-01-16 09:00:00,OPD
+P0096,Kavita Nair,X-Ray,2024-01-16 11:30:00,Radiology
+P0096,Kavita Nair,Triage,2024-01-16 15:00:00,ER
+P0096,Kavita Nair,Registration,2024-01-16 17:15:00,OPD
+P0097,Pooja Gupta,Triage,2024-01-19 01:00:00,ER
+P0097,Pooja Gupta,X-Ray,2024-01-19 03:45:00,Radiology
+P0097,Pooja Gupta,Discharge,2024-01-19 07:30:00,OPD
+P0097,Pooja Gupta,Blood Test,2024-01-19 08:45:00,Lab
+P0097,Pooja Gupta,Registration,2024-01-19 11:15:00,OPD
+P0097,Pooja Gupta,Surgery,2024-01-19 12:30:00,OT
+P0097,Pooja Gupta,Recovery,2024-01-19 15:15:00,ICU
+P0097,Pooja Gupta,Consultation,2024-01-19 17:45:00,OPD
+P0098,Neha Bose,Triage,2024-01-22 01:30:00,ER
+P0098,Neha Bose,Blood Test,2024-01-22 02:30:00,Lab
+P0098,Neha Bose,Consultation,2024-01-22 05:15:00,OPD
+P0098,Neha Bose,Recovery,2024-01-22 09:00:00,ICU
+P0099,Kavita Nair,Registration,2024-01-26 01:45:00,OPD
+P0099,Kavita Nair,Recovery,2024-01-26 03:00:00,ICU
+P0099,Kavita Nair,Discharge,2024-01-26 05:30:00,OPD
+P0099,Kavita Nair,Blood Test,2024-01-26 07:15:00,Lab
+P0099,Kavita Nair,Triage,2024-01-26 11:00:00,ER
+P0099,Kavita Nair,Consultation,2024-01-26 14:30:00,OPD
+P0099,Kavita Nair,X-Ray,2024-01-26 17:30:00,Radiology
+P0099,Kavita Nair,Surgery,2024-01-26 18:30:00,OT
+P0100,Manish Rao,Surgery,2024-01-31 02:00:00,OT
+P0100,Manish Rao,Consultation,2024-01-31 03:00:00,OPD
+P0100,Manish Rao,X-Ray,2024-01-31 04:30:00,Radiology
+P0100,Manish Rao,Triage,2024-01-31 07:15:00,ER
+P0100,Manish Rao,Recovery,2024-01-31 08:30:00,ICU
+P0100,Manish Rao,Discharge,2024-01-31 11:00:00,OPD
+P0101,Sneha Reddy,Consultation,2024-01-30 01:30:00,OPD
+P0101,Sneha Reddy,Discharge,2024-01-30 03:30:00,OPD
+P0101,Sneha Reddy,X-Ray,2024-01-30 06:00:00,Radiology
+P0101,Sneha Reddy,Recovery,2024-01-30 09:00:00,ICU
+P0101,Sneha Reddy,Blood Test,2024-01-30 12:45:00,Lab
+P0101,Sneha Reddy,Surgery,2024-01-30 15:00:00,OT
+P0101,Sneha Reddy,Triage,2024-01-30 18:00:00,ER
+P0102,Kiran Pillai,X-Ray,2024-01-16 03:00:00,Radiology
+P0102,Kiran Pillai,Consultation,2024-01-16 04:00:00,OPD
+P0102,Kiran Pillai,Surgery,2024-01-16 06:30:00,OT
+P0102,Kiran Pillai,Recovery,2024-01-16 08:45:00,ICU
+P0102,Kiran Pillai,Blood Test,2024-01-16 11:00:00,Lab
+P0102,Kiran Pillai,Registration,2024-01-16 13:45:00,OPD
+P0102,Kiran Pillai,Discharge,2024-01-16 16:45:00,OPD
+P0103,Ahmed Khan,Blood Test,2024-02-01 02:30:00,Lab
+P0103,Ahmed Khan,Consultation,2024-02-01 06:00:00,OPD
+P0103,Ahmed Khan,X-Ray,2024-02-01 09:45:00,Radiology
+P0103,Ahmed Khan,Discharge,2024-02-01 11:00:00,OPD
+P0103,Ahmed Khan,Recovery,2024-02-01 13:30:00,ICU
+P0103,Ahmed Khan,Triage,2024-02-01 15:00:00,ER
+P0103,Ahmed Khan,Registration,2024-02-01 17:15:00,OPD
+P0103,Ahmed Khan,Surgery,2024-02-01 21:00:00,OT
+P0104,Suresh Iyer,Surgery,2024-01-27 02:15:00,OT
+P0104,Suresh Iyer,Consultation,2024-01-27 04:15:00,OPD
+P0104,Suresh Iyer,Discharge,2024-01-27 06:15:00,OPD
+P0104,Suresh Iyer,X-Ray,2024-01-27 09:00:00,Radiology
+P0104,Suresh Iyer,Recovery,2024-01-27 12:30:00,ICU
+P0104,Suresh Iyer,Registration,2024-01-27 16:15:00,OPD
+P0104,Suresh Iyer,Triage,2024-01-27 17:30:00,ER
+P0105,Sonia Chatterjee,Consultation,2024-01-16 03:15:00,OPD
+P0105,Sonia Chatterjee,Triage,2024-01-16 06:30:00,ER
+P0105,Sonia Chatterjee,Registration,2024-01-16 07:30:00,OPD
+P0105,Sonia Chatterjee,Discharge,2024-01-16 10:00:00,OPD
+P0105,Sonia Chatterjee,Recovery,2024-01-16 13:45:00,ICU
+P0105,Sonia Chatterjee,Surgery,2024-01-16 15:00:00,OT
+P0106,Ravi Kumar,X-Ray,2024-01-25 02:00:00,Radiology
+P0106,Ravi Kumar,Blood Test,2024-01-25 03:15:00,Lab
+P0106,Ravi Kumar,Surgery,2024-01-25 06:15:00,OT
+P0106,Ravi Kumar,Recovery,2024-01-25 08:00:00,ICU
+P0106,Ravi Kumar,Consultation,2024-01-25 09:00:00,OPD
+P0106,Ravi Kumar,Discharge,2024-01-25 11:45:00,OPD
+P0106,Ravi Kumar,Registration,2024-01-25 13:15:00,OPD
+P0106,Ravi Kumar,Triage,2024-01-25 14:15:00,ER
+P0107,Kavita Nair,Triage,2024-01-21 01:30:00,ER
+P0107,Kavita Nair,X-Ray,2024-01-21 03:15:00,Radiology
+P0107,Kavita Nair,Recovery,2024-01-21 06:45:00,ICU
+P0107,Kavita Nair,Blood Test,2024-01-21 10:00:00,Lab
+P0107,Kavita Nair,Consultation,2024-01-21 11:30:00,OPD
+P0107,Kavita Nair,Registration,2024-01-21 13:45:00,OPD
+P0107,Kavita Nair,Discharge,2024-01-21 15:30:00,OPD
+P0107,Kavita Nair,Surgery,2024-01-21 18:00:00,OT
+P0108,Arjun Patel,Triage,2024-01-23 02:15:00,ER
+P0108,Arjun Patel,Discharge,2024-01-23 04:45:00,OPD
+P0108,Arjun Patel,Recovery,2024-01-23 07:15:00,ICU
+P0108,Arjun Patel,Blood Test,2024-01-23 10:15:00,Lab
+P0108,Arjun Patel,X-Ray,2024-01-23 12:45:00,Radiology
+P0108,Arjun Patel,Registration,2024-01-23 16:00:00,OPD
+P0108,Arjun Patel,Consultation,2024-01-23 17:00:00,OPD
+P0109,Ajay Kulkarni,X-Ray,2024-01-18 03:30:00,Radiology
+P0109,Ajay Kulkarni,Blood Test,2024-01-18 05:45:00,Lab
+P0109,Ajay Kulkarni,Surgery,2024-01-18 07:00:00,OT
+P0109,Ajay Kulkarni,Consultation,2024-01-18 09:15:00,OPD
+P0109,Ajay Kulkarni,Discharge,2024-01-18 11:45:00,OPD
+P0109,Ajay Kulkarni,Recovery,2024-01-18 14:30:00,ICU
+P0110,Sonia Chatterjee,Blood Test,2024-01-31 03:30:00,Lab
+P0110,Sonia Chatterjee,Surgery,2024-01-31 04:30:00,OT
+P0110,Sonia Chatterjee,Consultation,2024-01-31 05:45:00,OPD
+P0110,Sonia Chatterjee,Registration,2024-01-31 09:00:00,OPD
+P0110,Sonia Chatterjee,Discharge,2024-01-31 10:30:00,OPD
+P0111,Rohit Malhotra,Triage,2024-01-16 02:15:00,ER
+P0111,Rohit Malhotra,Surgery,2024-01-16 06:00:00,OT
+P0111,Rohit Malhotra,Discharge,2024-01-16 08:00:00,OPD
+P0111,Rohit Malhotra,Consultation,2024-01-16 11:45:00,OPD
+P0111,Rohit Malhotra,Blood Test,2024-01-16 15:15:00,Lab
+P0111,Rohit Malhotra,Registration,2024-01-16 18:15:00,OPD
+P0111,Rohit Malhotra,Recovery,2024-01-16 20:45:00,ICU
+P0112,Ravi Kumar,Triage,2024-02-01 01:00:00,ER
+P0112,Ravi Kumar,Registration,2024-02-01 03:00:00,OPD
+P0112,Ravi Kumar,Blood Test,2024-02-01 05:45:00,Lab
+P0112,Ravi Kumar,X-Ray,2024-02-01 07:00:00,Radiology
+P0112,Ravi Kumar,Recovery,2024-02-01 10:45:00,ICU
+P0113,Pooja Gupta,Discharge,2024-02-04 02:00:00,OPD
+P0113,Pooja Gupta,Recovery,2024-02-04 03:45:00,ICU
+P0113,Pooja Gupta,Blood Test,2024-02-04 07:00:00,Lab
+P0113,Pooja Gupta,Surgery,2024-02-04 10:15:00,OT
+P0113,Pooja Gupta,Registration,2024-02-04 11:15:00,OPD
+P0113,Pooja Gupta,X-Ray,2024-02-04 14:00:00,Radiology
+P0113,Pooja Gupta,Consultation,2024-02-04 17:45:00,OPD
+P0114,Sonia Chatterjee,Blood Test,2024-01-18 01:45:00,Lab
+P0114,Sonia Chatterjee,Triage,2024-01-18 04:45:00,ER
+P0114,Sonia Chatterjee,Discharge,2024-01-18 06:00:00,OPD
+P0114,Sonia Chatterjee,X-Ray,2024-01-18 07:00:00,Radiology
+P0114,Sonia Chatterjee,Recovery,2024-01-18 10:00:00,ICU
+P0114,Sonia Chatterjee,Surgery,2024-01-18 12:00:00,OT
+P0114,Sonia Chatterjee,Registration,2024-01-18 13:00:00,OPD
+P0115,Manish Rao,Blood Test,2024-01-22 03:30:00,Lab
+P0115,Manish Rao,Consultation,2024-01-22 07:00:00,OPD
+P0115,Manish Rao,Triage,2024-01-22 08:30:00,ER
+P0115,Manish Rao,Registration,2024-01-22 09:45:00,OPD
+P0115,Manish Rao,Surgery,2024-01-22 12:15:00,OT
+P0115,Manish Rao,X-Ray,2024-01-22 14:15:00,Radiology
+P0115,Manish Rao,Discharge,2024-01-22 17:30:00,OPD
+P0116,Deepa Menon,Discharge,2024-01-19 02:45:00,OPD
+P0116,Deepa Menon,Registration,2024-01-19 04:30:00,OPD
+P0116,Deepa Menon,X-Ray,2024-01-19 05:45:00,Radiology
+P0116,Deepa Menon,Blood Test,2024-01-19 08:00:00,Lab
+P0116,Deepa Menon,Surgery,2024-01-19 10:00:00,OT
+P0116,Deepa Menon,Consultation,2024-01-19 13:45:00,OPD
+P0116,Deepa Menon,Triage,2024-01-19 16:00:00,ER
+P0116,Deepa Menon,Recovery,2024-01-19 18:15:00,ICU
+P0117,Rahul Verma,Surgery,2024-01-17 03:15:00,OT
+P0117,Rahul Verma,Discharge,2024-01-17 04:45:00,OPD
+P0117,Rahul Verma,Registration,2024-01-17 06:45:00,OPD
+P0117,Rahul Verma,Blood Test,2024-01-17 08:00:00,Lab
+P0117,Rahul Verma,X-Ray,2024-01-17 11:15:00,Radiology
+P0118,Neha Bose,Surgery,2024-01-18 03:45:00,OT
+P0118,Neha Bose,X-Ray,2024-01-18 05:00:00,Radiology
+P0118,Neha Bose,Registration,2024-01-18 07:15:00,OPD
+P0118,Neha Bose,Triage,2024-01-18 10:45:00,ER
+P0118,Neha Bose,Consultation,2024-01-18 13:30:00,OPD
+P0119,Ajay Kulkarni,Surgery,2024-01-25 01:30:00,OT
+P0119,Ajay Kulkarni,X-Ray,2024-01-25 04:15:00,Radiology
+P0119,Ajay Kulkarni,Recovery,2024-01-25 05:30:00,ICU
+P0119,Ajay Kulkarni,Discharge,2024-01-25 08:45:00,OPD
+P0119,Ajay Kulkarni,Blood Test,2024-01-25 10:15:00,Lab
+P0119,Ajay Kulkarni,Triage,2024-01-25 14:00:00,ER
+P0119,Ajay Kulkarni,Registration,2024-01-25 16:15:00,OPD
+P0119,Ajay Kulkarni,Consultation,2024-01-25 17:45:00,OPD
+P0120,Anita Desai,Blood Test,2024-01-29 01:30:00,Lab
+P0120,Anita Desai,Discharge,2024-01-29 02:45:00,OPD
+P0120,Anita Desai,Consultation,2024-01-29 06:30:00,OPD
+P0120,Anita Desai,X-Ray,2024-01-29 07:30:00,Radiology
+P0120,Anita Desai,Surgery,2024-01-29 10:30:00,OT
+P0120,Anita Desai,Triage,2024-01-29 11:30:00,ER
+P0120,Anita Desai,Recovery,2024-01-29 13:15:00,ICU
+P0121,Ahmed Khan,Triage,2024-01-31 02:30:00,ER
+P0121,Ahmed Khan,Surgery,2024-01-31 04:15:00,OT
+P0121,Ahmed Khan,Discharge,2024-01-31 08:00:00,OPD
+P0121,Ahmed Khan,Registration,2024-01-31 09:00:00,OPD
+P0121,Ahmed Khan,Recovery,2024-01-31 12:45:00,ICU
+P0122,Ravi Kumar,Consultation,2024-01-31 03:45:00,OPD
+P0122,Ravi Kumar,Discharge,2024-01-31 04:45:00,OPD
+P0122,Ravi Kumar,X-Ray,2024-01-31 06:00:00,Radiology
+P0122,Ravi Kumar,Registration,2024-01-31 07:15:00,OPD
+P0123,Amit Trivedi,Consultation,2024-01-29 03:15:00,OPD
+P0123,Amit Trivedi,Recovery,2024-01-29 06:30:00,ICU
+P0123,Amit Trivedi,X-Ray,2024-01-29 08:30:00,Radiology
+P0123,Amit Trivedi,Surgery,2024-01-29 11:30:00,OT
+P0123,Amit Trivedi,Blood Test,2024-01-29 13:15:00,Lab
+P0123,Amit Trivedi,Registration,2024-01-29 16:00:00,OPD
+P0123,Amit Trivedi,Triage,2024-01-29 19:45:00,ER
+P0123,Amit Trivedi,Discharge,2024-01-29 20:45:00,OPD
+P0124,Sneha Reddy,Discharge,2024-02-02 01:00:00,OPD
+P0124,Sneha Reddy,Recovery,2024-02-02 02:15:00,ICU
+P0124,Sneha Reddy,Blood Test,2024-02-02 06:00:00,Lab
+P0124,Sneha Reddy,X-Ray,2024-02-02 08:00:00,Radiology
+P0125,Arjun Patel,Registration,2024-01-19 03:45:00,OPD
+P0125,Arjun Patel,Triage,2024-01-19 05:15:00,ER
+P0125,Arjun Patel,X-Ray,2024-01-19 06:30:00,Radiology
+P0125,Arjun Patel,Discharge,2024-01-19 10:15:00,OPD
+P0125,Arjun Patel,Recovery,2024-01-19 13:45:00,ICU
+P0125,Arjun Patel,Surgery,2024-01-19 16:00:00,OT
+P0126,Arjun Patel,Surgery,2024-01-25 01:30:00,OT
+P0126,Arjun Patel,Registration,2024-01-25 04:15:00,OPD
+P0126,Arjun Patel,Recovery,2024-01-25 05:45:00,ICU
+P0126,Arjun Patel,Blood Test,2024-01-25 09:30:00,Lab
+P0126,Arjun Patel,Triage,2024-01-25 11:45:00,ER
+P0126,Arjun Patel,Discharge,2024-01-25 15:30:00,OPD
+P0126,Arjun Patel,Consultation,2024-01-25 17:00:00,OPD
+P0126,Arjun Patel,X-Ray,2024-01-25 18:00:00,Radiology
+P0127,Arjun Patel,X-Ray,2024-01-26 01:00:00,Radiology
+P0127,Arjun Patel,Blood Test,2024-01-26 02:30:00,Lab
+P0127,Arjun Patel,Surgery,2024-01-26 05:00:00,OT
+P0127,Arjun Patel,Triage,2024-01-26 07:00:00,ER
+P0127,Arjun Patel,Recovery,2024-01-26 08:00:00,ICU
+P0127,Arjun Patel,Consultation,2024-01-26 09:45:00,OPD
+P0128,Ajay Kulkarni,Recovery,2024-01-27 01:30:00,ICU
+P0128,Ajay Kulkarni,Registration,2024-01-27 04:15:00,OPD
+P0128,Ajay Kulkarni,Discharge,2024-01-27 05:30:00,OPD
+P0128,Ajay Kulkarni,Surgery,2024-01-27 08:45:00,OT
+P0128,Ajay Kulkarni,X-Ray,2024-01-27 12:30:00,Radiology
+P0128,Ajay Kulkarni,Blood Test,2024-01-27 13:45:00,Lab
+P0128,Ajay Kulkarni,Consultation,2024-01-27 16:15:00,OPD
+P0128,Ajay Kulkarni,Triage,2024-01-27 19:00:00,ER
+P0129,Ahmed Khan,X-Ray,2024-01-24 02:00:00,Radiology
+P0129,Ahmed Khan,Blood Test,2024-01-24 04:30:00,Lab
+P0129,Ahmed Khan,Discharge,2024-01-24 06:15:00,OPD
+P0129,Ahmed Khan,Recovery,2024-01-24 09:30:00,ICU
+P0130,Ajay Kulkarni,X-Ray,2024-01-25 03:45:00,Radiology
+P0130,Ajay Kulkarni,Discharge,2024-01-25 06:30:00,OPD
+P0130,Ajay Kulkarni,Registration,2024-01-25 09:15:00,OPD
+P0130,Ajay Kulkarni,Blood Test,2024-01-25 12:30:00,Lab
+P0131,Kavita Nair,Blood Test,2024-01-24 03:45:00,Lab
+P0131,Kavita Nair,Discharge,2024-01-24 07:00:00,OPD
+P0131,Kavita Nair,X-Ray,2024-01-24 09:45:00,Radiology
+P0131,Kavita Nair,Triage,2024-01-24 12:30:00,ER
+P0131,Kavita Nair,Recovery,2024-01-24 14:30:00,ICU
+P0131,Kavita Nair,Consultation,2024-01-24 17:45:00,OPD
+P0132,Kiran Pillai,X-Ray,2024-01-24 03:00:00,Radiology
+P0132,Kiran Pillai,Surgery,2024-01-24 05:45:00,OT
+P0132,Kiran Pillai,Consultation,2024-01-24 07:15:00,OPD
+P0132,Kiran Pillai,Registration,2024-01-24 08:45:00,OPD
+P0132,Kiran Pillai,Blood Test,2024-01-24 12:00:00,Lab
+P0132,Kiran Pillai,Discharge,2024-01-24 15:45:00,OPD
+P0132,Kiran Pillai,Recovery,2024-01-24 17:45:00,ICU
+P0132,Kiran Pillai,Triage,2024-01-24 20:30:00,ER
+P0133,Kiran Pillai,Recovery,2024-01-26 01:00:00,ICU
+P0133,Kiran Pillai,Consultation,2024-01-26 04:45:00,OPD
+P0133,Kiran Pillai,Registration,2024-01-26 07:30:00,OPD
+P0133,Kiran Pillai,X-Ray,2024-01-26 08:30:00,Radiology
+P0133,Kiran Pillai,Surgery,2024-01-26 10:00:00,OT
+P0133,Kiran Pillai,Blood Test,2024-01-26 11:15:00,Lab
+P0133,Kiran Pillai,Discharge,2024-01-26 13:45:00,OPD
+P0134,Manish Rao,X-Ray,2024-01-17 01:15:00,Radiology
+P0134,Manish Rao,Discharge,2024-01-17 03:45:00,OPD
+P0134,Manish Rao,Registration,2024-01-17 06:30:00,OPD
+P0134,Manish Rao,Blood Test,2024-01-17 08:15:00,Lab
+P0134,Manish Rao,Surgery,2024-01-17 11:00:00,OT
+P0134,Manish Rao,Triage,2024-01-17 12:45:00,ER
+P0134,Manish Rao,Recovery,2024-01-17 16:30:00,ICU
+P0135,Suresh Iyer,Consultation,2024-01-15 02:00:00,OPD
+P0135,Suresh Iyer,Registration,2024-01-15 05:15:00,OPD
+P0135,Suresh Iyer,Surgery,2024-01-15 08:30:00,OT
+P0135,Suresh Iyer,Recovery,2024-01-15 11:45:00,ICU
+P0136,Sonia Chatterjee,Surgery,2024-01-27 03:15:00,OT
+P0136,Sonia Chatterjee,Consultation,2024-01-27 05:00:00,OPD
+P0136,Sonia Chatterjee,Blood Test,2024-01-27 07:00:00,Lab
+P0136,Sonia Chatterjee,Discharge,2024-01-27 10:15:00,OPD
+P0136,Sonia Chatterjee,Triage,2024-01-27 13:00:00,ER
+P0137,Manish Rao,Blood Test,2024-02-02 01:15:00,Lab
+P0137,Manish Rao,Triage,2024-02-02 03:45:00,ER
+P0137,Manish Rao,X-Ray,2024-02-02 05:30:00,Radiology
+P0137,Manish Rao,Registration,2024-02-02 07:00:00,OPD
+P0138,Neha Bose,Surgery,2024-01-26 02:15:00,OT
+P0138,Neha Bose,Consultation,2024-01-26 05:45:00,OPD
+P0138,Neha Bose,Blood Test,2024-01-26 08:45:00,Lab
+P0138,Neha Bose,Recovery,2024-01-26 12:00:00,ICU
+P0138,Neha Bose,Discharge,2024-01-26 14:00:00,OPD
+P0138,Neha Bose,X-Ray,2024-01-26 15:30:00,Radiology
+P0138,Neha Bose,Registration,2024-01-26 16:45:00,OPD
+P0138,Neha Bose,Triage,2024-01-26 19:00:00,ER
+P0139,Rohit Malhotra,Recovery,2024-01-30 03:15:00,ICU
+P0139,Rohit Malhotra,Consultation,2024-01-30 06:30:00,OPD
+P0139,Rohit Malhotra,Triage,2024-01-30 09:00:00,ER
+P0139,Rohit Malhotra,Discharge,2024-01-30 10:15:00,OPD
+P0139,Rohit Malhotra,Blood Test,2024-01-30 13:00:00,Lab
+P0139,Rohit Malhotra,Surgery,2024-01-30 16:00:00,OT
+P0139,Rohit Malhotra,Registration,2024-01-30 18:00:00,OPD
+P0140,Neha Bose,Blood Test,2024-01-28 03:45:00,Lab
+P0140,Neha Bose,Recovery,2024-01-28 06:30:00,ICU
+P0140,Neha Bose,Discharge,2024-01-28 08:45:00,OPD
+P0140,Neha Bose,Consultation,2024-01-28 09:45:00,OPD
+P0140,Neha Bose,Surgery,2024-01-28 11:15:00,OT
+P0141,Meena Sharma,Blood Test,2024-01-30 03:00:00,Lab
+P0141,Meena Sharma,Consultation,2024-01-30 06:00:00,OPD
+P0141,Meena Sharma,X-Ray,2024-01-30 08:30:00,Radiology
+P0141,Meena Sharma,Triage,2024-01-30 11:30:00,ER
+P0141,Meena Sharma,Discharge,2024-01-30 15:15:00,OPD
+P0141,Meena Sharma,Surgery,2024-01-30 18:30:00,OT
+P0142,Deepa Menon,Blood Test,2024-01-23 02:00:00,Lab
+P0142,Deepa Menon,X-Ray,2024-01-23 04:00:00,Radiology
+P0142,Deepa Menon,Registration,2024-01-23 05:15:00,OPD
+P0142,Deepa Menon,Discharge,2024-01-23 08:45:00,OPD
+P0143,Amit Trivedi,X-Ray,2024-02-01 02:15:00,Radiology
+P0143,Amit Trivedi,Consultation,2024-02-01 04:45:00,OPD
+P0143,Amit Trivedi,Triage,2024-02-01 07:15:00,ER
+P0143,Amit Trivedi,Surgery,2024-02-01 10:15:00,OT
+P0143,Amit Trivedi,Recovery,2024-02-01 12:00:00,ICU
+P0143,Amit Trivedi,Registration,2024-02-01 13:30:00,OPD
+P0143,Amit Trivedi,Blood Test,2024-02-01 16:45:00,Lab
+P0144,Ahmed Khan,X-Ray,2024-01-30 01:30:00,Radiology
+P0144,Ahmed Khan,Surgery,2024-01-30 05:15:00,OT
+P0144,Ahmed Khan,Discharge,2024-01-30 08:00:00,OPD
+P0144,Ahmed Khan,Triage,2024-01-30 09:00:00,ER
+P0144,Ahmed Khan,Blood Test,2024-01-30 11:30:00,Lab
+P0145,Pooja Gupta,Discharge,2024-02-04 03:30:00,OPD
+P0145,Pooja Gupta,X-Ray,2024-02-04 05:15:00,Radiology
+P0145,Pooja Gupta,Consultation,2024-02-04 07:00:00,OPD
+P0145,Pooja Gupta,Registration,2024-02-04 08:45:00,OPD
+P0145,Pooja Gupta,Surgery,2024-02-04 11:15:00,OT
+P0145,Pooja Gupta,Recovery,2024-02-04 13:45:00,ICU
+P0145,Pooja Gupta,Triage,2024-02-04 17:00:00,ER
+P0146,Kiran Pillai,Surgery,2024-01-15 01:15:00,OT
+P0146,Kiran Pillai,Discharge,2024-01-15 04:00:00,OPD
+P0146,Kiran Pillai,Registration,2024-01-15 05:45:00,OPD
+P0146,Kiran Pillai,Recovery,2024-01-15 07:00:00,ICU
+P0146,Kiran Pillai,Consultation,2024-01-15 10:30:00,OPD
+P0146,Kiran Pillai,X-Ray,2024-01-15 12:00:00,Radiology
+P0146,Kiran Pillai,Triage,2024-01-15 13:30:00,ER
+P0147,Rahul Verma,Surgery,2024-01-16 02:30:00,OT
+P0147,Rahul Verma,Discharge,2024-01-16 05:45:00,OPD
+P0147,Rahul Verma,Recovery,2024-01-16 07:45:00,ICU
+P0147,Rahul Verma,Triage,2024-01-16 10:45:00,ER
+P0148,Ravi Kumar,Discharge,2024-01-31 03:45:00,OPD
+P0148,Ravi Kumar,Registration,2024-01-31 04:45:00,OPD
+P0148,Ravi Kumar,Triage,2024-01-31 08:15:00,ER
+P0148,Ravi Kumar,Consultation,2024-01-31 10:00:00,OPD
+P0148,Ravi Kumar,Surgery,2024-01-31 13:15:00,OT
+P0149,Neha Bose,Blood Test,2024-01-18 02:30:00,Lab
+P0149,Neha Bose,Discharge,2024-01-18 04:45:00,OPD
+P0149,Neha Bose,Registration,2024-01-18 07:00:00,OPD
+P0149,Neha Bose,Surgery,2024-01-18 10:15:00,OT
+P0150,Arjun Patel,Registration,2024-01-28 03:45:00,OPD
+P0150,Arjun Patel,Consultation,2024-01-28 04:45:00,OPD
+P0150,Arjun Patel,Surgery,2024-01-28 06:00:00,OT
+P0150,Arjun Patel,Triage,2024-01-28 07:45:00,ER
+P0150,Arjun Patel,Blood Test,2024-01-28 10:30:00,Lab
+P0150,Arjun Patel,Recovery,2024-01-28 12:45:00,ICU
+P0150,Arjun Patel,Discharge,2024-01-28 14:15:00,OPD
+P0150,Arjun Patel,X-Ray,2024-01-28 17:15:00,Radiology
+P0151,Anita Desai,Consultation,2024-01-24 03:00:00,OPD
+P0151,Anita Desai,Recovery,2024-01-24 04:45:00,ICU
+P0151,Anita Desai,Surgery,2024-01-24 06:45:00,OT
+P0151,Anita Desai,Registration,2024-01-24 08:30:00,OPD
+P0151,Anita Desai,X-Ray,2024-01-24 11:30:00,Radiology
+P0151,Anita Desai,Discharge,2024-01-24 14:30:00,OPD
+P0151,Anita Desai,Blood Test,2024-01-24 17:00:00,Lab
+P0151,Anita Desai,Triage,2024-01-24 18:45:00,ER
+P0152,Kiran Pillai,Surgery,2024-02-02 01:00:00,OT
+P0152,Kiran Pillai,Consultation,2024-02-02 03:15:00,OPD
+P0152,Kiran Pillai,Discharge,2024-02-02 04:15:00,OPD
+P0152,Kiran Pillai,Triage,2024-02-02 06:45:00,ER
+P0152,Kiran Pillai,Blood Test,2024-02-02 10:30:00,Lab
+P0152,Kiran Pillai,Registration,2024-02-02 13:15:00,OPD
+P0152,Kiran Pillai,X-Ray,2024-02-02 14:30:00,Radiology
+P0153,Rahul Verma,Consultation,2024-01-19 03:30:00,OPD
+P0153,Rahul Verma,Registration,2024-01-19 05:30:00,OPD
+P0153,Rahul Verma,Discharge,2024-01-19 08:15:00,OPD
+P0153,Rahul Verma,Triage,2024-01-19 11:30:00,ER
+P0154,Meena Sharma,Triage,2024-01-24 03:15:00,ER
+P0154,Meena Sharma,Blood Test,2024-01-24 04:15:00,Lab
+P0154,Meena Sharma,Registration,2024-01-24 07:30:00,OPD
+P0154,Meena Sharma,Recovery,2024-01-24 10:30:00,ICU
+P0154,Meena Sharma,Surgery,2024-01-24 12:15:00,OT
+P0155,Pooja Gupta,Consultation,2024-01-25 02:30:00,OPD
+P0155,Pooja Gupta,Triage,2024-01-25 05:30:00,ER
+P0155,Pooja Gupta,X-Ray,2024-01-25 07:30:00,Radiology
+P0155,Pooja Gupta,Recovery,2024-01-25 10:15:00,ICU
+P0155,Pooja Gupta,Surgery,2024-01-25 13:45:00,OT
+P0155,Pooja Gupta,Blood Test,2024-01-25 15:30:00,Lab
+P0155,Pooja Gupta,Registration,2024-01-25 18:45:00,OPD
+P0155,Pooja Gupta,Discharge,2024-01-25 21:00:00,OPD
+P0156,Rahul Verma,Triage,2024-01-15 01:00:00,ER
+P0156,Rahul Verma,Discharge,2024-01-15 02:00:00,OPD
+P0156,Rahul Verma,Surgery,2024-01-15 04:30:00,OT
+P0156,Rahul Verma,Consultation,2024-01-15 06:45:00,OPD
+P0157,Sneha Reddy,Recovery,2024-01-28 03:30:00,ICU
+P0157,Sneha Reddy,Triage,2024-01-28 05:30:00,ER
+P0157,Sneha Reddy,X-Ray,2024-01-28 09:00:00,Radiology
+P0157,Sneha Reddy,Discharge,2024-01-28 10:00:00,OPD
+P0158,Sneha Reddy,Registration,2024-01-24 02:00:00,OPD
+P0158,Sneha Reddy,Blood Test,2024-01-24 05:45:00,Lab
+P0158,Sneha Reddy,Discharge,2024-01-24 07:15:00,OPD
+P0158,Sneha Reddy,Recovery,2024-01-24 08:45:00,ICU
+P0158,Sneha Reddy,X-Ray,2024-01-24 12:15:00,Radiology
+P0159,Amit Trivedi,Discharge,2024-02-01 01:15:00,OPD
+P0159,Amit Trivedi,X-Ray,2024-02-01 03:00:00,Radiology
+P0159,Amit Trivedi,Consultation,2024-02-01 04:15:00,OPD
+P0159,Amit Trivedi,Blood Test,2024-02-01 07:45:00,Lab
+P0159,Amit Trivedi,Triage,2024-02-01 10:45:00,ER
+P0160,Suresh Iyer,Recovery,2024-01-18 01:15:00,ICU
+P0160,Suresh Iyer,Discharge,2024-01-18 04:00:00,OPD
+P0160,Suresh Iyer,Surgery,2024-01-18 05:15:00,OT
+P0160,Suresh Iyer,X-Ray,2024-01-18 08:45:00,Radiology
+P0161,Arjun Patel,Blood Test,2024-01-26 02:00:00,Lab
+P0161,Arjun Patel,Recovery,2024-01-26 05:00:00,ICU
+P0161,Arjun Patel,Consultation,2024-01-26 08:15:00,OPD
+P0161,Arjun Patel,Discharge,2024-01-26 12:00:00,OPD
+P0162,Arjun Patel,Registration,2024-01-27 03:30:00,OPD
+P0162,Arjun Patel,Blood Test,2024-01-27 06:15:00,Lab
+P0162,Arjun Patel,Surgery,2024-01-27 08:30:00,OT
+P0162,Arjun Patel,Triage,2024-01-27 09:45:00,ER
+P0162,Arjun Patel,Consultation,2024-01-27 10:45:00,OPD
+P0162,Arjun Patel,Recovery,2024-01-27 11:45:00,ICU
+P0162,Arjun Patel,X-Ray,2024-01-27 13:30:00,Radiology
+P0162,Arjun Patel,Discharge,2024-01-27 16:00:00,OPD
+P0163,Deepa Menon,Surgery,2024-01-24 02:30:00,OT
+P0163,Deepa Menon,Recovery,2024-01-24 03:30:00,ICU
+P0163,Deepa Menon,Triage,2024-01-24 05:00:00,ER
+P0163,Deepa Menon,Blood Test,2024-01-24 08:00:00,Lab
+P0164,Vikram Joshi,X-Ray,2024-01-31 01:30:00,Radiology
+P0164,Vikram Joshi,Registration,2024-01-31 03:45:00,OPD
+P0164,Vikram Joshi,Surgery,2024-01-31 05:30:00,OT
+P0164,Vikram Joshi,Triage,2024-01-31 07:45:00,ER
+P0164,Vikram Joshi,Discharge,2024-01-31 09:30:00,OPD
+P0164,Vikram Joshi,Consultation,2024-01-31 10:45:00,OPD
+P0165,Priya Singh,Registration,2024-01-21 02:30:00,OPD
+P0165,Priya Singh,Recovery,2024-01-21 05:30:00,ICU
+P0165,Priya Singh,Triage,2024-01-21 09:00:00,ER
+P0165,Priya Singh,Surgery,2024-01-21 10:00:00,OT
+P0166,Arjun Patel,Discharge,2024-01-18 01:45:00,OPD
+P0166,Arjun Patel,Recovery,2024-01-18 03:00:00,ICU
+P0166,Arjun Patel,Triage,2024-01-18 06:45:00,ER
+P0166,Arjun Patel,Registration,2024-01-18 10:30:00,OPD
+P0166,Arjun Patel,X-Ray,2024-01-18 12:30:00,Radiology
+P0167,Manish Rao,X-Ray,2024-01-19 01:15:00,Radiology
+P0167,Manish Rao,Discharge,2024-01-19 04:45:00,OPD
+P0167,Manish Rao,Triage,2024-01-19 07:30:00,ER
+P0167,Manish Rao,Surgery,2024-01-19 11:15:00,OT
+P0167,Manish Rao,Recovery,2024-01-19 12:15:00,ICU
+P0167,Manish Rao,Consultation,2024-01-19 15:00:00,OPD
+P0167,Manish Rao,Blood Test,2024-01-19 16:45:00,Lab
+P0168,Vikram Joshi,Blood Test,2024-02-01 02:30:00,Lab
+P0168,Vikram Joshi,Surgery,2024-02-01 06:00:00,OT
+P0168,Vikram Joshi,Consultation,2024-02-01 08:30:00,OPD
+P0168,Vikram Joshi,Registration,2024-02-01 09:30:00,OPD
+P0168,Vikram Joshi,Discharge,2024-02-01 11:45:00,OPD
+P0168,Vikram Joshi,X-Ray,2024-02-01 13:15:00,Radiology
+P0168,Vikram Joshi,Triage,2024-02-01 15:00:00,ER
+P0168,Vikram Joshi,Recovery,2024-02-01 18:30:00,ICU
+P0169,Kiran Pillai,X-Ray,2024-02-01 03:00:00,Radiology
+P0169,Kiran Pillai,Registration,2024-02-01 04:45:00,OPD
+P0169,Kiran Pillai,Triage,2024-02-01 07:00:00,ER
+P0169,Kiran Pillai,Surgery,2024-02-01 08:15:00,OT
+P0169,Kiran Pillai,Discharge,2024-02-01 11:45:00,OPD
+P0170,Pooja Gupta,Registration,2024-02-01 02:15:00,OPD
+P0170,Pooja Gupta,Surgery,2024-02-01 04:15:00,OT
+P0170,Pooja Gupta,Recovery,2024-02-01 05:15:00,ICU
+P0170,Pooja Gupta,X-Ray,2024-02-01 06:30:00,Radiology
+P0170,Pooja Gupta,Triage,2024-02-01 08:15:00,ER
+P0170,Pooja Gupta,Consultation,2024-02-01 09:45:00,OPD
+P0170,Pooja Gupta,Discharge,2024-02-01 13:00:00,OPD
+P0170,Pooja Gupta,Blood Test,2024-02-01 14:30:00,Lab
+P0171,Sneha Reddy,Registration,2024-01-31 02:00:00,OPD
+P0171,Sneha Reddy,Discharge,2024-01-31 04:45:00,OPD
+P0171,Sneha Reddy,Triage,2024-01-31 07:45:00,ER
+P0171,Sneha Reddy,Consultation,2024-01-31 10:15:00,OPD
+P0171,Sneha Reddy,Surgery,2024-01-31 12:30:00,OT
+P0171,Sneha Reddy,Recovery,2024-01-31 14:15:00,ICU
+P0172,Neha Bose,X-Ray,2024-02-02 01:45:00,Radiology
+P0172,Neha Bose,Surgery,2024-02-02 04:15:00,OT
+P0172,Neha Bose,Consultation,2024-02-02 05:30:00,OPD
+P0172,Neha Bose,Recovery,2024-02-02 08:30:00,ICU
+P0172,Neha Bose,Discharge,2024-02-02 12:15:00,OPD
+P0172,Neha Bose,Registration,2024-02-02 15:15:00,OPD
+P0173,Sneha Reddy,Surgery,2024-01-17 01:30:00,OT
+P0173,Sneha Reddy,Recovery,2024-01-17 03:45:00,ICU
+P0173,Sneha Reddy,Consultation,2024-01-17 06:45:00,OPD
+P0173,Sneha Reddy,Triage,2024-01-17 10:15:00,ER
+P0173,Sneha Reddy,Registration,2024-01-17 12:15:00,OPD
+P0173,Sneha Reddy,Discharge,2024-01-17 14:30:00,OPD
+P0173,Sneha Reddy,Blood Test,2024-01-17 15:30:00,Lab
+P0173,Sneha Reddy,X-Ray,2024-01-17 18:00:00,Radiology
+P0174,Priya Singh,Registration,2024-01-20 02:45:00,OPD
+P0174,Priya Singh,Blood Test,2024-01-20 05:15:00,Lab
+P0174,Priya Singh,Recovery,2024-01-20 09:00:00,ICU
+P0174,Priya Singh,Surgery,2024-01-20 10:45:00,OT
+P0175,Kiran Pillai,X-Ray,2024-01-15 02:30:00,Radiology
+P0175,Kiran Pillai,Blood Test,2024-01-15 03:30:00,Lab
+P0175,Kiran Pillai,Registration,2024-01-15 05:45:00,OPD
+P0175,Kiran Pillai,Surgery,2024-01-15 08:00:00,OT
+P0175,Kiran Pillai,Discharge,2024-01-15 11:00:00,OPD
+P0176,Sonia Chatterjee,Surgery,2024-01-15 02:15:00,OT
+P0176,Sonia Chatterjee,Consultation,2024-01-15 06:00:00,OPD
+P0176,Sonia Chatterjee,Recovery,2024-01-15 07:00:00,ICU
+P0176,Sonia Chatterjee,Blood Test,2024-01-15 08:30:00,Lab
+P0177,Vikram Joshi,Recovery,2024-01-24 02:15:00,ICU
+P0177,Vikram Joshi,Surgery,2024-01-24 03:15:00,OT
+P0177,Vikram Joshi,Consultation,2024-01-24 06:00:00,OPD
+P0177,Vikram Joshi,Discharge,2024-01-24 07:00:00,OPD
+P0177,Vikram Joshi,X-Ray,2024-01-24 09:00:00,Radiology
+P0178,Deepa Menon,Consultation,2024-01-30 01:00:00,OPD
+P0178,Deepa Menon,Recovery,2024-01-30 02:15:00,ICU
+P0178,Deepa Menon,Surgery,2024-01-30 03:45:00,OT
+P0178,Deepa Menon,Discharge,2024-01-30 05:30:00,OPD
+P0179,Priya Singh,Recovery,2024-02-01 02:15:00,ICU
+P0179,Priya Singh,Blood Test,2024-02-01 05:00:00,Lab
+P0179,Priya Singh,Discharge,2024-02-01 07:15:00,OPD
+P0179,Priya Singh,X-Ray,2024-02-01 09:15:00,Radiology
+P0179,Priya Singh,Registration,2024-02-01 12:00:00,OPD
+P0179,Priya Singh,Consultation,2024-02-01 14:30:00,OPD
+P0180,Anita Desai,Registration,2024-01-26 03:45:00,OPD
+P0180,Anita Desai,Triage,2024-01-26 07:00:00,ER
+P0180,Anita Desai,Surgery,2024-01-26 10:00:00,OT
+P0180,Anita Desai,Discharge,2024-01-26 12:45:00,OPD
+P0180,Anita Desai,Consultation,2024-01-26 16:30:00,OPD
+P0180,Anita Desai,X-Ray,2024-01-26 19:45:00,Radiology
+P0181,Neha Bose,Triage,2024-01-29 01:15:00,ER
+P0181,Neha Bose,Blood Test,2024-01-29 02:30:00,Lab
+P0181,Neha Bose,Surgery,2024-01-29 03:30:00,OT
+P0181,Neha Bose,Registration,2024-01-29 05:30:00,OPD
+P0181,Neha Bose,Discharge,2024-01-29 09:15:00,OPD
+P0181,Neha Bose,Consultation,2024-01-29 10:30:00,OPD
+P0182,Amit Trivedi,Surgery,2024-01-27 03:30:00,OT
+P0182,Amit Trivedi,Discharge,2024-01-27 06:15:00,OPD
+P0182,Amit Trivedi,Registration,2024-01-27 08:00:00,OPD
+P0182,Amit Trivedi,Recovery,2024-01-27 09:45:00,ICU
+P0182,Amit Trivedi,Blood Test,2024-01-27 11:00:00,Lab
+P0182,Amit Trivedi,X-Ray,2024-01-27 14:00:00,Radiology
+P0183,Priya Singh,Triage,2024-02-04 02:45:00,ER
+P0183,Priya Singh,Recovery,2024-02-04 04:00:00,ICU
+P0183,Priya Singh,X-Ray,2024-02-04 06:45:00,Radiology
+P0183,Priya Singh,Consultation,2024-02-04 08:30:00,OPD
+P0183,Priya Singh,Surgery,2024-02-04 10:15:00,OT
+P0183,Priya Singh,Discharge,2024-02-04 12:30:00,OPD
+P0183,Priya Singh,Blood Test,2024-02-04 14:15:00,Lab
+P0183,Priya Singh,Registration,2024-02-04 16:45:00,OPD
+P0184,Ravi Kumar,Consultation,2024-01-19 02:45:00,OPD
+P0184,Ravi Kumar,X-Ray,2024-01-19 05:15:00,Radiology
+P0184,Ravi Kumar,Recovery,2024-01-19 09:00:00,ICU
+P0184,Ravi Kumar,Blood Test,2024-01-19 12:00:00,Lab
+P0184,Ravi Kumar,Registration,2024-01-19 13:45:00,OPD
+P0184,Ravi Kumar,Discharge,2024-01-19 15:30:00,OPD
+P0185,Neha Bose,Surgery,2024-01-19 03:00:00,OT
+P0185,Neha Bose,Recovery,2024-01-19 04:15:00,ICU
+P0185,Neha Bose,Registration,2024-01-19 05:15:00,OPD
+P0185,Neha Bose,Consultation,2024-01-19 06:15:00,OPD
+P0185,Neha Bose,Triage,2024-01-19 08:15:00,ER
+P0185,Neha Bose,Discharge,2024-01-19 10:30:00,OPD
+P0185,Neha Bose,Blood Test,2024-01-19 13:00:00,Lab
+P0185,Neha Bose,X-Ray,2024-01-19 15:45:00,Radiology
+P0186,Priya Singh,Blood Test,2024-01-29 01:45:00,Lab
+P0186,Priya Singh,X-Ray,2024-01-29 05:15:00,Radiology
+P0186,Priya Singh,Discharge,2024-01-29 07:30:00,OPD
+P0186,Priya Singh,Consultation,2024-01-29 09:30:00,OPD
+P0187,Kavita Nair,Recovery,2024-01-21 01:15:00,ICU
+P0187,Kavita Nair,Registration,2024-01-21 04:30:00,OPD
+P0187,Kavita Nair,Triage,2024-01-21 07:15:00,ER
+P0187,Kavita Nair,Consultation,2024-01-21 10:15:00,OPD
+P0188,Ravi Kumar,X-Ray,2024-02-03 02:30:00,Radiology
+P0188,Ravi Kumar,Surgery,2024-02-03 05:15:00,OT
+P0188,Ravi Kumar,Triage,2024-02-03 08:00:00,ER
+P0188,Ravi Kumar,Consultation,2024-02-03 10:15:00,OPD
+P0188,Ravi Kumar,Registration,2024-02-03 12:45:00,OPD
+P0188,Ravi Kumar,Blood Test,2024-02-03 16:30:00,Lab
+P0188,Ravi Kumar,Recovery,2024-02-03 19:30:00,ICU
+P0189,Ravi Kumar,Surgery,2024-01-17 02:30:00,OT
+P0189,Ravi Kumar,Consultation,2024-01-17 06:00:00,OPD
+P0189,Ravi Kumar,Discharge,2024-01-17 08:30:00,OPD
+P0189,Ravi Kumar,Recovery,2024-01-17 12:00:00,ICU
+P0189,Ravi Kumar,X-Ray,2024-01-17 13:15:00,Radiology
+P0189,Ravi Kumar,Triage,2024-01-17 16:30:00,ER
+P0189,Ravi Kumar,Registration,2024-01-17 18:15:00,OPD
+P0189,Ravi Kumar,Blood Test,2024-01-17 21:45:00,Lab
+P0190,Ahmed Khan,Discharge,2024-01-27 02:00:00,OPD
+P0190,Ahmed Khan,X-Ray,2024-01-27 05:15:00,Radiology
+P0190,Ahmed Khan,Recovery,2024-01-27 07:30:00,ICU
+P0190,Ahmed Khan,Blood Test,2024-01-27 11:15:00,Lab
+P0191,Pooja Gupta,Consultation,2024-01-19 03:30:00,OPD
+P0191,Pooja Gupta,Recovery,2024-01-19 06:45:00,ICU
+P0191,Pooja Gupta,Triage,2024-01-19 10:15:00,ER
+P0191,Pooja Gupta,Discharge,2024-01-19 13:15:00,OPD
+P0191,Pooja Gupta,Surgery,2024-01-19 14:45:00,OT
+P0191,Pooja Gupta,Blood Test,2024-01-19 16:15:00,Lab
+P0191,Pooja Gupta,Registration,2024-01-19 18:45:00,OPD
+P0191,Pooja Gupta,X-Ray,2024-01-19 21:15:00,Radiology
+P0192,Kiran Pillai,Discharge,2024-02-02 03:00:00,OPD
+P0192,Kiran Pillai,Recovery,2024-02-02 05:15:00,ICU
+P0192,Kiran Pillai,Registration,2024-02-02 08:15:00,OPD
+P0192,Kiran Pillai,Blood Test,2024-02-02 12:00:00,Lab
+P0192,Kiran Pillai,Surgery,2024-02-02 15:30:00,OT
+P0192,Kiran Pillai,X-Ray,2024-02-02 17:30:00,Radiology
+P0193,Ahmed Khan,Blood Test,2024-01-19 02:15:00,Lab
+P0193,Ahmed Khan,X-Ray,2024-01-19 04:00:00,Radiology
+P0193,Ahmed Khan,Discharge,2024-01-19 06:15:00,OPD
+P0193,Ahmed Khan,Consultation,2024-01-19 08:15:00,OPD
+P0193,Ahmed Khan,Surgery,2024-01-19 10:00:00,OT
+P0194,Rahul Verma,X-Ray,2024-01-19 03:45:00,Radiology
+P0194,Rahul Verma,Consultation,2024-01-19 07:30:00,OPD
+P0194,Rahul Verma,Triage,2024-01-19 10:15:00,ER
+P0194,Rahul Verma,Blood Test,2024-01-19 13:00:00,Lab
+P0194,Rahul Verma,Registration,2024-01-19 14:00:00,OPD
+P0195,Sonia Chatterjee,Surgery,2024-01-15 03:00:00,OT
+P0195,Sonia Chatterjee,Registration,2024-01-15 06:15:00,OPD
+P0195,Sonia Chatterjee,X-Ray,2024-01-15 07:45:00,Radiology
+P0195,Sonia Chatterjee,Consultation,2024-01-15 10:00:00,OPD
+P0195,Sonia Chatterjee,Triage,2024-01-15 11:45:00,ER
+P0196,Rohit Malhotra,Consultation,2024-01-28 03:15:00,OPD
+P0196,Rohit Malhotra,Triage,2024-01-28 06:00:00,ER
+P0196,Rohit Malhotra,Registration,2024-01-28 08:15:00,OPD
+P0196,Rohit Malhotra,Surgery,2024-01-28 10:00:00,OT
+P0196,Rohit Malhotra,X-Ray,2024-01-28 11:15:00,Radiology
+P0196,Rohit Malhotra,Recovery,2024-01-28 12:30:00,ICU
+P0196,Rohit Malhotra,Blood Test,2024-01-28 13:30:00,Lab
+P0196,Rohit Malhotra,Discharge,2024-01-28 16:45:00,OPD
+P0197,Priya Singh,Registration,2024-01-16 03:00:00,OPD
+P0197,Priya Singh,Blood Test,2024-01-16 06:00:00,Lab
+P0197,Priya Singh,Surgery,2024-01-16 07:00:00,OT
+P0197,Priya Singh,X-Ray,2024-01-16 09:45:00,Radiology
+P0197,Priya Singh,Discharge,2024-01-16 11:45:00,OPD
+P0197,Priya Singh,Consultation,2024-01-16 15:15:00,OPD
+P0198,Neha Bose,Blood Test,2024-01-28 03:00:00,Lab
+P0198,Neha Bose,Surgery,2024-01-28 06:30:00,OT
+P0198,Neha Bose,Recovery,2024-01-28 09:45:00,ICU
+P0198,Neha Bose,Registration,2024-01-28 11:45:00,OPD
+P0198,Neha Bose,X-Ray,2024-01-28 14:45:00,Radiology
+P0199,Kavita Nair,Triage,2024-01-21 02:15:00,ER
+P0199,Kavita Nair,Blood Test,2024-01-21 05:00:00,Lab
+P0199,Kavita Nair,Discharge,2024-01-21 07:15:00,OPD
+P0199,Kavita Nair,Consultation,2024-01-21 09:00:00,OPD
+P0200,Vikram Joshi,Surgery,2024-01-19 01:00:00,OT
+P0200,Vikram Joshi,Triage,2024-01-19 04:00:00,ER
+P0200,Vikram Joshi,Registration,2024-01-19 06:15:00,OPD
+P0200,Vikram Joshi,Discharge,2024-01-19 08:45:00,OPD
+P0200,Vikram Joshi,Consultation,2024-01-19 11:30:00,OPD
+P0200,Vikram Joshi,Blood Test,2024-01-19 12:30:00,Lab
+P0200,Vikram Joshi,Recovery,2024-01-19 13:30:00,ICU
+P0201,Kavita Nair,Surgery,2024-01-15 01:15:00,OT
+P0201,Kavita Nair,Blood Test,2024-01-15 03:45:00,Lab
+P0201,Kavita Nair,Discharge,2024-01-15 06:15:00,OPD
+P0201,Kavita Nair,Registration,2024-01-15 09:15:00,OPD
+P0201,Kavita Nair,Consultation,2024-01-15 11:45:00,OPD
+P0201,Kavita Nair,Recovery,2024-01-15 12:45:00,ICU
+P0202,Manish Rao,Discharge,2024-01-18 01:00:00,OPD
+P0202,Manish Rao,X-Ray,2024-01-18 02:00:00,Radiology
+P0202,Manish Rao,Blood Test,2024-01-18 04:45:00,Lab
+P0202,Manish Rao,Surgery,2024-01-18 08:30:00,OT
+P0202,Manish Rao,Consultation,2024-01-18 10:15:00,OPD
+P0202,Manish Rao,Recovery,2024-01-18 12:15:00,ICU
+P0202,Manish Rao,Registration,2024-01-18 15:30:00,OPD
+P0203,Neha Bose,Triage,2024-01-15 03:15:00,ER
+P0203,Neha Bose,Blood Test,2024-01-15 06:45:00,Lab
+P0203,Neha Bose,Recovery,2024-01-15 09:45:00,ICU
+P0203,Neha Bose,Registration,2024-01-15 12:00:00,OPD
+P0203,Neha Bose,Consultation,2024-01-15 14:30:00,OPD
+P0203,Neha Bose,Discharge,2024-01-15 18:15:00,OPD
+P0203,Neha Bose,X-Ray,2024-01-15 19:15:00,Radiology
+P0204,Ravi Kumar,Discharge,2024-01-30 02:15:00,OPD
+P0204,Ravi Kumar,Recovery,2024-01-30 04:45:00,ICU
+P0204,Ravi Kumar,Blood Test,2024-01-30 06:00:00,Lab
+P0204,Ravi Kumar,Triage,2024-01-30 09:45:00,ER
+P0204,Ravi Kumar,Registration,2024-01-30 12:00:00,OPD
+P0205,Arjun Patel,Discharge,2024-01-25 01:45:00,OPD
+P0205,Arjun Patel,Recovery,2024-01-25 04:45:00,ICU
+P0205,Arjun Patel,Consultation,2024-01-25 06:30:00,OPD
+P0205,Arjun Patel,Blood Test,2024-01-25 08:30:00,Lab
+P0205,Arjun Patel,Registration,2024-01-25 11:30:00,OPD
+P0205,Arjun Patel,Triage,2024-01-25 13:00:00,ER
+P0205,Arjun Patel,X-Ray,2024-01-25 16:15:00,Radiology
+P0206,Ajay Kulkarni,Surgery,2024-02-01 03:45:00,OT
+P0206,Ajay Kulkarni,Recovery,2024-02-01 07:15:00,ICU
+P0206,Ajay Kulkarni,Registration,2024-02-01 11:00:00,OPD
+P0206,Ajay Kulkarni,Triage,2024-02-01 12:00:00,ER
+P0206,Ajay Kulkarni,Blood Test,2024-02-01 15:15:00,Lab
+P0206,Ajay Kulkarni,Consultation,2024-02-01 16:45:00,OPD
+P0207,Pooja Gupta,Surgery,2024-01-19 03:45:00,OT
+P0207,Pooja Gupta,Discharge,2024-01-19 05:15:00,OPD
+P0207,Pooja Gupta,Registration,2024-01-19 08:30:00,OPD
+P0207,Pooja Gupta,Recovery,2024-01-19 09:30:00,ICU
+P0207,Pooja Gupta,Triage,2024-01-19 11:45:00,ER
+P0207,Pooja Gupta,Blood Test,2024-01-19 14:00:00,Lab
+P0208,Suresh Iyer,Recovery,2024-01-18 02:45:00,ICU
+P0208,Suresh Iyer,Registration,2024-01-18 06:00:00,OPD
+P0208,Suresh Iyer,Surgery,2024-01-18 08:00:00,OT
+P0208,Suresh Iyer,Consultation,2024-01-18 11:00:00,OPD
+P0209,Sonia Chatterjee,Discharge,2024-01-18 02:30:00,OPD
+P0209,Sonia Chatterjee,Consultation,2024-01-18 06:15:00,OPD
+P0209,Sonia Chatterjee,Triage,2024-01-18 08:30:00,ER
+P0209,Sonia Chatterjee,Recovery,2024-01-18 11:15:00,ICU
+P0209,Sonia Chatterjee,Surgery,2024-01-18 13:45:00,OT
+P0209,Sonia Chatterjee,X-Ray,2024-01-18 16:00:00,Radiology
+P0209,Sonia Chatterjee,Registration,2024-01-18 17:45:00,OPD
+P0210,Amit Trivedi,Consultation,2024-01-21 03:30:00,OPD
+P0210,Amit Trivedi,Recovery,2024-01-21 07:00:00,ICU
+P0210,Amit Trivedi,Surgery,2024-01-21 10:15:00,OT
+P0210,Amit Trivedi,Discharge,2024-01-21 13:30:00,OPD
+P0210,Amit Trivedi,X-Ray,2024-01-21 17:00:00,Radiology
+P0210,Amit Trivedi,Blood Test,2024-01-21 20:00:00,Lab
+P0210,Amit Trivedi,Registration,2024-01-21 22:45:00,OPD
+P0210,Amit Trivedi,Triage,2024-01-22 02:30:00,ER
+P0211,Sonia Chatterjee,Recovery,2024-01-27 01:00:00,ICU
+P0211,Sonia Chatterjee,Discharge,2024-01-27 04:00:00,OPD
+P0211,Sonia Chatterjee,Registration,2024-01-27 05:30:00,OPD
+P0211,Sonia Chatterjee,Consultation,2024-01-27 07:00:00,OPD
+P0211,Sonia Chatterjee,Surgery,2024-01-27 10:30:00,OT
+P0211,Sonia Chatterjee,Blood Test,2024-01-27 11:30:00,Lab
+P0212,Kavita Nair,Registration,2024-02-04 03:45:00,OPD
+P0212,Kavita Nair,X-Ray,2024-02-04 05:15:00,Radiology
+P0212,Kavita Nair,Blood Test,2024-02-04 08:15:00,Lab
+P0212,Kavita Nair,Discharge,2024-02-04 11:00:00,OPD
+P0212,Kavita Nair,Triage,2024-02-04 13:30:00,ER
+P0213,Sonia Chatterjee,Registration,2024-02-03 02:15:00,OPD
+P0213,Sonia Chatterjee,Surgery,2024-02-03 05:45:00,OT
+P0213,Sonia Chatterjee,X-Ray,2024-02-03 09:00:00,Radiology
+P0213,Sonia Chatterjee,Triage,2024-02-03 12:15:00,ER
+P0214,Kavita Nair,X-Ray,2024-01-27 01:45:00,Radiology
+P0214,Kavita Nair,Surgery,2024-01-27 04:15:00,OT
+P0214,Kavita Nair,Registration,2024-01-27 05:30:00,OPD
+P0214,Kavita Nair,Triage,2024-01-27 09:00:00,ER
+P0214,Kavita Nair,Consultation,2024-01-27 10:30:00,OPD
+P0214,Kavita Nair,Discharge,2024-01-27 12:45:00,OPD
+P0214,Kavita Nair,Recovery,2024-01-27 14:00:00,ICU
+P0215,Suresh Iyer,Registration,2024-01-25 03:15:00,OPD
+P0215,Suresh Iyer,Recovery,2024-01-25 04:15:00,ICU
+P0215,Suresh Iyer,Surgery,2024-01-25 07:30:00,OT
+P0215,Suresh Iyer,Consultation,2024-01-25 10:15:00,OPD
+P0215,Suresh Iyer,X-Ray,2024-01-25 11:45:00,Radiology
+P0215,Suresh Iyer,Triage,2024-01-25 13:00:00,ER
+P0215,Suresh Iyer,Blood Test,2024-01-25 16:30:00,Lab
+P0215,Suresh Iyer,Discharge,2024-01-25 19:00:00,OPD
+P0216,Kavita Nair,Discharge,2024-01-26 02:15:00,OPD
+P0216,Kavita Nair,Consultation,2024-01-26 05:30:00,OPD
+P0216,Kavita Nair,Surgery,2024-01-26 07:00:00,OT
+P0216,Kavita Nair,Registration,2024-01-26 09:00:00,OPD
+P0216,Kavita Nair,Recovery,2024-01-26 11:30:00,ICU
+P0217,Sonia Chatterjee,Registration,2024-01-16 02:15:00,OPD
+P0217,Sonia Chatterjee,Consultation,2024-01-16 04:15:00,OPD
+P0217,Sonia Chatterjee,X-Ray,2024-01-16 05:30:00,Radiology
+P0217,Sonia Chatterjee,Recovery,2024-01-16 08:30:00,ICU
+P0217,Sonia Chatterjee,Blood Test,2024-01-16 11:30:00,Lab
+P0217,Sonia Chatterjee,Triage,2024-01-16 12:45:00,ER
+P0218,Deepa Menon,Blood Test,2024-02-04 01:15:00,Lab
+P0218,Deepa Menon,Consultation,2024-02-04 03:00:00,OPD
+P0218,Deepa Menon,Surgery,2024-02-04 06:30:00,OT
+P0218,Deepa Menon,Discharge,2024-02-04 07:30:00,OPD
+P0219,Arjun Patel,X-Ray,2024-01-17 03:15:00,Radiology
+P0219,Arjun Patel,Recovery,2024-01-17 06:00:00,ICU
+P0219,Arjun Patel,Discharge,2024-01-17 08:45:00,OPD
+P0219,Arjun Patel,Consultation,2024-01-17 12:30:00,OPD
+P0220,Deepa Menon,Registration,2024-02-03 01:00:00,OPD
+P0220,Deepa Menon,Blood Test,2024-02-03 04:00:00,Lab
+P0220,Deepa Menon,Surgery,2024-02-03 06:00:00,OT
+P0220,Deepa Menon,Discharge,2024-02-03 08:30:00,OPD
+P0220,Deepa Menon,Consultation,2024-02-03 11:30:00,OPD
+P0220,Deepa Menon,X-Ray,2024-02-03 14:15:00,Radiology
+P0221,Manish Rao,Registration,2024-02-01 02:15:00,OPD
+P0221,Manish Rao,Blood Test,2024-02-01 04:45:00,Lab
+P0221,Manish Rao,Triage,2024-02-01 06:00:00,ER
+P0221,Manish Rao,Consultation,2024-02-01 07:00:00,OPD
+P0221,Manish Rao,Surgery,2024-02-01 08:45:00,OT
+P0221,Manish Rao,Discharge,2024-02-01 11:45:00,OPD
+P0221,Manish Rao,Recovery,2024-02-01 14:00:00,ICU
+P0222,Pooja Gupta,Recovery,2024-01-20 01:30:00,ICU
+P0222,Pooja Gupta,Surgery,2024-01-20 02:30:00,OT
+P0222,Pooja Gupta,Consultation,2024-01-20 03:30:00,OPD
+P0222,Pooja Gupta,Triage,2024-01-20 07:15:00,ER
+P0222,Pooja Gupta,Discharge,2024-01-20 10:15:00,OPD
+P0223,Kavita Nair,Consultation,2024-01-30 02:30:00,OPD
+P0223,Kavita Nair,Registration,2024-01-30 03:45:00,OPD
+P0223,Kavita Nair,Triage,2024-01-30 05:15:00,ER
+P0223,Kavita Nair,Discharge,2024-01-30 08:15:00,OPD
+P0224,Vikram Joshi,Discharge,2024-02-02 01:30:00,OPD
+P0224,Vikram Joshi,Blood Test,2024-02-02 04:15:00,Lab
+P0224,Vikram Joshi,X-Ray,2024-02-02 05:15:00,Radiology
+P0224,Vikram Joshi,Consultation,2024-02-02 07:30:00,OPD
+P0224,Vikram Joshi,Surgery,2024-02-02 09:15:00,OT
+P0224,Vikram Joshi,Recovery,2024-02-02 11:45:00,ICU
+P0225,Ahmed Khan,Discharge,2024-02-01 01:15:00,OPD
+P0225,Ahmed Khan,Blood Test,2024-02-01 04:15:00,Lab
+P0225,Ahmed Khan,Recovery,2024-02-01 06:30:00,ICU
+P0225,Ahmed Khan,X-Ray,2024-02-01 09:45:00,Radiology
+P0225,Ahmed Khan,Consultation,2024-02-01 11:45:00,OPD
+P0225,Ahmed Khan,Triage,2024-02-01 14:45:00,ER
+P0226,Ravi Kumar,Registration,2024-02-01 02:45:00,OPD
+P0226,Ravi Kumar,Recovery,2024-02-01 06:00:00,ICU
+P0226,Ravi Kumar,Consultation,2024-02-01 08:45:00,OPD
+P0226,Ravi Kumar,Surgery,2024-02-01 10:15:00,OT
+P0226,Ravi Kumar,Blood Test,2024-02-01 12:00:00,Lab
+P0226,Ravi Kumar,X-Ray,2024-02-01 15:00:00,Radiology
+P0226,Ravi Kumar,Discharge,2024-02-01 17:30:00,OPD
+P0226,Ravi Kumar,Triage,2024-02-01 20:30:00,ER
+P0227,Anita Desai,X-Ray,2024-01-30 02:00:00,Radiology
+P0227,Anita Desai,Recovery,2024-01-30 03:45:00,ICU
+P0227,Anita Desai,Consultation,2024-01-30 04:45:00,OPD
+P0227,Anita Desai,Triage,2024-01-30 07:15:00,ER
+P0227,Anita Desai,Blood Test,2024-01-30 08:15:00,Lab
+P0227,Anita Desai,Registration,2024-01-30 11:30:00,OPD
+P0227,Anita Desai,Discharge,2024-01-30 15:00:00,OPD
+P0227,Anita Desai,Surgery,2024-01-30 17:45:00,OT
+P0228,Ajay Kulkarni,Registration,2024-01-31 03:30:00,OPD
+P0228,Ajay Kulkarni,Surgery,2024-01-31 07:00:00,OT
+P0228,Ajay Kulkarni,X-Ray,2024-01-31 10:15:00,Radiology
+P0228,Ajay Kulkarni,Discharge,2024-01-31 13:00:00,OPD
+P0229,Pooja Gupta,Triage,2024-01-26 02:45:00,ER
+P0229,Pooja Gupta,Consultation,2024-01-26 05:45:00,OPD
+P0229,Pooja Gupta,X-Ray,2024-01-26 09:00:00,Radiology
+P0229,Pooja Gupta,Blood Test,2024-01-26 11:15:00,Lab
+P0229,Pooja Gupta,Discharge,2024-01-26 12:15:00,OPD
+P0229,Pooja Gupta,Surgery,2024-01-26 15:45:00,OT
+P0229,Pooja Gupta,Recovery,2024-01-26 17:00:00,ICU
+P0229,Pooja Gupta,Registration,2024-01-26 18:15:00,OPD
+P0230,Pooja Gupta,Triage,2024-01-30 02:15:00,ER
+P0230,Pooja Gupta,Surgery,2024-01-30 05:30:00,OT
+P0230,Pooja Gupta,Discharge,2024-01-30 09:15:00,OPD
+P0230,Pooja Gupta,Blood Test,2024-01-30 10:30:00,Lab
+P0230,Pooja Gupta,X-Ray,2024-01-30 11:45:00,Radiology
+P0230,Pooja Gupta,Consultation,2024-01-30 15:00:00,OPD
+P0230,Pooja Gupta,Registration,2024-01-30 16:00:00,OPD
+P0230,Pooja Gupta,Recovery,2024-01-30 19:15:00,ICU
+P0231,Meena Sharma,Consultation,2024-01-24 01:15:00,OPD
+P0231,Meena Sharma,Triage,2024-01-24 04:00:00,ER
+P0231,Meena Sharma,Discharge,2024-01-24 06:15:00,OPD
+P0231,Meena Sharma,Blood Test,2024-01-24 08:00:00,Lab
+P0231,Meena Sharma,Registration,2024-01-24 11:15:00,OPD
+P0232,Kiran Pillai,Consultation,2024-02-03 03:00:00,OPD
+P0232,Kiran Pillai,Triage,2024-02-03 04:45:00,ER
+P0232,Kiran Pillai,Surgery,2024-02-03 07:00:00,OT
+P0232,Kiran Pillai,X-Ray,2024-02-03 08:00:00,Radiology
+P0232,Kiran Pillai,Blood Test,2024-02-03 09:45:00,Lab
+P0233,Ahmed Khan,Triage,2024-01-30 03:15:00,ER
+P0233,Ahmed Khan,Discharge,2024-01-30 06:15:00,OPD
+P0233,Ahmed Khan,Blood Test,2024-01-30 10:00:00,Lab
+P0233,Ahmed Khan,Consultation,2024-01-30 13:45:00,OPD
+P0233,Ahmed Khan,Registration,2024-01-30 15:45:00,OPD
+P0233,Ahmed Khan,X-Ray,2024-01-30 19:30:00,Radiology
+P0233,Ahmed Khan,Surgery,2024-01-30 21:15:00,OT
+P0233,Ahmed Khan,Recovery,2024-01-30 23:45:00,ICU
+P0234,Kiran Pillai,Triage,2024-02-03 03:45:00,ER
+P0234,Kiran Pillai,Blood Test,2024-02-03 06:00:00,Lab
+P0234,Kiran Pillai,Discharge,2024-02-03 07:00:00,OPD
+P0234,Kiran Pillai,X-Ray,2024-02-03 10:00:00,Radiology
+P0234,Kiran Pillai,Recovery,2024-02-03 13:00:00,ICU
+P0234,Kiran Pillai,Registration,2024-02-03 15:15:00,OPD
+P0234,Kiran Pillai,Consultation,2024-02-03 18:45:00,OPD
+P0234,Kiran Pillai,Surgery,2024-02-03 21:15:00,OT
+P0235,Priya Singh,Recovery,2024-02-01 02:30:00,ICU
+P0235,Priya Singh,Surgery,2024-02-01 06:00:00,OT
+P0235,Priya Singh,Consultation,2024-02-01 09:45:00,OPD
+P0235,Priya Singh,X-Ray,2024-02-01 11:30:00,Radiology
+P0235,Priya Singh,Discharge,2024-02-01 15:15:00,OPD
+P0236,Sneha Reddy,Discharge,2024-01-27 03:15:00,OPD
+P0236,Sneha Reddy,X-Ray,2024-01-27 06:15:00,Radiology
+P0236,Sneha Reddy,Recovery,2024-01-27 09:30:00,ICU
+P0236,Sneha Reddy,Consultation,2024-01-27 11:45:00,OPD
+P0236,Sneha Reddy,Surgery,2024-01-27 13:00:00,OT
+P0236,Sneha Reddy,Blood Test,2024-01-27 16:45:00,Lab
+P0237,Suresh Iyer,Registration,2024-01-17 01:30:00,OPD
+P0237,Suresh Iyer,Triage,2024-01-17 03:00:00,ER
+P0237,Suresh Iyer,Blood Test,2024-01-17 04:00:00,Lab
+P0237,Suresh Iyer,Discharge,2024-01-17 07:45:00,OPD
+P0237,Suresh Iyer,Consultation,2024-01-17 10:15:00,OPD
+P0237,Suresh Iyer,Surgery,2024-01-17 13:15:00,OT
+P0237,Suresh Iyer,Recovery,2024-01-17 15:00:00,ICU
+P0237,Suresh Iyer,X-Ray,2024-01-17 17:00:00,Radiology
+P0238,Vikram Joshi,Consultation,2024-01-26 01:00:00,OPD
+P0238,Vikram Joshi,Triage,2024-01-26 02:00:00,ER
+P0238,Vikram Joshi,Registration,2024-01-26 04:45:00,OPD
+P0238,Vikram Joshi,Discharge,2024-01-26 07:30:00,OPD
+P0238,Vikram Joshi,Recovery,2024-01-26 09:45:00,ICU
+P0238,Vikram Joshi,X-Ray,2024-01-26 12:45:00,Radiology
+P0238,Vikram Joshi,Surgery,2024-01-26 15:45:00,OT
+P0238,Vikram Joshi,Blood Test,2024-01-26 17:15:00,Lab
+P0239,Sonia Chatterjee,Surgery,2024-01-23 01:45:00,OT
+P0239,Sonia Chatterjee,X-Ray,2024-01-23 04:45:00,Radiology
+P0239,Sonia Chatterjee,Recovery,2024-01-23 07:45:00,ICU
+P0239,Sonia Chatterjee,Triage,2024-01-23 11:15:00,ER
+P0239,Sonia Chatterjee,Consultation,2024-01-23 13:15:00,OPD
+P0239,Sonia Chatterjee,Blood Test,2024-01-23 16:45:00,Lab
+P0239,Sonia Chatterjee,Discharge,2024-01-23 20:15:00,OPD
+P0239,Sonia Chatterjee,Registration,2024-01-24 00:00:00,OPD
+P0240,Manish Rao,Discharge,2024-01-30 01:30:00,OPD
+P0240,Manish Rao,Recovery,2024-01-30 03:15:00,ICU
+P0240,Manish Rao,Triage,2024-01-30 06:30:00,ER
+P0240,Manish Rao,X-Ray,2024-01-30 09:45:00,Radiology
+P0240,Manish Rao,Blood Test,2024-01-30 12:30:00,Lab
+P0240,Manish Rao,Consultation,2024-01-30 14:30:00,OPD
+P0240,Manish Rao,Surgery,2024-01-30 18:00:00,OT
+P0240,Manish Rao,Registration,2024-01-30 19:30:00,OPD
+P0241,Arjun Patel,Surgery,2024-01-21 03:30:00,OT
+P0241,Arjun Patel,Registration,2024-01-21 04:45:00,OPD
+P0241,Arjun Patel,Consultation,2024-01-21 07:00:00,OPD
+P0241,Arjun Patel,Triage,2024-01-21 08:15:00,ER
+P0241,Arjun Patel,Blood Test,2024-01-21 10:30:00,Lab
+P0241,Arjun Patel,Discharge,2024-01-21 11:45:00,OPD
+P0241,Arjun Patel,X-Ray,2024-01-21 13:15:00,Radiology
+P0242,Ahmed Khan,Triage,2024-02-03 01:00:00,ER
+P0242,Ahmed Khan,Registration,2024-02-03 03:30:00,OPD
+P0242,Ahmed Khan,Surgery,2024-02-03 07:00:00,OT
+P0242,Ahmed Khan,Blood Test,2024-02-03 09:30:00,Lab
+P0243,Neha Bose,Consultation,2024-01-16 03:45:00,OPD
+P0243,Neha Bose,Blood Test,2024-01-16 05:45:00,Lab
+P0243,Neha Bose,Triage,2024-01-16 09:15:00,ER
+P0243,Neha Bose,Discharge,2024-01-16 11:30:00,OPD
+P0243,Neha Bose,Surgery,2024-01-16 13:30:00,OT
+P0244,Rohit Malhotra,Surgery,2024-01-25 02:30:00,OT
+P0244,Rohit Malhotra,Discharge,2024-01-25 04:00:00,OPD
+P0244,Rohit Malhotra,Registration,2024-01-25 05:30:00,OPD
+P0244,Rohit Malhotra,Recovery,2024-01-25 08:00:00,ICU
+P0244,Rohit Malhotra,Triage,2024-01-25 10:15:00,ER
+P0244,Rohit Malhotra,Blood Test,2024-01-25 13:00:00,Lab
+P0244,Rohit Malhotra,Consultation,2024-01-25 14:45:00,OPD
+P0245,Pooja Gupta,Recovery,2024-01-22 01:30:00,ICU
+P0245,Pooja Gupta,X-Ray,2024-01-22 03:15:00,Radiology
+P0245,Pooja Gupta,Blood Test,2024-01-22 05:30:00,Lab
+P0245,Pooja Gupta,Triage,2024-01-22 06:45:00,ER
+P0245,Pooja Gupta,Consultation,2024-01-22 08:45:00,OPD
+P0245,Pooja Gupta,Discharge,2024-01-22 10:30:00,OPD
+P0246,Neha Bose,Surgery,2024-02-01 03:00:00,OT
+P0246,Neha Bose,Recovery,2024-02-01 05:00:00,ICU
+P0246,Neha Bose,Blood Test,2024-02-01 08:15:00,Lab
+P0246,Neha Bose,X-Ray,2024-02-01 09:30:00,Radiology
+P0246,Neha Bose,Consultation,2024-02-01 12:15:00,OPD
+P0247,Priya Singh,Surgery,2024-01-28 01:30:00,OT
+P0247,Priya Singh,X-Ray,2024-01-28 04:45:00,Radiology
+P0247,Priya Singh,Recovery,2024-01-28 08:00:00,ICU
+P0247,Priya Singh,Discharge,2024-01-28 10:30:00,OPD
+P0247,Priya Singh,Consultation,2024-01-28 13:15:00,OPD
+P0247,Priya Singh,Triage,2024-01-28 17:00:00,ER
+P0247,Priya Singh,Registration,2024-01-28 18:45:00,OPD
+P0248,Amit Trivedi,Discharge,2024-02-04 03:45:00,OPD
+P0248,Amit Trivedi,Surgery,2024-02-04 04:45:00,OT
+P0248,Amit Trivedi,Triage,2024-02-04 06:15:00,ER
+P0248,Amit Trivedi,Recovery,2024-02-04 07:45:00,ICU
+P0248,Amit Trivedi,X-Ray,2024-02-04 10:15:00,Radiology
+P0248,Amit Trivedi,Consultation,2024-02-04 13:45:00,OPD
+P0249,Amit Trivedi,Consultation,2024-01-20 01:15:00,OPD
+P0249,Amit Trivedi,Blood Test,2024-01-20 04:30:00,Lab
+P0249,Amit Trivedi,X-Ray,2024-01-20 08:00:00,Radiology
+P0249,Amit Trivedi,Discharge,2024-01-20 11:00:00,OPD
+P0249,Amit Trivedi,Recovery,2024-01-20 12:15:00,ICU
+P0249,Amit Trivedi,Triage,2024-01-20 14:15:00,ER
+P0249,Amit Trivedi,Registration,2024-01-20 15:15:00,OPD
+P0250,Neha Bose,Registration,2024-01-17 03:45:00,OPD
+P0250,Neha Bose,Discharge,2024-01-17 06:00:00,OPD
+P0250,Neha Bose,Blood Test,2024-01-17 07:30:00,Lab
+P0250,Neha Bose,Consultation,2024-01-17 09:45:00,OPD
+P0250,Neha Bose,Recovery,2024-01-17 11:00:00,ICU
+P0250,Neha Bose,Surgery,2024-01-17 12:00:00,OT
+P0250,Neha Bose,Triage,2024-01-17 15:30:00,ER
+P0250,Neha Bose,X-Ray,2024-01-17 18:15:00,Radiology
+P0251,Ajay Kulkarni,Consultation,2024-01-31 03:30:00,OPD
+P0251,Ajay Kulkarni,Discharge,2024-01-31 06:15:00,OPD
+P0251,Ajay Kulkarni,Blood Test,2024-01-31 09:30:00,Lab
+P0251,Ajay Kulkarni,Triage,2024-01-31 11:15:00,ER
+P0251,Ajay Kulkarni,Recovery,2024-01-31 13:45:00,ICU
+P0251,Ajay Kulkarni,X-Ray,2024-01-31 16:15:00,Radiology
+P0251,Ajay Kulkarni,Surgery,2024-01-31 17:45:00,OT
+P0251,Ajay Kulkarni,Registration,2024-01-31 18:45:00,OPD
+P0252,Rohit Malhotra,Surgery,2024-01-30 02:30:00,OT
+P0252,Rohit Malhotra,X-Ray,2024-01-30 04:15:00,Radiology
+P0252,Rohit Malhotra,Blood Test,2024-01-30 06:30:00,Lab
+P0252,Rohit Malhotra,Consultation,2024-01-30 08:00:00,OPD
+P0252,Rohit Malhotra,Registration,2024-01-30 09:45:00,OPD
+P0253,Sonia Chatterjee,Recovery,2024-01-17 02:15:00,ICU
+P0253,Sonia Chatterjee,Triage,2024-01-17 05:45:00,ER
+P0253,Sonia Chatterjee,Discharge,2024-01-17 08:15:00,OPD
+P0253,Sonia Chatterjee,Blood Test,2024-01-17 10:30:00,Lab
+P0253,Sonia Chatterjee,Consultation,2024-01-17 11:45:00,OPD
+P0253,Sonia Chatterjee,Registration,2024-01-17 13:15:00,OPD
+P0253,Sonia Chatterjee,Surgery,2024-01-17 15:00:00,OT
+P0254,Amit Trivedi,Consultation,2024-01-19 01:00:00,OPD
+P0254,Amit Trivedi,Surgery,2024-01-19 02:00:00,OT
+P0254,Amit Trivedi,Discharge,2024-01-19 04:30:00,OPD
+P0254,Amit Trivedi,Blood Test,2024-01-19 06:15:00,Lab
+P0254,Amit Trivedi,Triage,2024-01-19 09:15:00,ER
+P0254,Amit Trivedi,Recovery,2024-01-19 10:15:00,ICU
+P0254,Amit Trivedi,Registration,2024-01-19 11:15:00,OPD
+P0255,Neha Bose,Surgery,2024-01-29 03:00:00,OT
+P0255,Neha Bose,Blood Test,2024-01-29 05:00:00,Lab
+P0255,Neha Bose,X-Ray,2024-01-29 06:00:00,Radiology
+P0255,Neha Bose,Recovery,2024-01-29 08:45:00,ICU
+P0255,Neha Bose,Discharge,2024-01-29 10:30:00,OPD
+P0256,Sneha Reddy,Consultation,2024-01-22 02:45:00,OPD
+P0256,Sneha Reddy,Recovery,2024-01-22 03:45:00,ICU
+P0256,Sneha Reddy,Blood Test,2024-01-22 05:30:00,Lab
+P0256,Sneha Reddy,Registration,2024-01-22 08:30:00,OPD
+P0256,Sneha Reddy,Discharge,2024-01-22 11:45:00,OPD
+P0257,Neha Bose,Consultation,2024-02-04 02:15:00,OPD
+P0257,Neha Bose,X-Ray,2024-02-04 04:15:00,Radiology
+P0257,Neha Bose,Triage,2024-02-04 07:30:00,ER
+P0257,Neha Bose,Registration,2024-02-04 08:45:00,OPD
+P0257,Neha Bose,Discharge,2024-02-04 12:30:00,OPD
+P0257,Neha Bose,Surgery,2024-02-04 14:30:00,OT
+P0257,Neha Bose,Recovery,2024-02-04 16:00:00,ICU
+P0258,Kiran Pillai,Recovery,2024-01-16 03:45:00,ICU
+P0258,Kiran Pillai,Discharge,2024-01-16 07:00:00,OPD
+P0258,Kiran Pillai,Triage,2024-01-16 09:00:00,ER
+P0258,Kiran Pillai,Registration,2024-01-16 10:15:00,OPD
+P0259,Neha Bose,Surgery,2024-01-16 02:15:00,OT
+P0259,Neha Bose,Recovery,2024-01-16 05:15:00,ICU
+P0259,Neha Bose,Discharge,2024-01-16 07:00:00,OPD
+P0259,Neha Bose,Registration,2024-01-16 08:30:00,OPD
+P0260,Sonia Chatterjee,Discharge,2024-01-19 02:00:00,OPD
+P0260,Sonia Chatterjee,Surgery,2024-01-19 04:45:00,OT
+P0260,Sonia Chatterjee,Triage,2024-01-19 08:15:00,ER
+P0260,Sonia Chatterjee,Registration,2024-01-19 12:00:00,OPD
+P0260,Sonia Chatterjee,Blood Test,2024-01-19 13:15:00,Lab
+P0260,Sonia Chatterjee,Recovery,2024-01-19 16:45:00,ICU
+P0261,Suresh Iyer,Consultation,2024-01-29 02:30:00,OPD
+P0261,Suresh Iyer,Recovery,2024-01-29 06:00:00,ICU
+P0261,Suresh Iyer,Discharge,2024-01-29 08:00:00,OPD
+P0261,Suresh Iyer,Surgery,2024-01-29 11:45:00,OT
+P0261,Suresh Iyer,Triage,2024-01-29 15:00:00,ER
+P0261,Suresh Iyer,Registration,2024-01-29 16:30:00,OPD
+P0261,Suresh Iyer,X-Ray,2024-01-29 19:45:00,Radiology
+P0262,Suresh Iyer,Recovery,2024-02-01 01:30:00,ICU
+P0262,Suresh Iyer,Triage,2024-02-01 04:15:00,ER
+P0262,Suresh Iyer,Consultation,2024-02-01 07:45:00,OPD
+P0262,Suresh Iyer,Blood Test,2024-02-01 08:45:00,Lab
+P0263,Rohit Malhotra,Registration,2024-01-16 01:00:00,OPD
+P0263,Rohit Malhotra,Recovery,2024-01-16 03:15:00,ICU
+P0263,Rohit Malhotra,Triage,2024-01-16 04:15:00,ER
+P0263,Rohit Malhotra,Surgery,2024-01-16 08:00:00,OT
+P0264,Neha Bose,Consultation,2024-01-17 02:00:00,OPD
+P0264,Neha Bose,Registration,2024-01-17 04:45:00,OPD
+P0264,Neha Bose,X-Ray,2024-01-17 06:45:00,Radiology
+P0264,Neha Bose,Triage,2024-01-17 10:15:00,ER
+P0264,Neha Bose,Recovery,2024-01-17 13:15:00,ICU
+P0264,Neha Bose,Blood Test,2024-01-17 16:15:00,Lab
+P0264,Neha Bose,Surgery,2024-01-17 18:15:00,OT
+P0264,Neha Bose,Discharge,2024-01-17 19:15:00,OPD
+P0265,Priya Singh,Recovery,2024-02-02 03:15:00,ICU
+P0265,Priya Singh,Triage,2024-02-02 07:00:00,ER
+P0265,Priya Singh,Discharge,2024-02-02 10:00:00,OPD
+P0265,Priya Singh,Consultation,2024-02-02 13:30:00,OPD
+P0265,Priya Singh,Surgery,2024-02-02 17:15:00,OT
+P0266,Deepa Menon,X-Ray,2024-01-27 03:30:00,Radiology
+P0266,Deepa Menon,Recovery,2024-01-27 06:45:00,ICU
+P0266,Deepa Menon,Triage,2024-01-27 10:30:00,ER
+P0266,Deepa Menon,Consultation,2024-01-27 13:00:00,OPD
+P0267,Sonia Chatterjee,Surgery,2024-01-22 03:15:00,OT
+P0267,Sonia Chatterjee,Blood Test,2024-01-22 05:45:00,Lab
+P0267,Sonia Chatterjee,Discharge,2024-01-22 08:30:00,OPD
+P0267,Sonia Chatterjee,Recovery,2024-01-22 11:15:00,ICU
+P0267,Sonia Chatterjee,X-Ray,2024-01-22 12:15:00,Radiology
+P0267,Sonia Chatterjee,Consultation,2024-01-22 14:15:00,OPD
+P0268,Rohit Malhotra,Consultation,2024-01-25 01:30:00,OPD
+P0268,Rohit Malhotra,Registration,2024-01-25 04:45:00,OPD
+P0268,Rohit Malhotra,X-Ray,2024-01-25 05:45:00,Radiology
+P0268,Rohit Malhotra,Triage,2024-01-25 08:15:00,ER
+P0268,Rohit Malhotra,Discharge,2024-01-25 09:30:00,OPD
+P0269,Rahul Verma,Blood Test,2024-01-27 03:15:00,Lab
+P0269,Rahul Verma,Triage,2024-01-27 06:15:00,ER
+P0269,Rahul Verma,X-Ray,2024-01-27 09:45:00,Radiology
+P0269,Rahul Verma,Surgery,2024-01-27 12:00:00,OT
+P0269,Rahul Verma,Registration,2024-01-27 14:00:00,OPD
+P0269,Rahul Verma,Consultation,2024-01-27 17:30:00,OPD
+P0270,Meena Sharma,Recovery,2024-01-22 03:00:00,ICU
+P0270,Meena Sharma,Registration,2024-01-22 06:45:00,OPD
+P0270,Meena Sharma,Discharge,2024-01-22 08:15:00,OPD
+P0270,Meena Sharma,X-Ray,2024-01-22 11:15:00,Radiology
+P0270,Meena Sharma,Consultation,2024-01-22 13:30:00,OPD
+P0270,Meena Sharma,Triage,2024-01-22 15:45:00,ER
+P0270,Meena Sharma,Blood Test,2024-01-22 16:45:00,Lab
+P0270,Meena Sharma,Surgery,2024-01-22 20:30:00,OT
+P0271,Ajay Kulkarni,Triage,2024-01-17 02:00:00,ER
+P0271,Ajay Kulkarni,Discharge,2024-01-17 05:45:00,OPD
+P0271,Ajay Kulkarni,Blood Test,2024-01-17 07:45:00,Lab
+P0271,Ajay Kulkarni,X-Ray,2024-01-17 10:30:00,Radiology
+P0271,Ajay Kulkarni,Surgery,2024-01-17 13:45:00,OT
+P0271,Ajay Kulkarni,Registration,2024-01-17 15:30:00,OPD
+P0271,Ajay Kulkarni,Consultation,2024-01-17 18:45:00,OPD
+P0271,Ajay Kulkarni,Recovery,2024-01-17 21:30:00,ICU
+P0272,Kiran Pillai,Blood Test,2024-01-25 03:00:00,Lab
+P0272,Kiran Pillai,Triage,2024-01-25 04:45:00,ER
+P0272,Kiran Pillai,Registration,2024-01-25 07:15:00,OPD
+P0272,Kiran Pillai,X-Ray,2024-01-25 09:30:00,Radiology
+P0272,Kiran Pillai,Discharge,2024-01-25 12:00:00,OPD
+P0273,Amit Trivedi,Consultation,2024-01-29 03:15:00,OPD
+P0273,Amit Trivedi,Triage,2024-01-29 05:15:00,ER
+P0273,Amit Trivedi,X-Ray,2024-01-29 06:30:00,Radiology
+P0273,Amit Trivedi,Discharge,2024-01-29 10:00:00,OPD
+P0274,Ahmed Khan,Triage,2024-02-03 01:30:00,ER
+P0274,Ahmed Khan,Surgery,2024-02-03 03:00:00,OT
+P0274,Ahmed Khan,Registration,2024-02-03 06:00:00,OPD
+P0274,Ahmed Khan,Discharge,2024-02-03 08:45:00,OPD
+P0275,Neha Bose,Surgery,2024-01-21 01:30:00,OT
+P0275,Neha Bose,Triage,2024-01-21 05:15:00,ER
+P0275,Neha Bose,Discharge,2024-01-21 08:30:00,OPD
+P0275,Neha Bose,Consultation,2024-01-21 11:30:00,OPD
+P0276,Manish Rao,Registration,2024-01-29 03:00:00,OPD
+P0276,Manish Rao,X-Ray,2024-01-29 04:45:00,Radiology
+P0276,Manish Rao,Triage,2024-01-29 08:15:00,ER
+P0276,Manish Rao,Discharge,2024-01-29 11:45:00,OPD
+P0276,Manish Rao,Recovery,2024-01-29 12:45:00,ICU
+P0276,Manish Rao,Consultation,2024-01-29 15:30:00,OPD
+P0276,Manish Rao,Surgery,2024-01-29 17:15:00,OT
+P0276,Manish Rao,Blood Test,2024-01-29 20:15:00,Lab
+P0277,Suresh Iyer,Triage,2024-01-16 01:30:00,ER
+P0277,Suresh Iyer,Discharge,2024-01-16 04:15:00,OPD
+P0277,Suresh Iyer,Recovery,2024-01-16 06:30:00,ICU
+P0277,Suresh Iyer,Consultation,2024-01-16 08:00:00,OPD
+P0277,Suresh Iyer,Blood Test,2024-01-16 11:30:00,Lab
+P0277,Suresh Iyer,X-Ray,2024-01-16 14:00:00,Radiology
+P0277,Suresh Iyer,Registration,2024-01-16 15:30:00,OPD
+P0278,Meena Sharma,Recovery,2024-01-19 02:45:00,ICU
+P0278,Meena Sharma,Discharge,2024-01-19 06:00:00,OPD
+P0278,Meena Sharma,Registration,2024-01-19 07:45:00,OPD
+P0278,Meena Sharma,Consultation,2024-01-19 11:00:00,OPD
+P0278,Meena Sharma,X-Ray,2024-01-19 13:15:00,Radiology
+P0278,Meena Sharma,Surgery,2024-01-19 16:30:00,OT
+P0279,Deepa Menon,Surgery,2024-01-19 03:15:00,OT
+P0279,Deepa Menon,Blood Test,2024-01-19 04:45:00,Lab
+P0279,Deepa Menon,Consultation,2024-01-19 08:00:00,OPD
+P0279,Deepa Menon,Triage,2024-01-19 10:15:00,ER
+P0279,Deepa Menon,Discharge,2024-01-19 13:30:00,OPD
+P0279,Deepa Menon,X-Ray,2024-01-19 15:30:00,Radiology
+P0280,Sonia Chatterjee,Triage,2024-01-24 02:30:00,ER
+P0280,Sonia Chatterjee,Discharge,2024-01-24 03:45:00,OPD
+P0280,Sonia Chatterjee,X-Ray,2024-01-24 05:00:00,Radiology
+P0280,Sonia Chatterjee,Recovery,2024-01-24 06:00:00,ICU
+P0280,Sonia Chatterjee,Registration,2024-01-24 09:30:00,OPD
+P0280,Sonia Chatterjee,Consultation,2024-01-24 12:45:00,OPD
+P0280,Sonia Chatterjee,Surgery,2024-01-24 16:00:00,OT
+P0280,Sonia Chatterjee,Blood Test,2024-01-24 17:00:00,Lab
+P0281,Pooja Gupta,Discharge,2024-01-30 03:30:00,OPD
+P0281,Pooja Gupta,Triage,2024-01-30 05:15:00,ER
+P0281,Pooja Gupta,Consultation,2024-01-30 08:00:00,OPD
+P0281,Pooja Gupta,Surgery,2024-01-30 09:15:00,OT
+P0282,Vikram Joshi,Registration,2024-01-22 03:15:00,OPD
+P0282,Vikram Joshi,Blood Test,2024-01-22 04:15:00,Lab
+P0282,Vikram Joshi,Discharge,2024-01-22 06:00:00,OPD
+P0282,Vikram Joshi,X-Ray,2024-01-22 09:45:00,Radiology
+P0282,Vikram Joshi,Recovery,2024-01-22 13:15:00,ICU
+P0283,Ajay Kulkarni,Recovery,2024-01-25 02:00:00,ICU
+P0283,Ajay Kulkarni,Blood Test,2024-01-25 05:00:00,Lab
+P0283,Ajay Kulkarni,Registration,2024-01-25 07:45:00,OPD
+P0283,Ajay Kulkarni,Consultation,2024-01-25 09:00:00,OPD
+P0283,Ajay Kulkarni,Discharge,2024-01-25 12:45:00,OPD
+P0284,Meena Sharma,Recovery,2024-01-24 02:45:00,ICU
+P0284,Meena Sharma,Consultation,2024-01-24 04:30:00,OPD
+P0284,Meena Sharma,Surgery,2024-01-24 06:30:00,OT
+P0284,Meena Sharma,Registration,2024-01-24 09:45:00,OPD
+P0284,Meena Sharma,Triage,2024-01-24 12:30:00,ER
+P0284,Meena Sharma,Blood Test,2024-01-24 13:30:00,Lab
+P0284,Meena Sharma,X-Ray,2024-01-24 14:45:00,Radiology
+P0284,Meena Sharma,Discharge,2024-01-24 17:30:00,OPD
+P0285,Suresh Iyer,Registration,2024-01-23 02:15:00,OPD
+P0285,Suresh Iyer,Triage,2024-01-23 05:15:00,ER
+P0285,Suresh Iyer,Blood Test,2024-01-23 06:15:00,Lab
+P0285,Suresh Iyer,Consultation,2024-01-23 10:00:00,OPD
+P0285,Suresh Iyer,Recovery,2024-01-23 13:30:00,ICU
+P0285,Suresh Iyer,Surgery,2024-01-23 15:15:00,OT
+P0285,Suresh Iyer,Discharge,2024-01-23 18:30:00,OPD
+P0286,Manish Rao,Recovery,2024-01-16 02:30:00,ICU
+P0286,Manish Rao,Registration,2024-01-16 05:15:00,OPD
+P0286,Manish Rao,Triage,2024-01-16 07:30:00,ER
+P0286,Manish Rao,X-Ray,2024-01-16 08:45:00,Radiology
+P0286,Manish Rao,Surgery,2024-01-16 09:45:00,OT
+P0286,Manish Rao,Discharge,2024-01-16 13:15:00,OPD
+P0286,Manish Rao,Consultation,2024-01-16 15:00:00,OPD
+P0286,Manish Rao,Blood Test,2024-01-16 17:45:00,Lab
+P0287,Sonia Chatterjee,Discharge,2024-01-30 02:45:00,OPD
+P0287,Sonia Chatterjee,Triage,2024-01-30 04:45:00,ER
+P0287,Sonia Chatterjee,Recovery,2024-01-30 07:45:00,ICU
+P0287,Sonia Chatterjee,Consultation,2024-01-30 09:15:00,OPD
+P0288,Amit Trivedi,Blood Test,2024-01-19 01:30:00,Lab
+P0288,Amit Trivedi,Registration,2024-01-19 03:30:00,OPD
+P0288,Amit Trivedi,Triage,2024-01-19 04:30:00,ER
+P0288,Amit Trivedi,Surgery,2024-01-19 06:45:00,OT
+P0288,Amit Trivedi,Recovery,2024-01-19 08:15:00,ICU
+P0288,Amit Trivedi,X-Ray,2024-01-19 11:30:00,Radiology
+P0288,Amit Trivedi,Consultation,2024-01-19 14:00:00,OPD
+P0288,Amit Trivedi,Discharge,2024-01-19 15:00:00,OPD
+P0289,Kavita Nair,Surgery,2024-01-30 01:00:00,OT
+P0289,Kavita Nair,Blood Test,2024-01-30 04:30:00,Lab
+P0289,Kavita Nair,Registration,2024-01-30 07:15:00,OPD
+P0289,Kavita Nair,Recovery,2024-01-30 10:30:00,ICU
+P0289,Kavita Nair,Discharge,2024-01-30 13:45:00,OPD
+P0289,Kavita Nair,Triage,2024-01-30 16:45:00,ER
+P0290,Priya Singh,Triage,2024-01-31 03:30:00,ER
+P0290,Priya Singh,Blood Test,2024-01-31 05:15:00,Lab
+P0290,Priya Singh,Surgery,2024-01-31 09:00:00,OT
+P0290,Priya Singh,Consultation,2024-01-31 11:15:00,OPD
+P0290,Priya Singh,X-Ray,2024-01-31 14:30:00,Radiology
+P0290,Priya Singh,Discharge,2024-01-31 18:00:00,OPD
+P0290,Priya Singh,Recovery,2024-01-31 19:00:00,ICU
+P0290,Priya Singh,Registration,2024-01-31 20:00:00,OPD
+P0291,Ajay Kulkarni,Blood Test,2024-01-28 01:30:00,Lab
+P0291,Ajay Kulkarni,Recovery,2024-01-28 03:45:00,ICU
+P0291,Ajay Kulkarni,Consultation,2024-01-28 05:00:00,OPD
+P0291,Ajay Kulkarni,Discharge,2024-01-28 08:30:00,OPD
+P0292,Rahul Verma,Consultation,2024-01-25 01:00:00,OPD
+P0292,Rahul Verma,X-Ray,2024-01-25 04:30:00,Radiology
+P0292,Rahul Verma,Discharge,2024-01-25 07:15:00,OPD
+P0292,Rahul Verma,Surgery,2024-01-25 10:15:00,OT
+P0293,Sneha Reddy,Surgery,2024-01-16 03:15:00,OT
+P0293,Sneha Reddy,Recovery,2024-01-16 05:30:00,ICU
+P0293,Sneha Reddy,X-Ray,2024-01-16 09:15:00,Radiology
+P0293,Sneha Reddy,Blood Test,2024-01-16 12:45:00,Lab
+P0293,Sneha Reddy,Consultation,2024-01-16 15:30:00,OPD
+P0294,Meena Sharma,Consultation,2024-01-17 01:30:00,OPD
+P0294,Meena Sharma,Discharge,2024-01-17 03:00:00,OPD
+P0294,Meena Sharma,Surgery,2024-01-17 05:15:00,OT
+P0294,Meena Sharma,X-Ray,2024-01-17 09:00:00,Radiology
+P0294,Meena Sharma,Registration,2024-01-17 10:00:00,OPD
+P0294,Meena Sharma,Blood Test,2024-01-17 12:30:00,Lab
+P0294,Meena Sharma,Triage,2024-01-17 15:30:00,ER
+P0294,Meena Sharma,Recovery,2024-01-17 18:15:00,ICU
+P0295,Arjun Patel,Blood Test,2024-01-20 01:30:00,Lab
+P0295,Arjun Patel,X-Ray,2024-01-20 02:45:00,Radiology
+P0295,Arjun Patel,Discharge,2024-01-20 04:30:00,OPD
+P0295,Arjun Patel,Recovery,2024-01-20 07:30:00,ICU
+P0295,Arjun Patel,Triage,2024-01-20 09:45:00,ER
+P0295,Arjun Patel,Consultation,2024-01-20 11:15:00,OPD
+P0295,Arjun Patel,Surgery,2024-01-20 13:45:00,OT
+P0296,Suresh Iyer,Triage,2024-01-16 02:45:00,ER
+P0296,Suresh Iyer,Recovery,2024-01-16 05:45:00,ICU
+P0296,Suresh Iyer,Consultation,2024-01-16 07:15:00,OPD
+P0296,Suresh Iyer,Discharge,2024-01-16 08:15:00,OPD
+P0296,Suresh Iyer,Surgery,2024-01-16 11:00:00,OT
+P0297,Meena Sharma,Consultation,2024-02-04 01:30:00,OPD
+P0297,Meena Sharma,Registration,2024-02-04 02:45:00,OPD
+P0297,Meena Sharma,Discharge,2024-02-04 05:15:00,OPD
+P0297,Meena Sharma,X-Ray,2024-02-04 08:45:00,Radiology
+P0298,Ajay Kulkarni,Consultation,2024-01-18 01:00:00,OPD
+P0298,Ajay Kulkarni,Triage,2024-01-18 02:30:00,ER
+P0298,Ajay Kulkarni,Recovery,2024-01-18 06:00:00,ICU
+P0298,Ajay Kulkarni,X-Ray,2024-01-18 08:15:00,Radiology
+P0299,Kavita Nair,Blood Test,2024-01-19 01:45:00,Lab
+P0299,Kavita Nair,Triage,2024-01-19 04:45:00,ER
+P0299,Kavita Nair,Registration,2024-01-19 06:30:00,OPD
+P0299,Kavita Nair,X-Ray,2024-01-19 07:30:00,Radiology
+P0299,Kavita Nair,Consultation,2024-01-19 10:15:00,OPD
+P0299,Kavita Nair,Discharge,2024-01-19 12:00:00,OPD
+P0299,Kavita Nair,Recovery,2024-01-19 15:30:00,ICU
+P0299,Kavita Nair,Surgery,2024-01-19 18:00:00,OT
+P0300,Vikram Joshi,Triage,2024-01-29 02:45:00,ER
+P0300,Vikram Joshi,Recovery,2024-01-29 05:00:00,ICU
+P0300,Vikram Joshi,Blood Test,2024-01-29 06:15:00,Lab
+P0300,Vikram Joshi,Consultation,2024-01-29 09:45:00,OPD
+P0300,Vikram Joshi,Discharge,2024-01-29 12:30:00,OPD
+P0300,Vikram Joshi,Registration,2024-01-29 14:00:00,OPD
+P0300,Vikram Joshi,Surgery,2024-01-29 16:45:00,OT
+P0300,Vikram Joshi,X-Ray,2024-01-29 18:45:00,Radiology
+P0301,Arjun Patel,Triage,2024-02-03 03:15:00,ER
+P0301,Arjun Patel,X-Ray,2024-02-03 06:15:00,Radiology
+P0301,Arjun Patel,Blood Test,2024-02-03 08:15:00,Lab
+P0301,Arjun Patel,Surgery,2024-02-03 10:15:00,OT
+P0301,Arjun Patel,Discharge,2024-02-03 13:00:00,OPD
+P0301,Arjun Patel,Consultation,2024-02-03 15:45:00,OPD
+P0301,Arjun Patel,Recovery,2024-02-03 17:00:00,ICU
+P0302,Sonia Chatterjee,Discharge,2024-02-02 02:45:00,OPD
+P0302,Sonia Chatterjee,Blood Test,2024-02-02 06:15:00,Lab
+P0302,Sonia Chatterjee,Registration,2024-02-02 09:30:00,OPD
+P0302,Sonia Chatterjee,X-Ray,2024-02-02 10:30:00,Radiology
+P0302,Sonia Chatterjee,Triage,2024-02-02 14:15:00,ER
+P0303,Priya Singh,Discharge,2024-01-17 03:00:00,OPD
+P0303,Priya Singh,X-Ray,2024-01-17 06:45:00,Radiology
+P0303,Priya Singh,Consultation,2024-01-17 09:30:00,OPD
+P0303,Priya Singh,Registration,2024-01-17 12:30:00,OPD
+P0303,Priya Singh,Blood Test,2024-01-17 13:45:00,Lab
+P0303,Priya Singh,Surgery,2024-01-17 14:45:00,OT
+P0303,Priya Singh,Triage,2024-01-17 16:00:00,ER
+P0303,Priya Singh,Recovery,2024-01-17 18:30:00,ICU
+P0304,Manish Rao,Discharge,2024-01-26 01:00:00,OPD
+P0304,Manish Rao,Triage,2024-01-26 04:45:00,ER
+P0304,Manish Rao,Recovery,2024-01-26 06:15:00,ICU
+P0304,Manish Rao,X-Ray,2024-01-26 07:45:00,Radiology
+P0304,Manish Rao,Consultation,2024-01-26 10:45:00,OPD
+P0304,Manish Rao,Blood Test,2024-01-26 12:15:00,Lab
+P0304,Manish Rao,Surgery,2024-01-26 13:45:00,OT
+P0304,Manish Rao,Registration,2024-01-26 15:00:00,OPD
+P0305,Deepa Menon,Recovery,2024-01-20 02:15:00,ICU
+P0305,Deepa Menon,Surgery,2024-01-20 04:00:00,OT
+P0305,Deepa Menon,X-Ray,2024-01-20 06:45:00,Radiology
+P0305,Deepa Menon,Blood Test,2024-01-20 08:15:00,Lab
+P0305,Deepa Menon,Consultation,2024-01-20 11:30:00,OPD
+P0305,Deepa Menon,Triage,2024-01-20 12:30:00,ER
+P0305,Deepa Menon,Discharge,2024-01-20 13:30:00,OPD
+P0305,Deepa Menon,Registration,2024-01-20 15:15:00,OPD
+P0306,Deepa Menon,Triage,2024-02-03 02:15:00,ER
+P0306,Deepa Menon,Discharge,2024-02-03 05:00:00,OPD
+P0306,Deepa Menon,Surgery,2024-02-03 08:45:00,OT
+P0306,Deepa Menon,Blood Test,2024-02-03 11:15:00,Lab
+P0306,Deepa Menon,Consultation,2024-02-03 12:30:00,OPD
+P0307,Deepa Menon,Registration,2024-01-16 03:45:00,OPD
+P0307,Deepa Menon,Consultation,2024-01-16 07:15:00,OPD
+P0307,Deepa Menon,Blood Test,2024-01-16 09:00:00,Lab
+P0307,Deepa Menon,Triage,2024-01-16 12:00:00,ER
+P0307,Deepa Menon,X-Ray,2024-01-16 13:30:00,Radiology
+P0307,Deepa Menon,Recovery,2024-01-16 15:30:00,ICU
+P0307,Deepa Menon,Surgery,2024-01-16 18:30:00,OT
+P0307,Deepa Menon,Discharge,2024-01-16 20:15:00,OPD
+P0308,Arjun Patel,Consultation,2024-02-02 03:30:00,OPD
+P0308,Arjun Patel,Discharge,2024-02-02 06:00:00,OPD
+P0308,Arjun Patel,Registration,2024-02-02 08:30:00,OPD
+P0308,Arjun Patel,X-Ray,2024-02-02 09:30:00,Radiology
+P0308,Arjun Patel,Surgery,2024-02-02 13:00:00,OT
+P0308,Arjun Patel,Triage,2024-02-02 16:30:00,ER
+P0308,Arjun Patel,Recovery,2024-02-02 18:15:00,ICU
+P0308,Arjun Patel,Blood Test,2024-02-02 21:30:00,Lab
+P0309,Kiran Pillai,Consultation,2024-01-15 02:45:00,OPD
+P0309,Kiran Pillai,Recovery,2024-01-15 04:00:00,ICU
+P0309,Kiran Pillai,Surgery,2024-01-15 07:00:00,OT
+P0309,Kiran Pillai,Discharge,2024-01-15 09:30:00,OPD
+P0310,Ahmed Khan,Consultation,2024-01-29 02:15:00,OPD
+P0310,Ahmed Khan,X-Ray,2024-01-29 04:30:00,Radiology
+P0310,Ahmed Khan,Recovery,2024-01-29 06:45:00,ICU
+P0310,Ahmed Khan,Registration,2024-01-29 09:45:00,OPD
+P0310,Ahmed Khan,Discharge,2024-01-29 11:45:00,OPD
+P0310,Ahmed Khan,Surgery,2024-01-29 13:00:00,OT
+P0310,Ahmed Khan,Blood Test,2024-01-29 15:45:00,Lab
+P0310,Ahmed Khan,Triage,2024-01-29 18:00:00,ER
+P0311,Ajay Kulkarni,Blood Test,2024-02-04 02:00:00,Lab
+P0311,Ajay Kulkarni,Consultation,2024-02-04 03:15:00,OPD
+P0311,Ajay Kulkarni,Surgery,2024-02-04 06:00:00,OT
+P0311,Ajay Kulkarni,X-Ray,2024-02-04 08:30:00,Radiology
+P0311,Ajay Kulkarni,Registration,2024-02-04 10:45:00,OPD
+P0312,Manish Rao,Discharge,2024-01-29 02:30:00,OPD
+P0312,Manish Rao,X-Ray,2024-01-29 05:30:00,Radiology
+P0312,Manish Rao,Triage,2024-01-29 07:00:00,ER
+P0312,Manish Rao,Consultation,2024-01-29 09:30:00,OPD
+P0312,Manish Rao,Blood Test,2024-01-29 12:00:00,Lab
+P0312,Manish Rao,Registration,2024-01-29 14:00:00,OPD
+P0312,Manish Rao,Surgery,2024-01-29 16:45:00,OT
+P0313,Ajay Kulkarni,Blood Test,2024-02-01 01:00:00,Lab
+P0313,Ajay Kulkarni,Consultation,2024-02-01 02:00:00,OPD
+P0313,Ajay Kulkarni,X-Ray,2024-02-01 04:00:00,Radiology
+P0313,Ajay Kulkarni,Triage,2024-02-01 07:00:00,ER
+P0313,Ajay Kulkarni,Surgery,2024-02-01 10:45:00,OT
+P0314,Pooja Gupta,Consultation,2024-02-03 01:00:00,OPD
+P0314,Pooja Gupta,X-Ray,2024-02-03 04:15:00,Radiology
+P0314,Pooja Gupta,Triage,2024-02-03 07:15:00,ER
+P0314,Pooja Gupta,Registration,2024-02-03 10:15:00,OPD
+P0314,Pooja Gupta,Discharge,2024-02-03 11:30:00,OPD
+P0315,Manish Rao,X-Ray,2024-02-04 02:30:00,Radiology
+P0315,Manish Rao,Registration,2024-02-04 05:00:00,OPD
+P0315,Manish Rao,Surgery,2024-02-04 07:15:00,OT
+P0315,Manish Rao,Triage,2024-02-04 08:45:00,ER
+P0315,Manish Rao,Discharge,2024-02-04 10:30:00,OPD
+P0315,Manish Rao,Consultation,2024-02-04 13:00:00,OPD
+P0315,Manish Rao,Blood Test,2024-02-04 14:30:00,Lab
+P0315,Manish Rao,Recovery,2024-02-04 16:45:00,ICU
+P0316,Ajay Kulkarni,Discharge,2024-01-20 03:45:00,OPD
+P0316,Ajay Kulkarni,Triage,2024-01-20 05:00:00,ER
+P0316,Ajay Kulkarni,Consultation,2024-01-20 08:45:00,OPD
+P0316,Ajay Kulkarni,Blood Test,2024-01-20 09:45:00,Lab
+P0317,Ajay Kulkarni,Triage,2024-01-15 02:15:00,ER
+P0317,Ajay Kulkarni,Registration,2024-01-15 05:15:00,OPD
+P0317,Ajay Kulkarni,Recovery,2024-01-15 07:00:00,ICU
+P0317,Ajay Kulkarni,Surgery,2024-01-15 09:15:00,OT
+P0317,Ajay Kulkarni,X-Ray,2024-01-15 12:45:00,Radiology
+P0317,Ajay Kulkarni,Discharge,2024-01-15 14:45:00,OPD
+P0318,Rohit Malhotra,Discharge,2024-01-30 01:30:00,OPD
+P0318,Rohit Malhotra,Blood Test,2024-01-30 04:00:00,Lab
+P0318,Rohit Malhotra,Recovery,2024-01-30 06:00:00,ICU
+P0318,Rohit Malhotra,Registration,2024-01-30 09:00:00,OPD
+P0318,Rohit Malhotra,Triage,2024-01-30 11:30:00,ER
+P0318,Rohit Malhotra,Consultation,2024-01-30 13:15:00,OPD
+P0318,Rohit Malhotra,Surgery,2024-01-30 15:30:00,OT
+P0319,Sneha Reddy,Registration,2024-02-04 03:30:00,OPD
+P0319,Sneha Reddy,Blood Test,2024-02-04 05:30:00,Lab
+P0319,Sneha Reddy,Surgery,2024-02-04 09:15:00,OT
+P0319,Sneha Reddy,Triage,2024-02-04 12:30:00,ER
+P0319,Sneha Reddy,X-Ray,2024-02-04 13:30:00,Radiology
+P0319,Sneha Reddy,Recovery,2024-02-04 14:30:00,ICU
+P0319,Sneha Reddy,Consultation,2024-02-04 17:45:00,OPD
+P0319,Sneha Reddy,Discharge,2024-02-04 20:30:00,OPD
+P0320,Arjun Patel,Consultation,2024-01-25 03:00:00,OPD
+P0320,Arjun Patel,Blood Test,2024-01-25 05:00:00,Lab
+P0320,Arjun Patel,Discharge,2024-01-25 06:45:00,OPD
+P0320,Arjun Patel,Recovery,2024-01-25 10:00:00,ICU
+P0320,Arjun Patel,Registration,2024-01-25 13:15:00,OPD
+P0320,Arjun Patel,Surgery,2024-01-25 14:15:00,OT
+P0320,Arjun Patel,Triage,2024-01-25 17:30:00,ER
+P0320,Arjun Patel,X-Ray,2024-01-25 19:30:00,Radiology
+P0321,Neha Bose,Registration,2024-01-18 02:15:00,OPD
+P0321,Neha Bose,Triage,2024-01-18 05:15:00,ER
+P0321,Neha Bose,Surgery,2024-01-18 06:15:00,OT
+P0321,Neha Bose,Recovery,2024-01-18 08:30:00,ICU
+P0321,Neha Bose,Discharge,2024-01-18 09:45:00,OPD
+P0321,Neha Bose,Blood Test,2024-01-18 12:15:00,Lab
+P0321,Neha Bose,X-Ray,2024-01-18 16:00:00,Radiology
+P0321,Neha Bose,Consultation,2024-01-18 18:00:00,OPD
+P0322,Kiran Pillai,X-Ray,2024-01-23 01:45:00,Radiology
+P0322,Kiran Pillai,Discharge,2024-01-23 03:15:00,OPD
+P0322,Kiran Pillai,Triage,2024-01-23 06:30:00,ER
+P0322,Kiran Pillai,Registration,2024-01-23 08:45:00,OPD
+P0322,Kiran Pillai,Surgery,2024-01-23 11:45:00,OT
+P0322,Kiran Pillai,Blood Test,2024-01-23 12:45:00,Lab
+P0322,Kiran Pillai,Consultation,2024-01-23 16:30:00,OPD
+P0322,Kiran Pillai,Recovery,2024-01-23 17:30:00,ICU
+P0323,Neha Bose,Registration,2024-02-04 03:30:00,OPD
+P0323,Neha Bose,Discharge,2024-02-04 06:15:00,OPD
+P0323,Neha Bose,Triage,2024-02-04 09:30:00,ER
+P0323,Neha Bose,Recovery,2024-02-04 10:45:00,ICU
+P0324,Rahul Verma,Discharge,2024-02-03 01:30:00,OPD
+P0324,Rahul Verma,Blood Test,2024-02-03 04:15:00,Lab
+P0324,Rahul Verma,Triage,2024-02-03 05:30:00,ER
+P0324,Rahul Verma,Surgery,2024-02-03 06:30:00,OT
+P0324,Rahul Verma,Registration,2024-02-03 09:30:00,OPD
+P0324,Rahul Verma,X-Ray,2024-02-03 13:00:00,Radiology
+P0324,Rahul Verma,Recovery,2024-02-03 16:15:00,ICU
+P0324,Rahul Verma,Consultation,2024-02-03 18:30:00,OPD
+P0325,Rahul Verma,Blood Test,2024-01-30 01:15:00,Lab
+P0325,Rahul Verma,Registration,2024-01-30 04:15:00,OPD
+P0325,Rahul Verma,Triage,2024-01-30 05:45:00,ER
+P0325,Rahul Verma,Discharge,2024-01-30 08:00:00,OPD
+P0326,Deepa Menon,Surgery,2024-01-16 03:15:00,OT
+P0326,Deepa Menon,Consultation,2024-01-16 04:15:00,OPD
+P0326,Deepa Menon,Blood Test,2024-01-16 06:15:00,Lab
+P0326,Deepa Menon,Registration,2024-01-16 07:30:00,OPD
+P0326,Deepa Menon,Recovery,2024-01-16 11:15:00,ICU
+P0326,Deepa Menon,X-Ray,2024-01-16 14:45:00,Radiology
+P0327,Deepa Menon,Surgery,2024-01-18 01:45:00,OT
+P0327,Deepa Menon,Triage,2024-01-18 03:30:00,ER
+P0327,Deepa Menon,Registration,2024-01-18 04:30:00,OPD
+P0327,Deepa Menon,X-Ray,2024-01-18 07:15:00,Radiology
+P0327,Deepa Menon,Recovery,2024-01-18 09:00:00,ICU
+P0328,Ahmed Khan,Discharge,2024-01-29 03:15:00,OPD
+P0328,Ahmed Khan,Triage,2024-01-29 06:45:00,ER
+P0328,Ahmed Khan,Blood Test,2024-01-29 09:00:00,Lab
+P0328,Ahmed Khan,X-Ray,2024-01-29 11:15:00,Radiology
+P0328,Ahmed Khan,Recovery,2024-01-29 12:15:00,ICU
+P0329,Rahul Verma,Triage,2024-01-20 02:15:00,ER
+P0329,Rahul Verma,Recovery,2024-01-20 04:30:00,ICU
+P0329,Rahul Verma,Blood Test,2024-01-20 07:45:00,Lab
+P0329,Rahul Verma,Surgery,2024-01-20 11:00:00,OT
+P0329,Rahul Verma,Consultation,2024-01-20 12:45:00,OPD
+P0330,Rohit Malhotra,Blood Test,2024-01-22 01:30:00,Lab
+P0330,Rohit Malhotra,Consultation,2024-01-22 03:45:00,OPD
+P0330,Rohit Malhotra,Discharge,2024-01-22 07:00:00,OPD
+P0330,Rohit Malhotra,Surgery,2024-01-22 10:00:00,OT
+P0330,Rohit Malhotra,X-Ray,2024-01-22 12:00:00,Radiology
+P0330,Rohit Malhotra,Registration,2024-01-22 13:45:00,OPD
+P0330,Rohit Malhotra,Triage,2024-01-22 16:45:00,ER
+P0331,Deepa Menon,Recovery,2024-02-01 01:45:00,ICU
+P0331,Deepa Menon,Blood Test,2024-02-01 03:00:00,Lab
+P0331,Deepa Menon,Surgery,2024-02-01 05:30:00,OT
+P0331,Deepa Menon,Registration,2024-02-01 06:30:00,OPD
+P0331,Deepa Menon,Discharge,2024-02-01 08:15:00,OPD
+P0331,Deepa Menon,Triage,2024-02-01 11:45:00,ER
+P0331,Deepa Menon,Consultation,2024-02-01 13:30:00,OPD
+P0331,Deepa Menon,X-Ray,2024-02-01 16:30:00,Radiology
+P0332,Ajay Kulkarni,X-Ray,2024-02-04 01:00:00,Radiology
+P0332,Ajay Kulkarni,Recovery,2024-02-04 03:30:00,ICU
+P0332,Ajay Kulkarni,Surgery,2024-02-04 06:30:00,OT
+P0332,Ajay Kulkarni,Blood Test,2024-02-04 09:15:00,Lab
+P0332,Ajay Kulkarni,Triage,2024-02-04 11:30:00,ER
+P0332,Ajay Kulkarni,Consultation,2024-02-04 14:30:00,OPD
+P0332,Ajay Kulkarni,Discharge,2024-02-04 18:00:00,OPD
+P0333,Meena Sharma,Surgery,2024-01-26 01:00:00,OT
+P0333,Meena Sharma,Registration,2024-01-26 04:15:00,OPD
+P0333,Meena Sharma,Recovery,2024-01-26 05:45:00,ICU
+P0333,Meena Sharma,Blood Test,2024-01-26 06:45:00,Lab
+P0333,Meena Sharma,X-Ray,2024-01-26 10:30:00,Radiology
+P0333,Meena Sharma,Triage,2024-01-26 13:45:00,ER
+P0333,Meena Sharma,Discharge,2024-01-26 17:00:00,OPD
+P0333,Meena Sharma,Consultation,2024-01-26 19:30:00,OPD
+P0334,Rahul Verma,Recovery,2024-01-31 03:00:00,ICU
+P0334,Rahul Verma,X-Ray,2024-01-31 05:30:00,Radiology
+P0334,Rahul Verma,Registration,2024-01-31 08:00:00,OPD
+P0334,Rahul Verma,Surgery,2024-01-31 11:00:00,OT
+P0334,Rahul Verma,Discharge,2024-01-31 12:45:00,OPD
+P0334,Rahul Verma,Triage,2024-01-31 13:45:00,ER
+P0334,Rahul Verma,Blood Test,2024-01-31 16:00:00,Lab
+P0334,Rahul Verma,Consultation,2024-01-31 18:00:00,OPD
+P0335,Priya Singh,Consultation,2024-01-19 01:00:00,OPD
+P0335,Priya Singh,Registration,2024-01-19 03:45:00,OPD
+P0335,Priya Singh,Surgery,2024-01-19 07:00:00,OT
+P0335,Priya Singh,Triage,2024-01-19 09:30:00,ER
+P0335,Priya Singh,Blood Test,2024-01-19 12:15:00,Lab
+P0336,Ravi Kumar,Blood Test,2024-02-02 02:30:00,Lab
+P0336,Ravi Kumar,Registration,2024-02-02 05:15:00,OPD
+P0336,Ravi Kumar,Recovery,2024-02-02 07:45:00,ICU
+P0336,Ravi Kumar,Triage,2024-02-02 11:00:00,ER
+P0336,Ravi Kumar,X-Ray,2024-02-02 13:15:00,Radiology
+P0336,Ravi Kumar,Consultation,2024-02-02 15:30:00,OPD
+P0337,Neha Bose,Consultation,2024-01-29 01:15:00,OPD
+P0337,Neha Bose,Recovery,2024-01-29 04:45:00,ICU
+P0337,Neha Bose,Registration,2024-01-29 06:00:00,OPD
+P0337,Neha Bose,Triage,2024-01-29 09:15:00,ER
+P0337,Neha Bose,X-Ray,2024-01-29 10:30:00,Radiology
+P0337,Neha Bose,Discharge,2024-01-29 11:30:00,OPD
+P0338,Suresh Iyer,X-Ray,2024-01-26 01:30:00,Radiology
+P0338,Suresh Iyer,Blood Test,2024-01-26 03:45:00,Lab
+P0338,Suresh Iyer,Discharge,2024-01-26 07:15:00,OPD
+P0338,Suresh Iyer,Surgery,2024-01-26 08:15:00,OT
+P0338,Suresh Iyer,Triage,2024-01-26 11:00:00,ER
+P0338,Suresh Iyer,Registration,2024-01-26 12:45:00,OPD
+P0338,Suresh Iyer,Consultation,2024-01-26 15:00:00,OPD
+P0338,Suresh Iyer,Recovery,2024-01-26 16:30:00,ICU
+P0339,Kavita Nair,Consultation,2024-01-30 01:15:00,OPD
+P0339,Kavita Nair,Recovery,2024-01-30 04:15:00,ICU
+P0339,Kavita Nair,Discharge,2024-01-30 06:15:00,OPD
+P0339,Kavita Nair,Triage,2024-01-30 08:30:00,ER
+P0339,Kavita Nair,Blood Test,2024-01-30 11:00:00,Lab
+P0339,Kavita Nair,Surgery,2024-01-30 12:30:00,OT
+P0339,Kavita Nair,Registration,2024-01-30 13:45:00,OPD
+P0340,Kiran Pillai,Blood Test,2024-01-31 02:15:00,Lab
+P0340,Kiran Pillai,Recovery,2024-01-31 04:45:00,ICU
+P0340,Kiran Pillai,X-Ray,2024-01-31 07:45:00,Radiology
+P0340,Kiran Pillai,Triage,2024-01-31 11:15:00,ER
+P0340,Kiran Pillai,Registration,2024-01-31 13:30:00,OPD
+P0340,Kiran Pillai,Discharge,2024-01-31 17:15:00,OPD
+P0340,Kiran Pillai,Consultation,2024-01-31 20:00:00,OPD
+P0340,Kiran Pillai,Surgery,2024-01-31 22:00:00,OT
+P0341,Kavita Nair,Surgery,2024-01-29 03:45:00,OT
+P0341,Kavita Nair,X-Ray,2024-01-29 06:15:00,Radiology
+P0341,Kavita Nair,Blood Test,2024-01-29 08:00:00,Lab
+P0341,Kavita Nair,Consultation,2024-01-29 11:45:00,OPD
+P0341,Kavita Nair,Registration,2024-01-29 12:45:00,OPD
+P0341,Kavita Nair,Discharge,2024-01-29 14:00:00,OPD
+P0342,Kavita Nair,Surgery,2024-02-04 02:45:00,OT
+P0342,Kavita Nair,Registration,2024-02-04 04:30:00,OPD
+P0342,Kavita Nair,Consultation,2024-02-04 07:45:00,OPD
+P0342,Kavita Nair,Blood Test,2024-02-04 09:00:00,Lab
+P0342,Kavita Nair,Recovery,2024-02-04 11:30:00,ICU
+P0342,Kavita Nair,Discharge,2024-02-04 15:15:00,OPD
+P0342,Kavita Nair,Triage,2024-02-04 16:45:00,ER
+P0343,Kiran Pillai,Discharge,2024-01-15 01:30:00,OPD
+P0343,Kiran Pillai,Consultation,2024-01-15 04:15:00,OPD
+P0343,Kiran Pillai,Surgery,2024-01-15 05:45:00,OT
+P0343,Kiran Pillai,Blood Test,2024-01-15 08:00:00,Lab
+P0343,Kiran Pillai,Triage,2024-01-15 10:15:00,ER
+P0343,Kiran Pillai,Registration,2024-01-15 11:15:00,OPD
+P0344,Rahul Verma,Triage,2024-01-23 03:45:00,ER
+P0344,Rahul Verma,Consultation,2024-01-23 06:45:00,OPD
+P0344,Rahul Verma,Surgery,2024-01-23 08:45:00,OT
+P0344,Rahul Verma,X-Ray,2024-01-23 11:00:00,Radiology
+P0344,Rahul Verma,Blood Test,2024-01-23 14:00:00,Lab
+P0344,Rahul Verma,Recovery,2024-01-23 15:30:00,ICU
+P0344,Rahul Verma,Discharge,2024-01-23 17:45:00,OPD
+P0345,Pooja Gupta,Registration,2024-01-16 02:30:00,OPD
+P0345,Pooja Gupta,X-Ray,2024-01-16 05:30:00,Radiology
+P0345,Pooja Gupta,Recovery,2024-01-16 08:45:00,ICU
+P0345,Pooja Gupta,Blood Test,2024-01-16 12:00:00,Lab
+P0345,Pooja Gupta,Surgery,2024-01-16 13:15:00,OT
+P0346,Sonia Chatterjee,Surgery,2024-01-26 01:30:00,OT
+P0346,Sonia Chatterjee,Recovery,2024-01-26 02:30:00,ICU
+P0346,Sonia Chatterjee,Discharge,2024-01-26 04:00:00,OPD
+P0346,Sonia Chatterjee,X-Ray,2024-01-26 06:45:00,Radiology
+P0346,Sonia Chatterjee,Consultation,2024-01-26 09:15:00,OPD
+P0346,Sonia Chatterjee,Blood Test,2024-01-26 10:15:00,Lab
+P0347,Vikram Joshi,Blood Test,2024-01-28 02:00:00,Lab
+P0347,Vikram Joshi,Recovery,2024-01-28 03:15:00,ICU
+P0347,Vikram Joshi,Triage,2024-01-28 05:00:00,ER
+P0347,Vikram Joshi,Consultation,2024-01-28 07:30:00,OPD
+P0347,Vikram Joshi,Registration,2024-01-28 11:00:00,OPD
+P0348,Ahmed Khan,Surgery,2024-01-22 01:15:00,OT
+P0348,Ahmed Khan,Triage,2024-01-22 04:30:00,ER
+P0348,Ahmed Khan,Discharge,2024-01-22 06:45:00,OPD
+P0348,Ahmed Khan,X-Ray,2024-01-22 08:00:00,Radiology
+P0348,Ahmed Khan,Registration,2024-01-22 09:45:00,OPD
+P0348,Ahmed Khan,Consultation,2024-01-22 12:45:00,OPD
+P0348,Ahmed Khan,Blood Test,2024-01-22 13:45:00,Lab
+P0349,Neha Bose,Registration,2024-01-23 01:00:00,OPD
+P0349,Neha Bose,Triage,2024-01-23 03:00:00,ER
+P0349,Neha Bose,Discharge,2024-01-23 04:00:00,OPD
+P0349,Neha Bose,Surgery,2024-01-23 07:15:00,OT
+P0349,Neha Bose,Consultation,2024-01-23 10:30:00,OPD
+P0349,Neha Bose,Recovery,2024-01-23 12:00:00,ICU
+P0349,Neha Bose,Blood Test,2024-01-23 13:00:00,Lab
+P0350,Ahmed Khan,Surgery,2024-02-02 01:00:00,OT
+P0350,Ahmed Khan,X-Ray,2024-02-02 04:00:00,Radiology
+P0350,Ahmed Khan,Triage,2024-02-02 07:15:00,ER
+P0350,Ahmed Khan,Consultation,2024-02-02 10:30:00,OPD
+P0350,Ahmed Khan,Discharge,2024-02-02 12:45:00,OPD
+P0350,Ahmed Khan,Recovery,2024-02-02 15:45:00,ICU
+P0351,Priya Singh,Discharge,2024-01-29 03:00:00,OPD
+P0351,Priya Singh,X-Ray,2024-01-29 04:30:00,Radiology
+P0351,Priya Singh,Surgery,2024-01-29 07:15:00,OT
+P0351,Priya Singh,Consultation,2024-01-29 08:30:00,OPD
+P0351,Priya Singh,Triage,2024-01-29 10:30:00,ER
+P0352,Suresh Iyer,Discharge,2024-01-30 02:30:00,OPD
+P0352,Suresh Iyer,Registration,2024-01-30 05:30:00,OPD
+P0352,Suresh Iyer,Consultation,2024-01-30 07:00:00,OPD
+P0352,Suresh Iyer,Triage,2024-01-30 09:00:00,ER
+P0353,Manish Rao,Discharge,2024-02-01 02:30:00,OPD
+P0353,Manish Rao,Consultation,2024-02-01 04:45:00,OPD
+P0353,Manish Rao,Surgery,2024-02-01 06:30:00,OT
+P0353,Manish Rao,X-Ray,2024-02-01 10:00:00,Radiology
+P0353,Manish Rao,Blood Test,2024-02-01 11:00:00,Lab
+P0353,Manish Rao,Registration,2024-02-01 14:45:00,OPD
+P0354,Priya Singh,Discharge,2024-01-27 03:00:00,OPD
+P0354,Priya Singh,Consultation,2024-01-27 06:15:00,OPD
+P0354,Priya Singh,Surgery,2024-01-27 07:45:00,OT
+P0354,Priya Singh,Registration,2024-01-27 09:15:00,OPD
+P0354,Priya Singh,Recovery,2024-01-27 11:00:00,ICU
+P0354,Priya Singh,Blood Test,2024-01-27 12:15:00,Lab
+P0354,Priya Singh,Triage,2024-01-27 15:00:00,ER
+P0355,Rahul Verma,Consultation,2024-01-31 02:15:00,OPD
+P0355,Rahul Verma,Recovery,2024-01-31 04:15:00,ICU
+P0355,Rahul Verma,Surgery,2024-01-31 05:45:00,OT
+P0355,Rahul Verma,Blood Test,2024-01-31 08:30:00,Lab
+P0355,Rahul Verma,X-Ray,2024-01-31 09:45:00,Radiology
+P0355,Rahul Verma,Triage,2024-01-31 10:45:00,ER
+P0355,Rahul Verma,Discharge,2024-01-31 13:45:00,OPD
+P0355,Rahul Verma,Registration,2024-01-31 15:30:00,OPD
+P0356,Ravi Kumar,Recovery,2024-01-24 03:00:00,ICU
+P0356,Ravi Kumar,Consultation,2024-01-24 04:45:00,OPD
+P0356,Ravi Kumar,Surgery,2024-01-24 07:00:00,OT
+P0356,Ravi Kumar,X-Ray,2024-01-24 09:45:00,Radiology
+P0356,Ravi Kumar,Triage,2024-01-24 12:15:00,ER
+P0357,Sonia Chatterjee,Registration,2024-01-29 02:45:00,OPD
+P0357,Sonia Chatterjee,Recovery,2024-01-29 05:30:00,ICU
+P0357,Sonia Chatterjee,Discharge,2024-01-29 06:30:00,OPD
+P0357,Sonia Chatterjee,Blood Test,2024-01-29 08:00:00,Lab
+P0357,Sonia Chatterjee,Surgery,2024-01-29 11:15:00,OT
+P0357,Sonia Chatterjee,Triage,2024-01-29 14:00:00,ER
+P0358,Ahmed Khan,Recovery,2024-02-01 03:45:00,ICU
+P0358,Ahmed Khan,Blood Test,2024-02-01 06:00:00,Lab
+P0358,Ahmed Khan,Registration,2024-02-01 09:00:00,OPD
+P0358,Ahmed Khan,Consultation,2024-02-01 11:30:00,OPD
+P0358,Ahmed Khan,Discharge,2024-02-01 14:15:00,OPD
+P0358,Ahmed Khan,X-Ray,2024-02-01 17:45:00,Radiology
+P0359,Kavita Nair,Registration,2024-01-26 03:00:00,OPD
+P0359,Kavita Nair,Discharge,2024-01-26 06:30:00,OPD
+P0359,Kavita Nair,Consultation,2024-01-26 08:30:00,OPD
+P0359,Kavita Nair,Recovery,2024-01-26 11:00:00,ICU
+P0359,Kavita Nair,Triage,2024-01-26 13:45:00,ER
+P0359,Kavita Nair,Blood Test,2024-01-26 15:45:00,Lab
+P0360,Anita Desai,Blood Test,2024-01-17 02:00:00,Lab
+P0360,Anita Desai,Surgery,2024-01-17 04:15:00,OT
+P0360,Anita Desai,X-Ray,2024-01-17 05:45:00,Radiology
+P0360,Anita Desai,Consultation,2024-01-17 07:30:00,OPD
+P0360,Anita Desai,Registration,2024-01-17 11:15:00,OPD
+P0361,Kiran Pillai,Recovery,2024-01-25 03:00:00,ICU
+P0361,Kiran Pillai,X-Ray,2024-01-25 05:00:00,Radiology
+P0361,Kiran Pillai,Registration,2024-01-25 08:15:00,OPD
+P0361,Kiran Pillai,Blood Test,2024-01-25 11:00:00,Lab
+P0361,Kiran Pillai,Surgery,2024-01-25 14:30:00,OT
+P0361,Kiran Pillai,Triage,2024-01-25 16:00:00,ER
+P0361,Kiran Pillai,Discharge,2024-01-25 18:45:00,OPD
+P0361,Kiran Pillai,Consultation,2024-01-25 20:30:00,OPD
+P0362,Arjun Patel,Blood Test,2024-02-03 03:00:00,Lab
+P0362,Arjun Patel,X-Ray,2024-02-03 06:00:00,Radiology
+P0362,Arjun Patel,Recovery,2024-02-03 09:30:00,ICU
+P0362,Arjun Patel,Registration,2024-02-03 11:30:00,OPD
+P0362,Arjun Patel,Surgery,2024-02-03 15:15:00,OT
+P0362,Arjun Patel,Discharge,2024-02-03 17:30:00,OPD
+P0362,Arjun Patel,Triage,2024-02-03 19:30:00,ER
+P0362,Arjun Patel,Consultation,2024-02-03 23:00:00,OPD
+P0363,Rohit Malhotra,Recovery,2024-01-27 02:45:00,ICU
+P0363,Rohit Malhotra,Surgery,2024-01-27 06:00:00,OT
+P0363,Rohit Malhotra,Consultation,2024-01-27 07:15:00,OPD
+P0363,Rohit Malhotra,X-Ray,2024-01-27 11:00:00,Radiology
+P0363,Rohit Malhotra,Triage,2024-01-27 12:45:00,ER
+P0363,Rohit Malhotra,Blood Test,2024-01-27 15:30:00,Lab
+P0364,Kiran Pillai,Blood Test,2024-01-22 01:30:00,Lab
+P0364,Kiran Pillai,X-Ray,2024-01-22 04:15:00,Radiology
+P0364,Kiran Pillai,Discharge,2024-01-22 06:15:00,OPD
+P0364,Kiran Pillai,Triage,2024-01-22 09:30:00,ER
+P0365,Deepa Menon,Consultation,2024-01-22 01:15:00,OPD
+P0365,Deepa Menon,Surgery,2024-01-22 02:15:00,OT
+P0365,Deepa Menon,Triage,2024-01-22 03:45:00,ER
+P0365,Deepa Menon,X-Ray,2024-01-22 06:30:00,Radiology
+P0365,Deepa Menon,Recovery,2024-01-22 10:15:00,ICU
+P0365,Deepa Menon,Blood Test,2024-01-22 12:15:00,Lab
+P0366,Vikram Joshi,Consultation,2024-02-01 01:00:00,OPD
+P0366,Vikram Joshi,Triage,2024-02-01 04:45:00,ER
+P0366,Vikram Joshi,Registration,2024-02-01 05:45:00,OPD
+P0366,Vikram Joshi,X-Ray,2024-02-01 07:15:00,Radiology
+P0366,Vikram Joshi,Discharge,2024-02-01 10:45:00,OPD
+P0367,Arjun Patel,Surgery,2024-01-22 01:00:00,OT
+P0367,Arjun Patel,Discharge,2024-01-22 04:30:00,OPD
+P0367,Arjun Patel,Recovery,2024-01-22 06:30:00,ICU
+P0367,Arjun Patel,Registration,2024-01-22 07:30:00,OPD
+P0367,Arjun Patel,Blood Test,2024-01-22 10:00:00,Lab
+P0367,Arjun Patel,X-Ray,2024-01-22 13:45:00,Radiology
+P0367,Arjun Patel,Consultation,2024-01-22 17:00:00,OPD
+P0368,Deepa Menon,X-Ray,2024-01-29 02:30:00,Radiology
+P0368,Deepa Menon,Registration,2024-01-29 05:30:00,OPD
+P0368,Deepa Menon,Triage,2024-01-29 08:00:00,ER
+P0368,Deepa Menon,Surgery,2024-01-29 11:00:00,OT
+P0368,Deepa Menon,Discharge,2024-01-29 13:45:00,OPD
+P0369,Neha Bose,Consultation,2024-01-26 02:00:00,OPD
+P0369,Neha Bose,Recovery,2024-01-26 05:00:00,ICU
+P0369,Neha Bose,Triage,2024-01-26 08:00:00,ER
+P0369,Neha Bose,X-Ray,2024-01-26 11:15:00,Radiology
+P0369,Neha Bose,Blood Test,2024-01-26 14:00:00,Lab
+P0370,Kavita Nair,Triage,2024-01-27 02:30:00,ER
+P0370,Kavita Nair,Consultation,2024-01-27 03:45:00,OPD
+P0370,Kavita Nair,Discharge,2024-01-27 06:00:00,OPD
+P0370,Kavita Nair,Blood Test,2024-01-27 07:45:00,Lab
+P0370,Kavita Nair,Recovery,2024-01-27 11:15:00,ICU
+P0370,Kavita Nair,Registration,2024-01-27 15:00:00,OPD
+P0371,Meena Sharma,Triage,2024-01-28 01:15:00,ER
+P0371,Meena Sharma,Recovery,2024-01-28 04:45:00,ICU
+P0371,Meena Sharma,Blood Test,2024-01-28 07:45:00,Lab
+P0371,Meena Sharma,Surgery,2024-01-28 10:30:00,OT
+P0371,Meena Sharma,Consultation,2024-01-28 14:00:00,OPD
+P0371,Meena Sharma,Discharge,2024-01-28 16:00:00,OPD
+P0372,Meena Sharma,Discharge,2024-01-27 01:30:00,OPD
+P0372,Meena Sharma,Recovery,2024-01-27 03:30:00,ICU
+P0372,Meena Sharma,Surgery,2024-01-27 04:45:00,OT
+P0372,Meena Sharma,Triage,2024-01-27 06:00:00,ER
+P0372,Meena Sharma,Registration,2024-01-27 09:45:00,OPD
+P0373,Suresh Iyer,Discharge,2024-01-24 01:00:00,OPD
+P0373,Suresh Iyer,Recovery,2024-01-24 03:30:00,ICU
+P0373,Suresh Iyer,Surgery,2024-01-24 05:15:00,OT
+P0373,Suresh Iyer,Triage,2024-01-24 07:30:00,ER
+P0373,Suresh Iyer,X-Ray,2024-01-24 08:30:00,Radiology
+P0373,Suresh Iyer,Registration,2024-01-24 11:45:00,OPD
+P0373,Suresh Iyer,Consultation,2024-01-24 13:30:00,OPD
+P0374,Vikram Joshi,X-Ray,2024-01-23 01:00:00,Radiology
+P0374,Vikram Joshi,Registration,2024-01-23 03:15:00,OPD
+P0374,Vikram Joshi,Blood Test,2024-01-23 06:15:00,Lab
+P0374,Vikram Joshi,Consultation,2024-01-23 08:00:00,OPD
+P0374,Vikram Joshi,Surgery,2024-01-23 10:45:00,OT
+P0374,Vikram Joshi,Discharge,2024-01-23 12:00:00,OPD
+P0375,Vikram Joshi,Consultation,2024-01-19 02:15:00,OPD
+P0375,Vikram Joshi,X-Ray,2024-01-19 05:30:00,Radiology
+P0375,Vikram Joshi,Surgery,2024-01-19 07:45:00,OT
+P0375,Vikram Joshi,Blood Test,2024-01-19 10:00:00,Lab
+P0375,Vikram Joshi,Discharge,2024-01-19 12:15:00,OPD
+P0376,Ravi Kumar,Consultation,2024-02-02 03:45:00,OPD
+P0376,Ravi Kumar,Triage,2024-02-02 04:45:00,ER
+P0376,Ravi Kumar,Discharge,2024-02-02 07:00:00,OPD
+P0376,Ravi Kumar,Blood Test,2024-02-02 09:45:00,Lab
+P0376,Ravi Kumar,Recovery,2024-02-02 13:00:00,ICU
+P0376,Ravi Kumar,Surgery,2024-02-02 16:45:00,OT
+P0377,Deepa Menon,Consultation,2024-01-30 02:00:00,OPD
+P0377,Deepa Menon,Registration,2024-01-30 03:30:00,OPD
+P0377,Deepa Menon,Recovery,2024-01-30 07:15:00,ICU
+P0377,Deepa Menon,Discharge,2024-01-30 10:00:00,OPD
+P0377,Deepa Menon,Surgery,2024-01-30 13:30:00,OT
+P0377,Deepa Menon,Blood Test,2024-01-30 14:30:00,Lab
+P0377,Deepa Menon,Triage,2024-01-30 17:45:00,ER
+P0377,Deepa Menon,X-Ray,2024-01-30 20:00:00,Radiology
+P0378,Rohit Malhotra,Surgery,2024-01-19 02:00:00,OT
+P0378,Rohit Malhotra,Blood Test,2024-01-19 04:00:00,Lab
+P0378,Rohit Malhotra,Triage,2024-01-19 05:45:00,ER
+P0378,Rohit Malhotra,Registration,2024-01-19 08:15:00,OPD
+P0378,Rohit Malhotra,X-Ray,2024-01-19 10:45:00,Radiology
+P0378,Rohit Malhotra,Recovery,2024-01-19 13:15:00,ICU
+P0378,Rohit Malhotra,Discharge,2024-01-19 16:45:00,OPD
+P0379,Deepa Menon,Surgery,2024-01-16 01:15:00,OT
+P0379,Deepa Menon,Discharge,2024-01-16 02:30:00,OPD
+P0379,Deepa Menon,Blood Test,2024-01-16 03:30:00,Lab
+P0379,Deepa Menon,Triage,2024-01-16 06:00:00,ER
+P0379,Deepa Menon,Recovery,2024-01-16 07:45:00,ICU
+P0380,Deepa Menon,Discharge,2024-02-01 02:45:00,OPD
+P0380,Deepa Menon,Registration,2024-02-01 04:45:00,OPD
+P0380,Deepa Menon,Blood Test,2024-02-01 08:00:00,Lab
+P0380,Deepa Menon,X-Ray,2024-02-01 09:30:00,Radiology
+P0381,Arjun Patel,Consultation,2024-02-02 03:15:00,OPD
+P0381,Arjun Patel,Triage,2024-02-02 06:15:00,ER
+P0381,Arjun Patel,Recovery,2024-02-02 09:30:00,ICU
+P0381,Arjun Patel,Discharge,2024-02-02 11:30:00,OPD
+P0381,Arjun Patel,X-Ray,2024-02-02 13:15:00,Radiology
+P0382,Priya Singh,Registration,2024-02-02 01:30:00,OPD
+P0382,Priya Singh,X-Ray,2024-02-02 02:30:00,Radiology
+P0382,Priya Singh,Surgery,2024-02-02 04:15:00,OT
+P0382,Priya Singh,Discharge,2024-02-02 08:00:00,OPD
+P0382,Priya Singh,Blood Test,2024-02-02 10:30:00,Lab
+P0382,Priya Singh,Triage,2024-02-02 13:30:00,ER
+P0383,Suresh Iyer,Discharge,2024-01-19 01:00:00,OPD
+P0383,Suresh Iyer,X-Ray,2024-01-19 04:30:00,Radiology
+P0383,Suresh Iyer,Surgery,2024-01-19 06:30:00,OT
+P0383,Suresh Iyer,Consultation,2024-01-19 09:30:00,OPD
+P0384,Sonia Chatterjee,Recovery,2024-01-15 01:15:00,ICU
+P0384,Sonia Chatterjee,Registration,2024-01-15 04:00:00,OPD
+P0384,Sonia Chatterjee,Blood Test,2024-01-15 06:15:00,Lab
+P0384,Sonia Chatterjee,X-Ray,2024-01-15 07:45:00,Radiology
+P0384,Sonia Chatterjee,Triage,2024-01-15 10:30:00,ER
+P0384,Sonia Chatterjee,Discharge,2024-01-15 14:00:00,OPD
+P0384,Sonia Chatterjee,Surgery,2024-01-15 17:15:00,OT
+P0384,Sonia Chatterjee,Consultation,2024-01-15 19:15:00,OPD
+P0385,Pooja Gupta,Blood Test,2024-01-28 02:15:00,Lab
+P0385,Pooja Gupta,Discharge,2024-01-28 05:00:00,OPD
+P0385,Pooja Gupta,Recovery,2024-01-28 06:00:00,ICU
+P0385,Pooja Gupta,Surgery,2024-01-28 09:30:00,OT
+P0385,Pooja Gupta,Consultation,2024-01-28 11:45:00,OPD
+P0385,Pooja Gupta,Triage,2024-01-28 15:00:00,ER
+P0385,Pooja Gupta,X-Ray,2024-01-28 17:00:00,Radiology
+P0385,Pooja Gupta,Registration,2024-01-28 19:45:00,OPD
+P0386,Deepa Menon,Discharge,2024-01-24 01:45:00,OPD
+P0386,Deepa Menon,X-Ray,2024-01-24 03:45:00,Radiology
+P0386,Deepa Menon,Triage,2024-01-24 06:45:00,ER
+P0386,Deepa Menon,Surgery,2024-01-24 07:45:00,OT
+P0387,Rohit Malhotra,Recovery,2024-02-02 01:00:00,ICU
+P0387,Rohit Malhotra,Registration,2024-02-02 02:45:00,OPD
+P0387,Rohit Malhotra,Blood Test,2024-02-02 04:00:00,Lab
+P0387,Rohit Malhotra,Consultation,2024-02-02 06:00:00,OPD
+P0387,Rohit Malhotra,X-Ray,2024-02-02 07:45:00,Radiology
+P0387,Rohit Malhotra,Triage,2024-02-02 11:15:00,ER
+P0387,Rohit Malhotra,Surgery,2024-02-02 14:00:00,OT
+P0388,Ajay Kulkarni,Consultation,2024-01-28 03:00:00,OPD
+P0388,Ajay Kulkarni,X-Ray,2024-01-28 04:45:00,Radiology
+P0388,Ajay Kulkarni,Triage,2024-01-28 05:45:00,ER
+P0388,Ajay Kulkarni,Surgery,2024-01-28 07:30:00,OT
+P0388,Ajay Kulkarni,Discharge,2024-01-28 10:15:00,OPD
+P0388,Ajay Kulkarni,Registration,2024-01-28 14:00:00,OPD
+P0388,Ajay Kulkarni,Blood Test,2024-01-28 16:30:00,Lab
+P0388,Ajay Kulkarni,Recovery,2024-01-28 20:15:00,ICU
+P0389,Kavita Nair,X-Ray,2024-01-18 01:15:00,Radiology
+P0389,Kavita Nair,Triage,2024-01-18 02:30:00,ER
+P0389,Kavita Nair,Registration,2024-01-18 04:45:00,OPD
+P0389,Kavita Nair,Recovery,2024-01-18 08:00:00,ICU
+P0390,Deepa Menon,Blood Test,2024-01-18 01:15:00,Lab
+P0390,Deepa Menon,Registration,2024-01-18 05:00:00,OPD
+P0390,Deepa Menon,X-Ray,2024-01-18 07:45:00,Radiology
+P0390,Deepa Menon,Discharge,2024-01-18 09:30:00,OPD
+P0390,Deepa Menon,Triage,2024-01-18 12:45:00,ER
+P0390,Deepa Menon,Consultation,2024-01-18 14:15:00,OPD
+P0390,Deepa Menon,Surgery,2024-01-18 18:00:00,OT
+P0390,Deepa Menon,Recovery,2024-01-18 19:30:00,ICU
+P0391,Ravi Kumar,Recovery,2024-02-03 03:30:00,ICU
+P0391,Ravi Kumar,Blood Test,2024-02-03 05:15:00,Lab
+P0391,Ravi Kumar,Discharge,2024-02-03 08:00:00,OPD
+P0391,Ravi Kumar,Consultation,2024-02-03 11:45:00,OPD
+P0392,Anita Desai,Registration,2024-02-01 01:30:00,OPD
+P0392,Anita Desai,Blood Test,2024-02-01 05:15:00,Lab
+P0392,Anita Desai,Consultation,2024-02-01 07:15:00,OPD
+P0392,Anita Desai,X-Ray,2024-02-01 09:45:00,Radiology
+P0393,Ajay Kulkarni,Registration,2024-01-22 03:15:00,OPD
+P0393,Ajay Kulkarni,Triage,2024-01-22 06:45:00,ER
+P0393,Ajay Kulkarni,X-Ray,2024-01-22 10:30:00,Radiology
+P0393,Ajay Kulkarni,Recovery,2024-01-22 12:00:00,ICU
+P0393,Ajay Kulkarni,Blood Test,2024-01-22 15:45:00,Lab
+P0393,Ajay Kulkarni,Consultation,2024-01-22 18:15:00,OPD
+P0393,Ajay Kulkarni,Surgery,2024-01-22 20:30:00,OT
+P0394,Amit Trivedi,Consultation,2024-01-19 01:15:00,OPD
+P0394,Amit Trivedi,Surgery,2024-01-19 03:00:00,OT
+P0394,Amit Trivedi,Recovery,2024-01-19 04:45:00,ICU
+P0394,Amit Trivedi,Registration,2024-01-19 07:15:00,OPD
+P0394,Amit Trivedi,Blood Test,2024-01-19 08:30:00,Lab
+P0395,Sonia Chatterjee,Registration,2024-01-20 01:00:00,OPD
+P0395,Sonia Chatterjee,X-Ray,2024-01-20 02:30:00,Radiology
+P0395,Sonia Chatterjee,Recovery,2024-01-20 04:30:00,ICU
+P0395,Sonia Chatterjee,Surgery,2024-01-20 07:45:00,OT
+P0396,Priya Singh,Blood Test,2024-01-31 03:00:00,Lab
+P0396,Priya Singh,Discharge,2024-01-31 06:00:00,OPD
+P0396,Priya Singh,X-Ray,2024-01-31 08:45:00,Radiology
+P0396,Priya Singh,Surgery,2024-01-31 09:45:00,OT
+P0396,Priya Singh,Consultation,2024-01-31 12:45:00,OPD
+P0396,Priya Singh,Registration,2024-01-31 15:45:00,OPD
+P0396,Priya Singh,Triage,2024-01-31 18:45:00,ER
+P0396,Priya Singh,Recovery,2024-01-31 19:45:00,ICU
+P0397,Vikram Joshi,X-Ray,2024-01-18 01:30:00,Radiology
+P0397,Vikram Joshi,Surgery,2024-01-18 03:45:00,OT
+P0397,Vikram Joshi,Discharge,2024-01-18 05:00:00,OPD
+P0397,Vikram Joshi,Blood Test,2024-01-18 07:45:00,Lab
+P0397,Vikram Joshi,Consultation,2024-01-18 09:00:00,OPD
+P0397,Vikram Joshi,Recovery,2024-01-18 11:30:00,ICU
+P0398,Kavita Nair,X-Ray,2024-01-31 02:15:00,Radiology
+P0398,Kavita Nair,Registration,2024-01-31 04:00:00,OPD
+P0398,Kavita Nair,Discharge,2024-01-31 06:45:00,OPD
+P0398,Kavita Nair,Surgery,2024-01-31 09:15:00,OT
+P0398,Kavita Nair,Blood Test,2024-01-31 11:00:00,Lab
+P0398,Kavita Nair,Triage,2024-01-31 12:00:00,ER
+P0398,Kavita Nair,Recovery,2024-01-31 15:00:00,ICU
+P0398,Kavita Nair,Consultation,2024-01-31 16:30:00,OPD
+P0399,Suresh Iyer,X-Ray,2024-02-02 01:30:00,Radiology
+P0399,Suresh Iyer,Blood Test,2024-02-02 04:15:00,Lab
+P0399,Suresh Iyer,Registration,2024-02-02 07:45:00,OPD
+P0399,Suresh Iyer,Recovery,2024-02-02 11:15:00,ICU
+P0399,Suresh Iyer,Surgery,2024-02-02 13:15:00,OT
+P0399,Suresh Iyer,Discharge,2024-02-02 15:30:00,OPD
+P0399,Suresh Iyer,Consultation,2024-02-02 19:15:00,OPD
+P0400,Ajay Kulkarni,Discharge,2024-01-24 01:00:00,OPD
+P0400,Ajay Kulkarni,Surgery,2024-01-24 04:30:00,OT
+P0400,Ajay Kulkarni,X-Ray,2024-01-24 06:45:00,Radiology
+P0400,Ajay Kulkarni,Blood Test,2024-01-24 10:15:00,Lab
+P0400,Ajay Kulkarni,Triage,2024-01-24 11:15:00,ER
+P0401,Rohit Malhotra,Consultation,2024-01-24 03:45:00,OPD
+P0401,Rohit Malhotra,Discharge,2024-01-24 06:45:00,OPD
+P0401,Rohit Malhotra,X-Ray,2024-01-24 09:45:00,Radiology
+P0401,Rohit Malhotra,Triage,2024-01-24 12:15:00,ER
+P0401,Rohit Malhotra,Registration,2024-01-24 15:45:00,OPD
+P0401,Rohit Malhotra,Blood Test,2024-01-24 16:45:00,Lab
+P0401,Rohit Malhotra,Recovery,2024-01-24 19:45:00,ICU
+P0401,Rohit Malhotra,Surgery,2024-01-24 22:15:00,OT
+P0402,Kiran Pillai,Discharge,2024-02-02 03:15:00,OPD
+P0402,Kiran Pillai,X-Ray,2024-02-02 05:45:00,Radiology
+P0402,Kiran Pillai,Triage,2024-02-02 08:00:00,ER
+P0402,Kiran Pillai,Consultation,2024-02-02 11:45:00,OPD
+P0403,Rohit Malhotra,Triage,2024-01-26 02:00:00,ER
+P0403,Rohit Malhotra,X-Ray,2024-01-26 03:45:00,Radiology
+P0403,Rohit Malhotra,Consultation,2024-01-26 05:45:00,OPD
+P0403,Rohit Malhotra,Surgery,2024-01-26 06:45:00,OT
+P0403,Rohit Malhotra,Discharge,2024-01-26 09:00:00,OPD
+P0404,Neha Bose,Discharge,2024-02-02 03:45:00,OPD
+P0404,Neha Bose,Registration,2024-02-02 06:30:00,OPD
+P0404,Neha Bose,X-Ray,2024-02-02 10:15:00,Radiology
+P0404,Neha Bose,Consultation,2024-02-02 13:00:00,OPD
+P0404,Neha Bose,Blood Test,2024-02-02 16:45:00,Lab
+P0405,Sneha Reddy,X-Ray,2024-01-31 03:00:00,Radiology
+P0405,Sneha Reddy,Blood Test,2024-01-31 06:15:00,Lab
+P0405,Sneha Reddy,Surgery,2024-01-31 09:00:00,OT
+P0405,Sneha Reddy,Recovery,2024-01-31 10:15:00,ICU
+P0405,Sneha Reddy,Triage,2024-01-31 13:45:00,ER
+P0406,Priya Singh,Recovery,2024-01-26 02:30:00,ICU
+P0406,Priya Singh,Registration,2024-01-26 05:00:00,OPD
+P0406,Priya Singh,Discharge,2024-01-26 07:00:00,OPD
+P0406,Priya Singh,X-Ray,2024-01-26 08:15:00,Radiology
+P0406,Priya Singh,Consultation,2024-01-26 12:00:00,OPD
+P0406,Priya Singh,Surgery,2024-01-26 13:30:00,OT
+P0406,Priya Singh,Blood Test,2024-01-26 15:45:00,Lab
+P0406,Priya Singh,Triage,2024-01-26 17:30:00,ER
+P0407,Ravi Kumar,Surgery,2024-01-30 03:30:00,OT
+P0407,Ravi Kumar,Registration,2024-01-30 07:15:00,OPD
+P0407,Ravi Kumar,Recovery,2024-01-30 10:00:00,ICU
+P0407,Ravi Kumar,Blood Test,2024-01-30 12:15:00,Lab
+P0408,Ahmed Khan,Discharge,2024-02-03 03:45:00,OPD
+P0408,Ahmed Khan,Recovery,2024-02-03 06:00:00,ICU
+P0408,Ahmed Khan,Blood Test,2024-02-03 08:30:00,Lab
+P0408,Ahmed Khan,Surgery,2024-02-03 11:30:00,OT
+P0408,Ahmed Khan,Triage,2024-02-03 15:15:00,ER
+P0408,Ahmed Khan,X-Ray,2024-02-03 18:45:00,Radiology
+P0408,Ahmed Khan,Consultation,2024-02-03 21:45:00,OPD
+P0408,Ahmed Khan,Registration,2024-02-03 22:45:00,OPD
+P0409,Kiran Pillai,Triage,2024-02-01 03:00:00,ER
+P0409,Kiran Pillai,Surgery,2024-02-01 06:15:00,OT
+P0409,Kiran Pillai,Consultation,2024-02-01 08:15:00,OPD
+P0409,Kiran Pillai,Registration,2024-02-01 09:30:00,OPD
+P0409,Kiran Pillai,Discharge,2024-02-01 11:00:00,OPD
+P0409,Kiran Pillai,X-Ray,2024-02-01 12:15:00,Radiology
+P0410,Kiran Pillai,Triage,2024-01-30 01:30:00,ER
+P0410,Kiran Pillai,Recovery,2024-01-30 03:45:00,ICU
+P0410,Kiran Pillai,Consultation,2024-01-30 05:45:00,OPD
+P0410,Kiran Pillai,Surgery,2024-01-30 09:15:00,OT
+P0410,Kiran Pillai,X-Ray,2024-01-30 11:45:00,Radiology
+P0410,Kiran Pillai,Discharge,2024-01-30 12:45:00,OPD
+P0410,Kiran Pillai,Registration,2024-01-30 14:00:00,OPD
+P0411,Kavita Nair,X-Ray,2024-01-28 03:15:00,Radiology
+P0411,Kavita Nair,Discharge,2024-01-28 04:45:00,OPD
+P0411,Kavita Nair,Registration,2024-01-28 05:45:00,OPD
+P0411,Kavita Nair,Triage,2024-01-28 08:45:00,ER
+P0411,Kavita Nair,Recovery,2024-01-28 11:30:00,ICU
+P0412,Priya Singh,X-Ray,2024-01-16 01:15:00,Radiology
+P0412,Priya Singh,Blood Test,2024-01-16 04:30:00,Lab
+P0412,Priya Singh,Discharge,2024-01-16 07:15:00,OPD
+P0412,Priya Singh,Surgery,2024-01-16 08:45:00,OT
+P0412,Priya Singh,Recovery,2024-01-16 10:15:00,ICU
+P0412,Priya Singh,Registration,2024-01-16 13:00:00,OPD
+P0413,Arjun Patel,Registration,2024-01-22 03:15:00,OPD
+P0413,Arjun Patel,Blood Test,2024-01-22 06:00:00,Lab
+P0413,Arjun Patel,Surgery,2024-01-22 08:00:00,OT
+P0413,Arjun Patel,Triage,2024-01-22 11:15:00,ER
+P0413,Arjun Patel,Discharge,2024-01-22 12:45:00,OPD
+P0413,Arjun Patel,Consultation,2024-01-22 16:00:00,OPD
+P0413,Arjun Patel,Recovery,2024-01-22 17:45:00,ICU
+P0414,Sonia Chatterjee,Registration,2024-01-15 01:45:00,OPD
+P0414,Sonia Chatterjee,Discharge,2024-01-15 04:15:00,OPD
+P0414,Sonia Chatterjee,Blood Test,2024-01-15 08:00:00,Lab
+P0414,Sonia Chatterjee,Consultation,2024-01-15 10:15:00,OPD
+P0414,Sonia Chatterjee,X-Ray,2024-01-15 13:45:00,Radiology
+P0414,Sonia Chatterjee,Surgery,2024-01-15 15:00:00,OT
+P0414,Sonia Chatterjee,Recovery,2024-01-15 18:00:00,ICU
+P0415,Kavita Nair,Recovery,2024-02-01 02:45:00,ICU
+P0415,Kavita Nair,Surgery,2024-02-01 04:15:00,OT
+P0415,Kavita Nair,Registration,2024-02-01 07:45:00,OPD
+P0415,Kavita Nair,Triage,2024-02-01 11:15:00,ER
+P0416,Ajay Kulkarni,Blood Test,2024-02-03 02:00:00,Lab
+P0416,Ajay Kulkarni,Surgery,2024-02-03 05:15:00,OT
+P0416,Ajay Kulkarni,X-Ray,2024-02-03 08:15:00,Radiology
+P0416,Ajay Kulkarni,Recovery,2024-02-03 12:00:00,ICU
+P0416,Ajay Kulkarni,Triage,2024-02-03 13:00:00,ER
+P0416,Ajay Kulkarni,Discharge,2024-02-03 16:15:00,OPD
+P0417,Deepa Menon,Discharge,2024-01-29 03:00:00,OPD
+P0417,Deepa Menon,Recovery,2024-01-29 05:45:00,ICU
+P0417,Deepa Menon,Blood Test,2024-01-29 09:15:00,Lab
+P0417,Deepa Menon,Consultation,2024-01-29 11:30:00,OPD
+P0417,Deepa Menon,Registration,2024-01-29 14:30:00,OPD
+P0417,Deepa Menon,X-Ray,2024-01-29 16:15:00,Radiology
+P0417,Deepa Menon,Surgery,2024-01-29 18:30:00,OT
+P0417,Deepa Menon,Triage,2024-01-29 20:30:00,ER
+P0418,Anita Desai,Consultation,2024-01-21 01:30:00,OPD
+P0418,Anita Desai,Surgery,2024-01-21 04:45:00,OT
+P0418,Anita Desai,Recovery,2024-01-21 06:30:00,ICU
+P0418,Anita Desai,X-Ray,2024-01-21 08:30:00,Radiology
+P0419,Rahul Verma,Blood Test,2024-01-20 03:15:00,Lab
+P0419,Rahul Verma,Registration,2024-01-20 06:30:00,OPD
+P0419,Rahul Verma,Triage,2024-01-20 07:45:00,ER
+P0419,Rahul Verma,Discharge,2024-01-20 10:45:00,OPD
+P0419,Rahul Verma,Recovery,2024-01-20 12:15:00,ICU
+P0419,Rahul Verma,Surgery,2024-01-20 15:30:00,OT
+P0419,Rahul Verma,X-Ray,2024-01-20 19:00:00,Radiology
+P0420,Vikram Joshi,Consultation,2024-01-15 02:00:00,OPD
+P0420,Vikram Joshi,Surgery,2024-01-15 04:45:00,OT
+P0420,Vikram Joshi,Discharge,2024-01-15 07:15:00,OPD
+P0420,Vikram Joshi,Blood Test,2024-01-15 09:00:00,Lab
+P0421,Neha Bose,Registration,2024-02-01 02:30:00,OPD
+P0421,Neha Bose,Surgery,2024-02-01 04:15:00,OT
+P0421,Neha Bose,Triage,2024-02-01 05:45:00,ER
+P0421,Neha Bose,Discharge,2024-02-01 06:45:00,OPD
+P0421,Neha Bose,X-Ray,2024-02-01 10:00:00,Radiology
+P0421,Neha Bose,Recovery,2024-02-01 13:45:00,ICU
+P0422,Arjun Patel,Blood Test,2024-02-04 03:00:00,Lab
+P0422,Arjun Patel,Triage,2024-02-04 04:45:00,ER
+P0422,Arjun Patel,X-Ray,2024-02-04 06:45:00,Radiology
+P0422,Arjun Patel,Surgery,2024-02-04 10:15:00,OT
+P0422,Arjun Patel,Registration,2024-02-04 12:30:00,OPD
+P0423,Priya Singh,Blood Test,2024-01-18 03:45:00,Lab
+P0423,Priya Singh,X-Ray,2024-01-18 06:45:00,Radiology
+P0423,Priya Singh,Registration,2024-01-18 07:45:00,OPD
+P0423,Priya Singh,Recovery,2024-01-18 09:30:00,ICU
+P0423,Priya Singh,Triage,2024-01-18 11:30:00,ER
+P0423,Priya Singh,Surgery,2024-01-18 12:30:00,OT
+P0423,Priya Singh,Discharge,2024-01-18 14:30:00,OPD
+P0424,Kavita Nair,Recovery,2024-01-18 03:45:00,ICU
+P0424,Kavita Nair,Registration,2024-01-18 04:45:00,OPD
+P0424,Kavita Nair,Discharge,2024-01-18 07:30:00,OPD
+P0424,Kavita Nair,Surgery,2024-01-18 10:15:00,OT
+P0424,Kavita Nair,Consultation,2024-01-18 13:15:00,OPD
+P0424,Kavita Nair,Triage,2024-01-18 15:15:00,ER
+P0424,Kavita Nair,X-Ray,2024-01-18 17:45:00,Radiology
+P0424,Kavita Nair,Blood Test,2024-01-18 21:00:00,Lab
+P0425,Priya Singh,Registration,2024-02-02 01:15:00,OPD
+P0425,Priya Singh,Consultation,2024-02-02 04:45:00,OPD
+P0425,Priya Singh,Surgery,2024-02-02 07:30:00,OT
+P0425,Priya Singh,Discharge,2024-02-02 10:15:00,OPD
+P0426,Sneha Reddy,X-Ray,2024-01-24 03:45:00,Radiology
+P0426,Sneha Reddy,Recovery,2024-01-24 07:15:00,ICU
+P0426,Sneha Reddy,Registration,2024-01-24 09:30:00,OPD
+P0426,Sneha Reddy,Surgery,2024-01-24 11:15:00,OT
+P0426,Sneha Reddy,Triage,2024-01-24 13:45:00,ER
+P0427,Kavita Nair,Registration,2024-01-31 03:00:00,OPD
+P0427,Kavita Nair,Consultation,2024-01-31 05:30:00,OPD
+P0427,Kavita Nair,Recovery,2024-01-31 06:45:00,ICU
+P0427,Kavita Nair,Triage,2024-01-31 10:00:00,ER
+P0427,Kavita Nair,Discharge,2024-01-31 11:30:00,OPD
+P0427,Kavita Nair,Blood Test,2024-01-31 13:15:00,Lab
+P0428,Ajay Kulkarni,Surgery,2024-01-25 01:00:00,OT
+P0428,Ajay Kulkarni,Recovery,2024-01-25 03:00:00,ICU
+P0428,Ajay Kulkarni,Consultation,2024-01-25 05:15:00,OPD
+P0428,Ajay Kulkarni,Discharge,2024-01-25 06:30:00,OPD
+P0428,Ajay Kulkarni,X-Ray,2024-01-25 09:45:00,Radiology
+P0428,Ajay Kulkarni,Blood Test,2024-01-25 12:00:00,Lab
+P0428,Ajay Kulkarni,Triage,2024-01-25 13:45:00,ER
+P0428,Ajay Kulkarni,Registration,2024-01-25 17:15:00,OPD
+P0429,Manish Rao,Recovery,2024-01-17 02:00:00,ICU
+P0429,Manish Rao,Triage,2024-01-17 05:00:00,ER
+P0429,Manish Rao,Registration,2024-01-17 06:30:00,OPD
+P0429,Manish Rao,X-Ray,2024-01-17 08:45:00,Radiology
+P0429,Manish Rao,Surgery,2024-01-17 12:15:00,OT
+P0430,Meena Sharma,Blood Test,2024-01-22 02:15:00,Lab
+P0430,Meena Sharma,Triage,2024-01-22 04:30:00,ER
+P0430,Meena Sharma,X-Ray,2024-01-22 05:45:00,Radiology
+P0430,Meena Sharma,Recovery,2024-01-22 07:00:00,ICU
+P0431,Rahul Verma,Registration,2024-01-27 03:00:00,OPD
+P0431,Rahul Verma,Recovery,2024-01-27 05:15:00,ICU
+P0431,Rahul Verma,Surgery,2024-01-27 08:00:00,OT
+P0431,Rahul Verma,Triage,2024-01-27 09:30:00,ER
+P0432,Pooja Gupta,Recovery,2024-01-19 01:15:00,ICU
+P0432,Pooja Gupta,Surgery,2024-01-19 05:00:00,OT
+P0432,Pooja Gupta,Registration,2024-01-19 08:30:00,OPD
+P0432,Pooja Gupta,Discharge,2024-01-19 11:15:00,OPD
+P0432,Pooja Gupta,Triage,2024-01-19 14:30:00,ER
+P0433,Meena Sharma,Blood Test,2024-02-04 02:15:00,Lab
+P0433,Meena Sharma,Recovery,2024-02-04 06:00:00,ICU
+P0433,Meena Sharma,Consultation,2024-02-04 07:00:00,OPD
+P0433,Meena Sharma,X-Ray,2024-02-04 09:00:00,Radiology
+P0433,Meena Sharma,Triage,2024-02-04 10:45:00,ER
+P0433,Meena Sharma,Discharge,2024-02-04 14:15:00,OPD
+P0433,Meena Sharma,Registration,2024-02-04 17:00:00,OPD
+P0433,Meena Sharma,Surgery,2024-02-04 18:30:00,OT
+P0434,Pooja Gupta,Discharge,2024-01-21 01:15:00,OPD
+P0434,Pooja Gupta,Surgery,2024-01-21 03:30:00,OT
+P0434,Pooja Gupta,Blood Test,2024-01-21 05:45:00,Lab
+P0434,Pooja Gupta,Recovery,2024-01-21 08:30:00,ICU
+P0434,Pooja Gupta,X-Ray,2024-01-21 10:45:00,Radiology
+P0434,Pooja Gupta,Consultation,2024-01-21 13:15:00,OPD
+P0434,Pooja Gupta,Triage,2024-01-21 16:15:00,ER
+P0434,Pooja Gupta,Registration,2024-01-21 17:15:00,OPD
+P0435,Kavita Nair,Surgery,2024-01-28 02:45:00,OT
+P0435,Kavita Nair,Triage,2024-01-28 05:30:00,ER
+P0435,Kavita Nair,Consultation,2024-01-28 08:15:00,OPD
+P0435,Kavita Nair,Registration,2024-01-28 10:45:00,OPD
+P0435,Kavita Nair,Blood Test,2024-01-28 12:45:00,Lab
+P0435,Kavita Nair,X-Ray,2024-01-28 14:30:00,Radiology
+P0435,Kavita Nair,Recovery,2024-01-28 16:00:00,ICU
+P0436,Arjun Patel,Triage,2024-01-22 01:00:00,ER
+P0436,Arjun Patel,X-Ray,2024-01-22 02:30:00,Radiology
+P0436,Arjun Patel,Consultation,2024-01-22 03:45:00,OPD
+P0436,Arjun Patel,Surgery,2024-01-22 06:00:00,OT
+P0436,Arjun Patel,Registration,2024-01-22 09:30:00,OPD
+P0436,Arjun Patel,Discharge,2024-01-22 12:00:00,OPD
+P0437,Rahul Verma,X-Ray,2024-01-15 02:30:00,Radiology
+P0437,Rahul Verma,Recovery,2024-01-15 05:15:00,ICU
+P0437,Rahul Verma,Surgery,2024-01-15 07:15:00,OT
+P0437,Rahul Verma,Consultation,2024-01-15 09:30:00,OPD
+P0437,Rahul Verma,Discharge,2024-01-15 11:45:00,OPD
+P0438,Anita Desai,Discharge,2024-01-29 02:00:00,OPD
+P0438,Anita Desai,Triage,2024-01-29 04:15:00,ER
+P0438,Anita Desai,Consultation,2024-01-29 07:00:00,OPD
+P0438,Anita Desai,Surgery,2024-01-29 08:45:00,OT
+P0438,Anita Desai,Blood Test,2024-01-29 10:45:00,Lab
+P0439,Pooja Gupta,X-Ray,2024-01-26 02:15:00,Radiology
+P0439,Pooja Gupta,Discharge,2024-01-26 05:00:00,OPD
+P0439,Pooja Gupta,Surgery,2024-01-26 08:45:00,OT
+P0439,Pooja Gupta,Registration,2024-01-26 12:15:00,OPD
+P0439,Pooja Gupta,Blood Test,2024-01-26 14:15:00,Lab
+P0440,Kiran Pillai,X-Ray,2024-02-04 03:45:00,Radiology
+P0440,Kiran Pillai,Triage,2024-02-04 06:00:00,ER
+P0440,Kiran Pillai,Discharge,2024-02-04 08:00:00,OPD
+P0440,Kiran Pillai,Consultation,2024-02-04 11:45:00,OPD
+P0441,Vikram Joshi,Triage,2024-01-18 03:15:00,ER
+P0441,Vikram Joshi,X-Ray,2024-01-18 05:00:00,Radiology
+P0441,Vikram Joshi,Consultation,2024-01-18 06:15:00,OPD
+P0441,Vikram Joshi,Blood Test,2024-01-18 07:15:00,Lab
+P0441,Vikram Joshi,Recovery,2024-01-18 09:45:00,ICU
+P0441,Vikram Joshi,Registration,2024-01-18 11:00:00,OPD
+P0441,Vikram Joshi,Surgery,2024-01-18 13:00:00,OT
+P0442,Ajay Kulkarni,Surgery,2024-01-25 02:45:00,OT
+P0442,Ajay Kulkarni,Consultation,2024-01-25 03:45:00,OPD
+P0442,Ajay Kulkarni,Registration,2024-01-25 05:30:00,OPD
+P0442,Ajay Kulkarni,Triage,2024-01-25 07:30:00,ER
+P0443,Manish Rao,X-Ray,2024-01-30 01:30:00,Radiology
+P0443,Manish Rao,Recovery,2024-01-30 04:45:00,ICU
+P0443,Manish Rao,Triage,2024-01-30 08:30:00,ER
+P0443,Manish Rao,Discharge,2024-01-30 10:45:00,OPD
+P0443,Manish Rao,Blood Test,2024-01-30 12:00:00,Lab
+P0444,Ajay Kulkarni,Recovery,2024-01-25 03:45:00,ICU
+P0444,Ajay Kulkarni,Consultation,2024-01-25 06:30:00,OPD
+P0444,Ajay Kulkarni,Triage,2024-01-25 09:30:00,ER
+P0444,Ajay Kulkarni,Discharge,2024-01-25 12:30:00,OPD
+P0445,Kavita Nair,Surgery,2024-01-28 01:15:00,OT
+P0445,Kavita Nair,Discharge,2024-01-28 05:00:00,OPD
+P0445,Kavita Nair,Recovery,2024-01-28 07:45:00,ICU
+P0445,Kavita Nair,X-Ray,2024-01-28 11:00:00,Radiology
+P0445,Kavita Nair,Blood Test,2024-01-28 14:00:00,Lab
+P0445,Kavita Nair,Consultation,2024-01-28 16:00:00,OPD
+P0445,Kavita Nair,Registration,2024-01-28 17:15:00,OPD
+P0446,Rahul Verma,Consultation,2024-01-17 01:30:00,OPD
+P0446,Rahul Verma,Surgery,2024-01-17 04:15:00,OT
+P0446,Rahul Verma,Registration,2024-01-17 05:45:00,OPD
+P0446,Rahul Verma,Triage,2024-01-17 06:45:00,ER
+P0446,Rahul Verma,Blood Test,2024-01-17 08:45:00,Lab
+P0446,Rahul Verma,Discharge,2024-01-17 10:30:00,OPD
+P0446,Rahul Verma,Recovery,2024-01-17 13:00:00,ICU
+P0446,Rahul Verma,X-Ray,2024-01-17 16:45:00,Radiology
+P0447,Vikram Joshi,Registration,2024-01-30 02:00:00,OPD
+P0447,Vikram Joshi,Discharge,2024-01-30 03:15:00,OPD
+P0447,Vikram Joshi,X-Ray,2024-01-30 07:00:00,Radiology
+P0447,Vikram Joshi,Recovery,2024-01-30 08:45:00,ICU
+P0447,Vikram Joshi,Triage,2024-01-30 11:00:00,ER
+P0447,Vikram Joshi,Blood Test,2024-01-30 12:00:00,Lab
+P0447,Vikram Joshi,Surgery,2024-01-30 15:00:00,OT
+P0448,Sneha Reddy,Triage,2024-01-15 03:30:00,ER
+P0448,Sneha Reddy,Consultation,2024-01-15 05:15:00,OPD
+P0448,Sneha Reddy,Surgery,2024-01-15 07:30:00,OT
+P0448,Sneha Reddy,Blood Test,2024-01-15 08:30:00,Lab
+P0448,Sneha Reddy,Discharge,2024-01-15 11:45:00,OPD
+P0448,Sneha Reddy,Registration,2024-01-15 13:45:00,OPD
+P0449,Rohit Malhotra,Recovery,2024-01-16 03:00:00,ICU
+P0449,Rohit Malhotra,Surgery,2024-01-16 04:45:00,OT
+P0449,Rohit Malhotra,X-Ray,2024-01-16 06:00:00,Radiology
+P0449,Rohit Malhotra,Blood Test,2024-01-16 08:15:00,Lab
+P0450,Vikram Joshi,Registration,2024-01-25 01:00:00,OPD
+P0450,Vikram Joshi,Blood Test,2024-01-25 02:00:00,Lab
+P0450,Vikram Joshi,Discharge,2024-01-25 05:15:00,OPD
+P0450,Vikram Joshi,Surgery,2024-01-25 08:30:00,OT
+P0451,Meena Sharma,Triage,2024-02-01 02:45:00,ER
+P0451,Meena Sharma,Recovery,2024-02-01 04:00:00,ICU
+P0451,Meena Sharma,X-Ray,2024-02-01 05:00:00,Radiology
+P0451,Meena Sharma,Surgery,2024-02-01 07:30:00,OT
+P0451,Meena Sharma,Discharge,2024-02-01 08:30:00,OPD
+P0451,Meena Sharma,Consultation,2024-02-01 11:00:00,OPD
+P0451,Meena Sharma,Registration,2024-02-01 12:45:00,OPD
+P0452,Vikram Joshi,Blood Test,2024-01-21 02:30:00,Lab
+P0452,Vikram Joshi,Registration,2024-01-21 06:15:00,OPD
+P0452,Vikram Joshi,Surgery,2024-01-21 07:30:00,OT
+P0452,Vikram Joshi,X-Ray,2024-01-21 09:30:00,Radiology
+P0452,Vikram Joshi,Consultation,2024-01-21 13:00:00,OPD
+P0452,Vikram Joshi,Recovery,2024-01-21 16:45:00,ICU
+P0452,Vikram Joshi,Discharge,2024-01-21 20:00:00,OPD
+P0453,Suresh Iyer,Surgery,2024-01-25 01:45:00,OT
+P0453,Suresh Iyer,Recovery,2024-01-25 04:00:00,ICU
+P0453,Suresh Iyer,Discharge,2024-01-25 07:00:00,OPD
+P0453,Suresh Iyer,Blood Test,2024-01-25 08:00:00,Lab
+P0453,Suresh Iyer,Registration,2024-01-25 11:00:00,OPD
+P0454,Kavita Nair,Recovery,2024-01-16 01:30:00,ICU
+P0454,Kavita Nair,Discharge,2024-01-16 04:00:00,OPD
+P0454,Kavita Nair,Triage,2024-01-16 05:15:00,ER
+P0454,Kavita Nair,Consultation,2024-01-16 07:30:00,OPD
+P0454,Kavita Nair,Registration,2024-01-16 10:30:00,OPD
+P0455,Anita Desai,Discharge,2024-02-04 02:00:00,OPD
+P0455,Anita Desai,Surgery,2024-02-04 03:30:00,OT
+P0455,Anita Desai,X-Ray,2024-02-04 05:45:00,Radiology
+P0455,Anita Desai,Triage,2024-02-04 06:45:00,ER
+P0455,Anita Desai,Recovery,2024-02-04 10:00:00,ICU
+P0455,Anita Desai,Consultation,2024-02-04 13:15:00,OPD
+P0455,Anita Desai,Registration,2024-02-04 17:00:00,OPD
+P0455,Anita Desai,Blood Test,2024-02-04 20:30:00,Lab
+P0456,Sneha Reddy,Registration,2024-01-21 01:00:00,OPD
+P0456,Sneha Reddy,Discharge,2024-01-21 02:15:00,OPD
+P0456,Sneha Reddy,Blood Test,2024-01-21 03:15:00,Lab
+P0456,Sneha Reddy,Recovery,2024-01-21 06:00:00,ICU
+P0456,Sneha Reddy,Triage,2024-01-21 08:15:00,ER
+P0456,Sneha Reddy,Consultation,2024-01-21 11:30:00,OPD
+P0456,Sneha Reddy,X-Ray,2024-01-21 13:15:00,Radiology
+P0457,Sneha Reddy,Blood Test,2024-01-30 01:30:00,Lab
+P0457,Sneha Reddy,X-Ray,2024-01-30 04:15:00,Radiology
+P0457,Sneha Reddy,Recovery,2024-01-30 06:00:00,ICU
+P0457,Sneha Reddy,Consultation,2024-01-30 08:45:00,OPD
+P0457,Sneha Reddy,Discharge,2024-01-30 12:30:00,OPD
+P0457,Sneha Reddy,Surgery,2024-01-30 14:15:00,OT
+P0457,Sneha Reddy,Registration,2024-01-30 16:00:00,OPD
+P0457,Sneha Reddy,Triage,2024-01-30 18:00:00,ER
+P0458,Kavita Nair,X-Ray,2024-01-29 02:45:00,Radiology
+P0458,Kavita Nair,Consultation,2024-01-29 06:30:00,OPD
+P0458,Kavita Nair,Surgery,2024-01-29 08:00:00,OT
+P0458,Kavita Nair,Triage,2024-01-29 09:45:00,ER
+P0458,Kavita Nair,Discharge,2024-01-29 11:00:00,OPD
+P0458,Kavita Nair,Recovery,2024-01-29 12:00:00,ICU
+P0458,Kavita Nair,Blood Test,2024-01-29 13:30:00,Lab
+P0458,Kavita Nair,Registration,2024-01-29 16:15:00,OPD
+P0459,Deepa Menon,Surgery,2024-01-18 02:15:00,OT
+P0459,Deepa Menon,Blood Test,2024-01-18 04:00:00,Lab
+P0459,Deepa Menon,Recovery,2024-01-18 06:30:00,ICU
+P0459,Deepa Menon,X-Ray,2024-01-18 10:15:00,Radiology
+P0459,Deepa Menon,Registration,2024-01-18 13:45:00,OPD
+P0459,Deepa Menon,Triage,2024-01-18 16:45:00,ER
+P0459,Deepa Menon,Discharge,2024-01-18 20:30:00,OPD
+P0460,Deepa Menon,Blood Test,2024-02-04 01:30:00,Lab
+P0460,Deepa Menon,Discharge,2024-02-04 05:15:00,OPD
+P0460,Deepa Menon,Registration,2024-02-04 08:30:00,OPD
+P0460,Deepa Menon,X-Ray,2024-02-04 10:45:00,Radiology
+P0460,Deepa Menon,Surgery,2024-02-04 14:00:00,OT
+P0461,Ravi Kumar,Triage,2024-01-27 03:00:00,ER
+P0461,Ravi Kumar,Surgery,2024-01-27 06:15:00,OT
+P0461,Ravi Kumar,Recovery,2024-01-27 08:30:00,ICU
+P0461,Ravi Kumar,Blood Test,2024-01-27 11:00:00,Lab
+P0462,Kavita Nair,Recovery,2024-01-23 03:15:00,ICU
+P0462,Kavita Nair,Consultation,2024-01-23 07:00:00,OPD
+P0462,Kavita Nair,X-Ray,2024-01-23 10:30:00,Radiology
+P0462,Kavita Nair,Blood Test,2024-01-23 11:45:00,Lab
+P0462,Kavita Nair,Registration,2024-01-23 13:45:00,OPD
+P0462,Kavita Nair,Discharge,2024-01-23 14:45:00,OPD
+P0462,Kavita Nair,Triage,2024-01-23 18:30:00,ER
+P0462,Kavita Nair,Surgery,2024-01-23 22:15:00,OT
+P0463,Kavita Nair,X-Ray,2024-01-20 03:00:00,Radiology
+P0463,Kavita Nair,Triage,2024-01-20 05:15:00,ER
+P0463,Kavita Nair,Discharge,2024-01-20 06:30:00,OPD
+P0463,Kavita Nair,Recovery,2024-01-20 07:45:00,ICU
+P0463,Kavita Nair,Consultation,2024-01-20 09:15:00,OPD
+P0463,Kavita Nair,Registration,2024-01-20 12:00:00,OPD
+P0463,Kavita Nair,Blood Test,2024-01-20 15:00:00,Lab
+P0464,Sneha Reddy,Consultation,2024-01-23 01:30:00,OPD
+P0464,Sneha Reddy,Registration,2024-01-23 02:45:00,OPD
+P0464,Sneha Reddy,Blood Test,2024-01-23 05:30:00,Lab
+P0464,Sneha Reddy,Recovery,2024-01-23 08:30:00,ICU
+P0465,Ravi Kumar,Consultation,2024-01-16 01:15:00,OPD
+P0465,Ravi Kumar,Recovery,2024-01-16 04:15:00,ICU
+P0465,Ravi Kumar,Registration,2024-01-16 06:45:00,OPD
+P0465,Ravi Kumar,Discharge,2024-01-16 09:30:00,OPD
+P0466,Suresh Iyer,Recovery,2024-01-27 03:00:00,ICU
+P0466,Suresh Iyer,X-Ray,2024-01-27 05:30:00,Radiology
+P0466,Suresh Iyer,Discharge,2024-01-27 06:30:00,OPD
+P0466,Suresh Iyer,Surgery,2024-01-27 09:15:00,OT
+P0466,Suresh Iyer,Consultation,2024-01-27 12:30:00,OPD
+P0466,Suresh Iyer,Registration,2024-01-27 13:30:00,OPD
+P0466,Suresh Iyer,Triage,2024-01-27 17:00:00,ER
+P0466,Suresh Iyer,Blood Test,2024-01-27 20:15:00,Lab
+P0467,Pooja Gupta,Discharge,2024-01-15 03:30:00,OPD
+P0467,Pooja Gupta,Consultation,2024-01-15 05:00:00,OPD
+P0467,Pooja Gupta,Blood Test,2024-01-15 08:45:00,Lab
+P0467,Pooja Gupta,Triage,2024-01-15 10:30:00,ER
+P0467,Pooja Gupta,Registration,2024-01-15 12:30:00,OPD
+P0467,Pooja Gupta,X-Ray,2024-01-15 15:15:00,Radiology
+P0467,Pooja Gupta,Recovery,2024-01-15 17:15:00,ICU
+P0468,Manish Rao,Blood Test,2024-01-30 01:30:00,Lab
+P0468,Manish Rao,Surgery,2024-01-30 05:15:00,OT
+P0468,Manish Rao,Triage,2024-01-30 07:00:00,ER
+P0468,Manish Rao,Consultation,2024-01-30 08:45:00,OPD
+P0468,Manish Rao,Registration,2024-01-30 12:00:00,OPD
+P0468,Manish Rao,Discharge,2024-01-30 13:15:00,OPD
+P0469,Sneha Reddy,Triage,2024-01-20 02:45:00,ER
+P0469,Sneha Reddy,Blood Test,2024-01-20 05:00:00,Lab
+P0469,Sneha Reddy,Surgery,2024-01-20 08:30:00,OT
+P0469,Sneha Reddy,Registration,2024-01-20 12:15:00,OPD
+P0470,Priya Singh,Discharge,2024-02-02 03:00:00,OPD
+P0470,Priya Singh,Registration,2024-02-02 06:30:00,OPD
+P0470,Priya Singh,Surgery,2024-02-02 09:15:00,OT
+P0470,Priya Singh,X-Ray,2024-02-02 13:00:00,Radiology
+P0470,Priya Singh,Triage,2024-02-02 14:15:00,ER
+P0471,Rahul Verma,Consultation,2024-01-25 03:15:00,OPD
+P0471,Rahul Verma,Registration,2024-01-25 06:15:00,OPD
+P0471,Rahul Verma,Recovery,2024-01-25 09:45:00,ICU
+P0471,Rahul Verma,Surgery,2024-01-25 11:15:00,OT
+P0472,Manish Rao,Registration,2024-01-26 03:15:00,OPD
+P0472,Manish Rao,X-Ray,2024-01-26 06:30:00,Radiology
+P0472,Manish Rao,Discharge,2024-01-26 08:15:00,OPD
+P0472,Manish Rao,Consultation,2024-01-26 10:00:00,OPD
+P0472,Manish Rao,Triage,2024-01-26 12:15:00,ER
+P0472,Manish Rao,Blood Test,2024-01-26 14:30:00,Lab
+P0472,Manish Rao,Recovery,2024-01-26 17:15:00,ICU
+P0472,Manish Rao,Surgery,2024-01-26 18:45:00,OT
+P0473,Ahmed Khan,Surgery,2024-01-23 03:45:00,OT
+P0473,Ahmed Khan,X-Ray,2024-01-23 07:00:00,Radiology
+P0473,Ahmed Khan,Consultation,2024-01-23 09:30:00,OPD
+P0473,Ahmed Khan,Registration,2024-01-23 13:15:00,OPD
+P0474,Meena Sharma,X-Ray,2024-01-16 01:45:00,Radiology
+P0474,Meena Sharma,Recovery,2024-01-16 05:30:00,ICU
+P0474,Meena Sharma,Surgery,2024-01-16 07:45:00,OT
+P0474,Meena Sharma,Triage,2024-01-16 09:30:00,ER
+P0474,Meena Sharma,Consultation,2024-01-16 12:15:00,OPD
+P0474,Meena Sharma,Discharge,2024-01-16 16:00:00,OPD
+P0475,Pooja Gupta,Recovery,2024-02-01 02:00:00,ICU
+P0475,Pooja Gupta,Registration,2024-02-01 03:30:00,OPD
+P0475,Pooja Gupta,Consultation,2024-02-01 06:30:00,OPD
+P0475,Pooja Gupta,X-Ray,2024-02-01 10:00:00,Radiology
+P0475,Pooja Gupta,Surgery,2024-02-01 12:15:00,OT
+P0475,Pooja Gupta,Blood Test,2024-02-01 15:30:00,Lab
+P0475,Pooja Gupta,Discharge,2024-02-01 18:15:00,OPD
+P0476,Kavita Nair,Blood Test,2024-01-26 03:00:00,Lab
+P0476,Kavita Nair,Triage,2024-01-26 06:15:00,ER
+P0476,Kavita Nair,Surgery,2024-01-26 09:00:00,OT
+P0476,Kavita Nair,Recovery,2024-01-26 12:15:00,ICU
+P0476,Kavita Nair,Registration,2024-01-26 13:15:00,OPD
+P0477,Pooja Gupta,X-Ray,2024-01-19 03:45:00,Radiology
+P0477,Pooja Gupta,Registration,2024-01-19 04:45:00,OPD
+P0477,Pooja Gupta,Recovery,2024-01-19 06:00:00,ICU
+P0477,Pooja Gupta,Consultation,2024-01-19 08:45:00,OPD
+P0477,Pooja Gupta,Discharge,2024-01-19 11:00:00,OPD
+P0477,Pooja Gupta,Blood Test,2024-01-19 14:45:00,Lab
+P0477,Pooja Gupta,Triage,2024-01-19 17:45:00,ER
+P0478,Ajay Kulkarni,Consultation,2024-01-18 01:00:00,OPD
+P0478,Ajay Kulkarni,Surgery,2024-01-18 03:15:00,OT
+P0478,Ajay Kulkarni,Recovery,2024-01-18 05:00:00,ICU
+P0478,Ajay Kulkarni,Blood Test,2024-01-18 07:00:00,Lab
+P0478,Ajay Kulkarni,X-Ray,2024-01-18 10:15:00,Radiology
+P0478,Ajay Kulkarni,Registration,2024-01-18 13:00:00,OPD
+P0478,Ajay Kulkarni,Discharge,2024-01-18 16:45:00,OPD
+P0479,Kavita Nair,X-Ray,2024-02-01 03:45:00,Radiology
+P0479,Kavita Nair,Registration,2024-02-01 04:45:00,OPD
+P0479,Kavita Nair,Discharge,2024-02-01 05:45:00,OPD
+P0479,Kavita Nair,Recovery,2024-02-01 07:00:00,ICU
+P0479,Kavita Nair,Triage,2024-02-01 08:45:00,ER
+P0479,Kavita Nair,Blood Test,2024-02-01 10:45:00,Lab
+P0479,Kavita Nair,Consultation,2024-02-01 12:00:00,OPD
+P0479,Kavita Nair,Surgery,2024-02-01 15:15:00,OT
+P0480,Sneha Reddy,Consultation,2024-01-18 03:30:00,OPD
+P0480,Sneha Reddy,Recovery,2024-01-18 05:45:00,ICU
+P0480,Sneha Reddy,Registration,2024-01-18 07:45:00,OPD
+P0480,Sneha Reddy,Surgery,2024-01-18 09:15:00,OT
+P0481,Meena Sharma,Consultation,2024-01-31 02:15:00,OPD
+P0481,Meena Sharma,Surgery,2024-01-31 05:15:00,OT
+P0481,Meena Sharma,Discharge,2024-01-31 08:15:00,OPD
+P0481,Meena Sharma,Blood Test,2024-01-31 09:15:00,Lab
+P0481,Meena Sharma,Triage,2024-01-31 10:30:00,ER
+P0481,Meena Sharma,X-Ray,2024-01-31 12:45:00,Radiology
+P0481,Meena Sharma,Recovery,2024-01-31 14:00:00,ICU
+P0481,Meena Sharma,Registration,2024-01-31 17:30:00,OPD
+P0482,Rahul Verma,Recovery,2024-01-27 03:15:00,ICU
+P0482,Rahul Verma,Registration,2024-01-27 06:00:00,OPD
+P0482,Rahul Verma,Consultation,2024-01-27 07:30:00,OPD
+P0482,Rahul Verma,X-Ray,2024-01-27 11:15:00,Radiology
+P0482,Rahul Verma,Surgery,2024-01-27 14:30:00,OT
+P0483,Sonia Chatterjee,Triage,2024-01-26 03:15:00,ER
+P0483,Sonia Chatterjee,Surgery,2024-01-26 05:30:00,OT
+P0483,Sonia Chatterjee,Recovery,2024-01-26 08:15:00,ICU
+P0483,Sonia Chatterjee,X-Ray,2024-01-26 10:15:00,Radiology
+P0483,Sonia Chatterjee,Discharge,2024-01-26 13:30:00,OPD
+P0484,Arjun Patel,Triage,2024-01-25 03:00:00,ER
+P0484,Arjun Patel,Consultation,2024-01-25 05:30:00,OPD
+P0484,Arjun Patel,Registration,2024-01-25 07:45:00,OPD
+P0484,Arjun Patel,Recovery,2024-01-25 09:15:00,ICU
+P0484,Arjun Patel,Blood Test,2024-01-25 10:15:00,Lab
+P0484,Arjun Patel,Surgery,2024-01-25 12:30:00,OT
+P0485,Manish Rao,Triage,2024-02-02 02:00:00,ER
+P0485,Manish Rao,Discharge,2024-02-02 05:30:00,OPD
+P0485,Manish Rao,Consultation,2024-02-02 09:00:00,OPD
+P0485,Manish Rao,X-Ray,2024-02-02 12:30:00,Radiology
+P0486,Amit Trivedi,Registration,2024-01-20 02:45:00,OPD
+P0486,Amit Trivedi,Triage,2024-01-20 05:00:00,ER
+P0486,Amit Trivedi,X-Ray,2024-01-20 07:00:00,Radiology
+P0486,Amit Trivedi,Blood Test,2024-01-20 10:15:00,Lab
+P0487,Ahmed Khan,Recovery,2024-02-04 02:15:00,ICU
+P0487,Ahmed Khan,Consultation,2024-02-04 06:00:00,OPD
+P0487,Ahmed Khan,Surgery,2024-02-04 09:45:00,OT
+P0487,Ahmed Khan,X-Ray,2024-02-04 11:30:00,Radiology
+P0487,Ahmed Khan,Registration,2024-02-04 14:15:00,OPD
+P0488,Rohit Malhotra,Consultation,2024-01-17 02:45:00,OPD
+P0488,Rohit Malhotra,Blood Test,2024-01-17 04:45:00,Lab
+P0488,Rohit Malhotra,Discharge,2024-01-17 07:45:00,OPD
+P0488,Rohit Malhotra,Triage,2024-01-17 09:00:00,ER
+P0488,Rohit Malhotra,X-Ray,2024-01-17 10:15:00,Radiology
+P0488,Rohit Malhotra,Recovery,2024-01-17 13:15:00,ICU
+P0489,Arjun Patel,Discharge,2024-01-30 03:00:00,OPD
+P0489,Arjun Patel,Recovery,2024-01-30 05:00:00,ICU
+P0489,Arjun Patel,Registration,2024-01-30 08:15:00,OPD
+P0489,Arjun Patel,Blood Test,2024-01-30 11:15:00,Lab
+P0489,Arjun Patel,Triage,2024-01-30 15:00:00,ER
+P0489,Arjun Patel,Consultation,2024-01-30 18:30:00,OPD
+P0490,Anita Desai,Registration,2024-01-19 03:30:00,OPD
+P0490,Anita Desai,Consultation,2024-01-19 05:15:00,OPD
+P0490,Anita Desai,Blood Test,2024-01-19 08:00:00,Lab
+P0490,Anita Desai,Triage,2024-01-19 09:30:00,ER
+P0490,Anita Desai,Recovery,2024-01-19 11:00:00,ICU
+P0490,Anita Desai,Discharge,2024-01-19 14:15:00,OPD
+P0490,Anita Desai,X-Ray,2024-01-19 17:15:00,Radiology
+P0490,Anita Desai,Surgery,2024-01-19 19:45:00,OT
+P0491,Neha Bose,Consultation,2024-01-24 03:00:00,OPD
+P0491,Neha Bose,Triage,2024-01-24 05:45:00,ER
+P0491,Neha Bose,Registration,2024-01-24 07:15:00,OPD
+P0491,Neha Bose,Discharge,2024-01-24 09:00:00,OPD
+P0491,Neha Bose,Blood Test,2024-01-24 11:30:00,Lab
+P0491,Neha Bose,Surgery,2024-01-24 13:30:00,OT
+P0492,Ravi Kumar,X-Ray,2024-01-30 01:00:00,Radiology
+P0492,Ravi Kumar,Blood Test,2024-01-30 04:15:00,Lab
+P0492,Ravi Kumar,Discharge,2024-01-30 06:15:00,OPD
+P0492,Ravi Kumar,Registration,2024-01-30 08:15:00,OPD
+P0492,Ravi Kumar,Consultation,2024-01-30 09:45:00,OPD
+P0492,Ravi Kumar,Triage,2024-01-30 11:30:00,ER
+P0493,Manish Rao,Consultation,2024-01-29 03:45:00,OPD
+P0493,Manish Rao,X-Ray,2024-01-29 05:00:00,Radiology
+P0493,Manish Rao,Blood Test,2024-01-29 07:45:00,Lab
+P0493,Manish Rao,Triage,2024-01-29 09:15:00,ER
+P0493,Manish Rao,Recovery,2024-01-29 12:30:00,ICU
+P0493,Manish Rao,Registration,2024-01-29 13:45:00,OPD
+P0494,Kavita Nair,X-Ray,2024-01-16 01:15:00,Radiology
+P0494,Kavita Nair,Blood Test,2024-01-16 03:45:00,Lab
+P0494,Kavita Nair,Recovery,2024-01-16 05:30:00,ICU
+P0494,Kavita Nair,Discharge,2024-01-16 08:15:00,OPD
+P0495,Ahmed Khan,Recovery,2024-01-18 01:15:00,ICU
+P0495,Ahmed Khan,Consultation,2024-01-18 02:45:00,OPD
+P0495,Ahmed Khan,Surgery,2024-01-18 05:45:00,OT
+P0495,Ahmed Khan,Blood Test,2024-01-18 09:00:00,Lab
+P0495,Ahmed Khan,Triage,2024-01-18 10:30:00,ER
+P0495,Ahmed Khan,Registration,2024-01-18 12:30:00,OPD
+P0496,Deepa Menon,Consultation,2024-01-31 01:15:00,OPD
+P0496,Deepa Menon,X-Ray,2024-01-31 03:15:00,Radiology
+P0496,Deepa Menon,Blood Test,2024-01-31 05:30:00,Lab
+P0496,Deepa Menon,Registration,2024-01-31 09:15:00,OPD
+P0496,Deepa Menon,Surgery,2024-01-31 11:00:00,OT
+P0496,Deepa Menon,Discharge,2024-01-31 14:00:00,OPD
+P0496,Deepa Menon,Recovery,2024-01-31 17:15:00,ICU
+P0497,Vikram Joshi,X-Ray,2024-01-19 02:00:00,Radiology
+P0497,Vikram Joshi,Triage,2024-01-19 05:15:00,ER
+P0497,Vikram Joshi,Registration,2024-01-19 06:15:00,OPD
+P0497,Vikram Joshi,Recovery,2024-01-19 09:00:00,ICU
+P0497,Vikram Joshi,Blood Test,2024-01-19 12:30:00,Lab
+P0497,Vikram Joshi,Surgery,2024-01-19 15:45:00,OT
+P0497,Vikram Joshi,Consultation,2024-01-19 17:15:00,OPD
+P0497,Vikram Joshi,Discharge,2024-01-19 20:00:00,OPD
+P0498,Meena Sharma,Recovery,2024-01-26 03:45:00,ICU
+P0498,Meena Sharma,Surgery,2024-01-26 05:15:00,OT
+P0498,Meena Sharma,Registration,2024-01-26 06:30:00,OPD
+P0498,Meena Sharma,X-Ray,2024-01-26 07:30:00,Radiology
+P0498,Meena Sharma,Discharge,2024-01-26 09:00:00,OPD
+P0498,Meena Sharma,Triage,2024-01-26 10:30:00,ER
+P0498,Meena Sharma,Consultation,2024-01-26 13:00:00,OPD
+P0498,Meena Sharma,Blood Test,2024-01-26 16:00:00,Lab
+P0499,Deepa Menon,Consultation,2024-01-18 01:00:00,OPD
+P0499,Deepa Menon,Blood Test,2024-01-18 04:15:00,Lab
+P0499,Deepa Menon,X-Ray,2024-01-18 06:45:00,Radiology
+P0499,Deepa Menon,Surgery,2024-01-18 10:15:00,OT
+P0499,Deepa Menon,Discharge,2024-01-18 13:45:00,OPD
+P0500,Anita Desai,Blood Test,2024-02-04 03:00:00,Lab
+P0500,Anita Desai,Consultation,2024-02-04 04:15:00,OPD
+P0500,Anita Desai,Discharge,2024-02-04 06:00:00,OPD
+P0500,Anita Desai,Registration,2024-02-04 07:00:00,OPD
+P0500,Anita Desai,Recovery,2024-02-04 10:30:00,ICU
+P0500,Anita Desai,Surgery,2024-02-04 13:15:00,OT
