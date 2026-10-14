@@ -1,0 +1,29 @@
+case_id,patient_name,event_activity,event_time,department
+P001,Ravi Kumar,Registration,2024-01-15 08:30:00,OPD
+P001,Ravi Kumar,Triage,2024-01-15 08:45:00,ER
+P001,Ravi Kumar,X-Ray,2024-01-15 09:10:00,Radiology
+P001,Ravi Kumar,Consultation,2024-01-15 09:40:00,OPD
+P001,Ravi Kumar,Discharge,2024-01-15 11:00:00,OPD
+P002,Meena Sharma,Registration,2024-01-15 10:00:00,OPD
+P002,Meena Sharma,Triage,2024-01-15 10:15:00,ER
+P002,Meena Sharma,Blood Test,2024-01-15 10:30:00,Lab
+P002,Meena Sharma,Consultation,2024-01-15 11:00:00,OPD
+P002,Meena Sharma,Discharge,2024-01-15 12:30:00,OPD
+P003,Arjun Patel,Registration,2024-01-16 09:00:00,OPD
+P003,Arjun Patel,Triage,2024-01-16 09:20:00,ER
+P003,Arjun Patel,X-Ray,2024-01-16 09:45:00,Radiology
+P003,Arjun Patel,Blood Test,2024-01-16 10:10:00,Lab
+P003,Arjun Patel,Consultation,2024-01-16 10:45:00,OPD
+P003,Arjun Patel,Surgery,2024-01-16 12:00:00,OT
+P003,Arjun Patel,Recovery,2024-01-16 14:00:00,ICU
+P003,Arjun Patel,Discharge,2024-01-17 10:00:00,OPD
+P004,Priya Singh,Registration,2024-01-16 11:00:00,OPD
+P004,Priya Singh,Triage,2024-01-16 11:15:00,ER
+P004,Priya Singh,Consultation,2024-01-16 11:45:00,OPD
+P004,Priya Singh,Discharge,2024-01-16 12:30:00,OPD
+P005,Ahmed Khan,Registration,2024-01-17 08:00:00,OPD
+P005,Ahmed Khan,Triage,2024-01-17 08:20:00,ER
+P005,Ahmed Khan,X-Ray,2024-01-17 08:50:00,Radiology
+P005,Ahmed Khan,Consultation,2024-01-17 09:30:00,OPD
+P005,Ahmed Khan,Blood Test,2024-01-17 10:00:00,Lab
+P005,Ahmed Khan,Discharge,2024-01-17 11:30:00,OPD
